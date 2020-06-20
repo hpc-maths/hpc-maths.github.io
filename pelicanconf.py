@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Marc Massot'
 SITENAME = 'HPC@Maths'
 SITEURL = '/site'
+##SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
