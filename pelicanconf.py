@@ -5,18 +5,17 @@ from __future__ import unicode_literals
 AUTHOR = 'Marc Massot'
 SITENAME = 'HPC@Maths'
 SITEURL = '/site'
-#SITEURL = 'http://localhost:8000'
+# SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = 'fr'
 
 OUTPUT_PATH = 'public/'
 
-# Plugins 
-PLUGIN_PATHS = ['plugins'] 
+# Plugins
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['i18n_subsites']
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
@@ -39,4 +38,4 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
