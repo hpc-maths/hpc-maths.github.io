@@ -1,11 +1,13 @@
 title: Enseignement
 
+## MAP412 - Cours de 2A
 ### Introduction à l'Analyse Numérique : des fondements mathématiques à l’expérimentation avec Jupyter
 
 Lorsque l’on souhaite modéliser et simuler un problème réel (qu’il s’agisse de dynamique des populations en écologie, de la croissance tumorale en ingénierie biomédicale, de la dynamique de la combustion dans les nouvelles générations de moteurs fusées – par exemple à SpaceX, de la prédiction des tempêtes solaires et des phénomènes de reconnexion magnétique en physique solaire, de la simulation de la turbulence et de la combustion turbulente en mécanique des fluides) l’ingénieur ou le chercheur en mathématiques appliquées ou en « computational science » doit faire appel à une palette de méthodes numériques qu’il doit savoir analyser mathématiquement, évaluer en termes de qualité et d’efficacité computationnelle et, finalement, implémenter.
 
-Ce cours propose une introduction à l’analyse numérique, partant des fondements mathématiques sur lesquels les méthodes numériques reposent et allant jusqu’à l’implémentation et l’emploi de ces méthodes sur la base de notebooks Jupyter (https://jupyter.org/) en passant par la compréhension de leur efficacité numérique. Le lien est fait avec les applications afin de comprendre l’étendue de l’utilisation de ce type de méthode d’un point de vue pratique. Les implémentations de ces méthodes dans des bibliothèques numériques existantes sont aussi documentées.
+Ce cours propose une introduction à l’analyse numérique, partant des fondements mathématiques sur lesquels les méthodes numériques reposent et allant jusqu’à l’implémentation et l’emploi de ces méthodes sur la base de notebooks [Jupyter](https://jupyter.org/) en passant par la compréhension de leur efficacité numérique. Le lien est fait avec les applications afin de comprendre l’étendue de l’utilisation de ce type de méthode d’un point de vue pratique. Les implémentations de ces méthodes dans des bibliothèques numériques existantes sont aussi documentées.
 
+## MAP551 - Cours de 3A / Master 1
 ### Systèmes dynamiques pour la modélisation et la simulation des milieux réactifs multi-échelles
 
 Dans un nombre croissant d’applications scientifiques et industrielles, la modélisation et la simulation numérique jouent un rôle clef pour comprendre et analyser les phénomènes physiques complexes mis en jeu. Un élément commun à ces systèmes énergétiques, spatiaux, biologiques, mécaniques, fluides, etc... tourne autour de la notion de systèmes dynamiques. En mathématiques, un système dynamique est la donnée d’un système et d’une loi décrivant l’évolution de ce système dans le temps. Ces systèmes sont particulièrement multi-échelles, c’est-à-dire qu’ils impliquent une très large variété d’échelles en temps, voire d’espace. Ils posent alors de nombreuses difficultés si l’on veut les analyser et en faire une résolution numérique précise afin de disposer d’outils fiables de prédiction de leur dynamique.
@@ -18,8 +20,8 @@ Nous étudierons des exemples dans de nombreux domaines d’application comme la
 
 Les domaines sur lesquels le cours donnera une expertise sont : analyse mathématique, schémas numériques pour les systèmes d’équations différentielles, analyse de la stabilité des systèmes - bifurcation, implémentation numérique et bibliothèques de programmes permettant la simulation numérique ou l’analyse de bifurcations. Des applications sur machines permettent une analyse de la dynamique mais aussi une compréhension des schémas numériques à la base d’une simulation précise et robuste, ainsi qu’une ouverture sur les enjeux du calcul haute performance. L’ensemble des petites classes se fait au moyen de notebooks Jupyter, ce qui permet une familiarisation avec les concepts et les méthodes numériques particulièrement efficace, puis d’analyser les résultats en termes des applications. L’ensemble des techniques proposées sera illustré sur des exemples simples mais symptomatiques des enjeux des systèmes complexes rencontrés dans les véritables applications. Un mini-projet permet de mettre en œuvre les notions et méthodes enseignées et de se confronter à des systèmes appliqués dans un large spectre de domaines applicatifs.
 
-
-### Méthodes numériques avancées et calcul haute performance
+## AMS X02 - Cours de Master 2
+### Méthodes numériques avancées et calcul haute performance pour la simulation de phénomènes complexes
 
 Dans un nombre croissant d’applications, scientifiques ou industrielles, la simulation
 numérique joue un rôle clef pour comprendre et analyser les phénomènes
@@ -36,9 +38,10 @@ méthodes numériques avancées conçues pour traiter la raideur présente dans 
 modèles complexes tout en tirant le meilleur parti des nouvelles architectures
 de calcul. Ces méthodes s’appuient sur une combinaison efficace entre analyse
 numérique, modélisation et calcul scientifique. Des séances de mise en oeuvre sur
-machines en lien avec le mésocentre de calcul de l’Ecole Polytechnique seront
+machines en lien avec le mésocentre de calcul de l’Ecole polytechnique seront
 proposées.
 
+## MAP586 - Enseignement d'approfondissement de 3A
 ### Algorithmes et principes de conception logicielle pour les mathématiques appliquées en C++ moderne
 
 La recherche en mathématiques appliquées a connu des avancées majeures ces dernières années grâce à l'évolution rapide des moyens informatiques (GPUs, multi-coeurs, architectures massivement parallèles). Cela implique une adaptation quasi continue des structures de données et des algorithmes afin d’exploiter pleinement les ressources à disposition. Ces évolutions répondent au besoin de simuler et de prédire le comportement de systèmes de plus en plus complexes, au plus proche de la réalité et ce dans de nombreux domaines scientifiques. Ces avancées contribuent également à l’innovation dans le domaine industriel et en particulier dans les PME et les start-up.
@@ -51,6 +54,17 @@ Pour ce faire, nous nous appuierons dans un premier temps sur [Jupyter](https://
 
 A la fin du cours, des connaissances solides en algorithmie permettront aux étudiants d'appréhender plus facilement l'implémentation de nouvelles méthodes numériques. Grâce à leur connaissance du C++, ils seront à même de lire la plupart des codes écrits dans ce langage et d'envisager sereinement toutes les potentialités de celui-ci. Enfin, les notions de génie logiciel abordées leur permettront de comprendre les architectures logicielles complexes que l’on trouve tant dans le domaine de la recherche que dans les industries de pointe. Les aspects de programmation paralléle pourront être abordés pendant ce cours et faire l'objet de projets conclusifs.
 
-### Hands-on JB
+## Research Course
+### [Introduction to Solving PDEs with Machine Learning](https://jbscoggi.github.io/website/talks/2020-01-27-short_course/) 
 
-Fusce fermentum ultrices enim a euismod. Maecenas et ultrices elit, quis suscipit felis. Vivamus turpis ligula, feugiat ut condimentum vel, consequat eget velit. Nunc dignissim tincidunt lacus in dictum. Nullam faucibus vel urna a gravida. Etiam sed odio ut nunc sagittis tincidunt quis tristique ante. Nunc sit amet iaculis mi, sed tempus purus. Integer aliquam vel ex id pretium. Donec sit amet mauris molestie, malesuada enim eu, aliquam erat. Morbi at tellus pretium, tincidunt erat non, euismod ex. Donec sit amet sem lorem. Mauris consectetur sed nunc vel gravida.
+
+Solving partial differential equations is an engineer’s bread and butter. Classical discretization techniques such as finite-difference or finite-volume are powerful methods for the numerical solution of PDEs, however, their reliance on robust and efficient mesh generation often presents difficulties in solution convergence or necessitates enormous computational resources to obtain an accurate solution. In this lecture, an alternative method based on a statistical machine learning approach will be presented, which yields a continuous, differentiable, and meshless representation of the hidden PDE solution. The topics covered will include machine learning basics, foundations in neural networks, and PDE solution techniques with neural networks. Following the lecture, a practical session on solving PDEs will be presented using the Tensorflow library and Jupyter notebooks with Google Colab. All lecture slides and Jupyter notebooks will be available after the lecture.
+
+
+
+## Mini-symposium SMAI 2019
+### [Breaking the Mesh: Solving Partial Differential Equations with Deep Learning](https://github.com/jbscoggi/smai-2019) (J.B. Scoggins, L. Gouarin)
+
+
+
+
