@@ -1,3 +1,4 @@
+title: Recherches
 ## Analyse et modélisation mathématique
 
 ### Modéles réduits pour les écoulements diphasique gaz-liquides
@@ -35,17 +36,17 @@ Thomas - Lien SAMURAI
 
 ### Méthode préservant l'asymptotique pour les systèmes hyperboliques et hyperboliques paraboliques
 
-Louis 
+Louis
 
-### Méthodes de volumes finis et prise en compte de produits non-conservatifs 
+### Méthodes de volumes finis et prise en compte de produits non-conservatifs
 
-Quentin 
+Quentin
 
 ### Méthode d'apprentissage pour la modélisation et la simulations d'équations aux dérivées partielles
 
 JB
 
-### Géométrie algorithmique et reconstruction de propriétés géométriques d'une interface (courbure) 
+### Géométrie algorithmique et reconstruction de propriétés géométriques d'une interface (courbure)
 
 film Mercru(v)e Ruben
 
@@ -55,9 +56,9 @@ film Mercru(v)e Ruben
 
 image Pierre
 
-### ONERA CEDRE - allumage 
+### ONERA CEDRE - allumage
 
-Laurent François 
+Laurent François
 
 ### ONERA Couplage de codes
 
@@ -65,9 +66,9 @@ Allumage Laurent François
 
 ## Calcul haute performance (HPC)
 
-### développement de structures de données pour la MR adaptative 
+### développement de structures de données pour la MR adaptative
 
-Collaboration INTEL, ICJ pour l'implémentation sur arcthitecture many-coeurs - code z-code (lien), puis algèbre d'ensembles - code SAMURAI (lien code) + image 
+Collaboration INTEL, ICJ pour l'implémentation sur arcthitecture many-coeurs - code z-code (lien), puis algèbre d'ensembles - code SAMURAI (lien code) + image
 
 ### couplage adaptation temporelle et adaptation en espace avec contrôle d'erreur
 

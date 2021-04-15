@@ -1,5 +1,6 @@
- 
-## Evenements organisés dans le cadre HPC@Maths
+ title: Evénements
+
+ ## Evenements organisés dans le cadre HPC@Maths
 
 ### SEME 2021
 
