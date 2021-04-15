@@ -62,9 +62,5 @@ Solving partial differential equations is an engineer’s bread and butter. Clas
 
 
 
-## Mini-symposium SMAI 2019
-### [Breaking the Mesh: Solving Partial Differential Equations with Deep Learning](https://github.com/jbscoggi/smai-2019) (J.B. Scoggins, L. Gouarin)
-
-
 
 

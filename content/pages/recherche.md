@@ -2,11 +2,12 @@
 
 ### Modéles réduits pour les écoulements diphasique gaz-liquides
 
-Ruben / Pierre / Arthur / Katia - DGA
+Ruben / Pierre / Arthur / Katia - DGA / Remigi - CORIA/SAFRAN
 
 ### Méthodes de moments pour la modélisation des brouillards de gouttes polydispersés
 
 Essadki - Katia - lien JB
+Collaboration CentraleSupélec - F. Laurent, A. Vié
 
 
 ### Méthodes de moments et modèles fluides pour les plasmas partiellement ionisés
@@ -17,6 +18,7 @@ Louis - Alejandro
 ### Modélisation des écoulements gaz-particules turbulents
 
 Roxane - Aymeric - DGA
+Collaboration CentraleSupélec Fédé Maths Alexandre Richard et Ludovic Goudenège
 
 ## Analyse numérique et développement de schémas
 
