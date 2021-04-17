@@ -1,6 +1,6 @@
  title: Evénements
 
- ## Evenements organisés dans le cadre HPC@Maths
+## Evenements organisés dans le cadre HPC@Maths
 
 ### [Semaine d'étude Maths-Entreprises](https://indico.math.cnrs.fr/event/6326/) 2021 - Institut Polytechnique de Paris 
 
