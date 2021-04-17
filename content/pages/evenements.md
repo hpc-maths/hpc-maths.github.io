@@ -27,34 +27,34 @@ Le 4 Mai 2021 a lieu la journée de kick-off du projet DGA MMEED (lien à prévo
 
 * **Introduction**  :  Marc Massot - 8h45 (café 8H30)
 
-> #### Partie 1 :  Modélisation à grande échelle des interfaces gaz-liquides et implémentation dans un outil de simulation massivement parallèle avec adaptation de maillage
-> Chair Marica Pelanti / Teddy Pichard  - 9h00 - 13H00 (talk = 25 min + 5 questions)
+> #### Partie 1 :  *Modélisation à grande échelle des interfaces gaz-liquides et implémentation dans un outil de simulation massivement parallèle avec adaptation de maillage*
+> Chair Marica Pelanti et Teddy Pichard  - 9h00 - 13H00 (talk = 25 min + 5 questions)
 >
 >
 > * **Modélisation** 
 >
 > 	 - Arthur Loison (CMAP) : modèles, méthodes numériques et variables géométriques
 >   - Joël Dupays (ONERA) :  modèles et simulation d'un jet haute vitesse sur une surface libre - lien thèse Ward
->   - Marica Pelanti - modélisation diffuse interface d’écoulements multiphasiques avec transition liquide-vapeur
+>   - Marica Pelanti (ENSTA) : modélisation diffuse interface d’écoulements multiphasiques avec transition liquide-vapeur
 >
 > * **Méthodes numériques** 
 >
-> 	 - Katia Ait-Ameur (CMAP) Méthodes de moments / méthodes numériques d'ordre élevé
-> 	 - Clément le Touze (ONERA) modèles diphasiques et méthodes numérique dans CEDRE 
-> 	 - Samuel Kokh (CEA/CMAP) - Lagrange projection 
+> 	 - Katia Ait-Ameur (CMAP) : méthodes de moments / méthodes numériques d'ordre élevé
+> 	 - Clément le Touze (ONERA) : modèles diphasiques et méthodes numérique dans CEDRE 
+> 	 - Samuel Kokh (CEA/CMAP) : Lagrange projection 
 >
 > * **HPC et Environnements de calcul** 
 >
 >	- `SAMURAI`  Loic Gouarin et Laurent Séries (CMAP) : maillage adaptatif / Multirésolution
->	 -  `Josiepy` -  Ruben Di Battista  / Arthur Loison 
+>	 -  `Josiepy` -  Ruben Di Battista  / Arthur Loison (CMAP/DGA)
 >
 > * **Synthèse et directions : 12H30-13h** 
 >
 
 * **Déjeuner** 
 
-> #### Partie 2 :  Conception d’un modèle aux grandes échelles pour la simulation prédicitive des écoulement turbulente gaz-gouttes fortement couplés avec comparaison expérimentale
-> Chair Romain Monchaux / Aymeric Vié  - 14h  >
+> #### Partie 2 :  *Conception d’un modèle aux grandes échelles pour la simulation prédicitive des écoulement turbulente gaz-gouttes fortement couplés avec comparaison expérimentale*
+> Chair Romain Monchaux et Aymeric Vié  - 14h
 >
 > * **Expérimental** 
 >
@@ -63,7 +63,7 @@ Le 4 Mai 2021 a lieu la journée de kick-off du projet DGA MMEED (lien à prévo
 > * **Numérique et modélisation** 
 >
 > 	 - Roxane Letournel, Ludovic Goudenège, Alexandre Richard (Fédé. Maths CentraleSupélec et CMAP) - 45 min : Modèles stochastiques Lagrangiens, aspects mathématiques et numériques, ségrégation
->  	- Aymeric Vié - 1/2h - Enjeux sur les modèles two-way .
+>  	- Aymeric Vié (Fédé. Maths CentraleSupélec - EM2C) 1/2h - Enjeux sur les modèles two-way .
 >
 >
 > * **Synthèse et directions : 16h-16h30** 
