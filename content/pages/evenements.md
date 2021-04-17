@@ -27,7 +27,7 @@ Le 4 Mai 2021 a lieu la journée de kick-off du projet DGA MMEED (lien à prévo
 
 * **Introduction**  :  Marc Massot - 8h45 (café 8H30)
 
-> #### Partie 1 :  
+> #### Partie 1 :  Modélisation à grande échelle des interfaces gaz-liquides et implémentation dans un outil de simulation massivement parallèle avec adaptation de maillage
 > Chair Marica Pelanti / Teddy Pichard  - 9h00 - 13H00 (talk = 25 min + 5 questions)
 >
 >
@@ -53,7 +53,7 @@ Le 4 Mai 2021 a lieu la journée de kick-off du projet DGA MMEED (lien à prévo
 
 * **Déjeuner** 
 
-> #### Partie 2 :  
+> #### Partie 2 :  Conception d’un modèle aux grandes échelles pour la simulation prédicitive des écoulement turbulente gaz-gouttes fortement couplés avec comparaison expérimentale
 > Chair Romain Monchaux / Aymeric Vié  - 14h  >
 >
 > * **Expérimental** 
