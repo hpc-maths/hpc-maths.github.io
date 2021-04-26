@@ -1,6 +1,6 @@
- title: Evénements
+ title: Événements 
 
-## Evenements organisés dans le cadre HPC@Maths
+## Événements  organisés dans le cadre HPC@Maths
 
 ### [Semaine d'étude Maths-Entreprises](https://indico.math.cnrs.fr/event/6326/) 2021 - Institut Polytechnique de Paris 
 
@@ -13,9 +13,9 @@ The repository hosts the presentations from the SMAI 2019 Mini-Symposium entitil
 
 ### [Journée Jupyter](http://www.cmap.polytechnique.fr/~massot/Personal_web_page_of_Marc_Massot/JupyterX.html)
 
-Jupyter et son écosystème offrent un ensemble d'outils permettant d'avoir un environnement de développement et de travail convivial aussi bien pour la recherche que pour l'enseignement. Destiné à la base pour développer du code Python, Julia ou R, c'est aujourd'hui bien plus que ça. Les notebooks (page web où l'on peut écrire du code numérique, du texte, des équations mathématiques, insérer des vidéos, des graphiques interactifs, ...) sont de plus en plus utilisés et ont été introduits de manière systématique dès 2017 dans le cadre du Département de Mathématiques Appliquées où ils ont trouvé un véritable écho auprès des élèves. Leurs usages sont variés: feuilles d'exercices pour les étudiants, cahiers de recherche, tutoriels, ... 
+Jupyter et son écosystème offrent un ensemble d'outils permettant d'avoir un environnement de développement et de travail convivial aussi bien pour la recherche que pour l'enseignement. Destiné à la base pour développer du code Python, Julia ou R, c'est aujourd'hui bien plus que ça. Les notebooks (page web où l'on peut écrire du code numérique, du texte, des équations mathématiques, insérer des vidéos, des graphiques interactifs, ...) sont de plus en plus utilisés et ont été introduits de manière systématique dès 2017 dans le cadre du Département de Mathématiques Appliquées où ils ont trouvé un véritable écho auprès des élèves. Leurs usages sont variés : feuilles d'exercices pour les étudiants, cahiers de recherche, tutoriels, ... 
 
-L'école polytechnique a organisé le 6 mars 2018 une demi-journée sur les outils autour du projet Jupyter de 9h15 à 12h45 à l'amphi Poincaré. Cette journée a été organisée conjointement par des étudiants, des chercheurs et ingénieurs de l'école suite à une initiative et une forte demande des étudiants. Les étudiants de deuxième et de troisième années ont été conviés à l'événement qui a rassemblé plusieurs centaines de personnes avec une répartition équilibrée entre étudiants, chercheurs et enseignants chercheurs de l'Ecole et extérieurs du plateau de Saclay.
+L'école polytechnique a organisé le 6 mars 2018 une demi-journée sur les outils autour du projet Jupyter de 9h15 à 12h45 à l'amphi Poincaré. Cette journée a été organisée conjointement par des étudiants, des chercheurs et ingénieurs de l'école suite à une initiative et une forte demande des étudiants. Les étudiants de deuxième et de troisième années ont été conviés à l'événement qui a rassemblé plusieurs centaines de personnes avec une répartition équilibrée entre étudiants, chercheurs et enseignants chercheurs de l'École  et extérieurs du plateau de Saclay.
 
 Durant cette journée, nous avons eu la chance d'avoir des présentations de développeurs très actifs au niveau international sur différents outils dans l'écosystème Jupyter. Lien JupyterHub
 
@@ -69,7 +69,7 @@ Le 4 Mai 2021 a lieu la journée de kick-off du projet DGA MMEED (lien à prévo
 > * **Synthèse et directions : 16h-16h30** 
 >
 
-* **Conclusions général, discussion et organisation prochaines séances** 
+* **Conclusions générales, discussion et organisation prochaines séances** 
 
 
 ### SAMURAI

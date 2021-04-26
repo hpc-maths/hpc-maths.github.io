@@ -4,6 +4,8 @@ title: Recherches
 ### Modéles réduits pour les écoulements diphasique gaz-liquides
 
 Ruben / Pierre / Arthur / Katia - DGA / Remigi - CORIA/SAFRAN
+Ward - ONERA
+
 
 ### Méthodes de moments pour la modélisation des brouillards de gouttes polydispersés
 
