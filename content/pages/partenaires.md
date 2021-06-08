@@ -34,15 +34,27 @@ Thèse Laurent François et Pierre Cordesse - DMPE - LMA2S
 - Diphasique et allumage propulsion solide et liquide - Thèse Ward - lien VKI 
 Joël Dupays - Clément le Touze - Angelo Murrone, 
 
+
+## Partenaires académiques
+
+### Centralesupélec
+
+### ENSTA
+
+
 ## Partenaires internationaux 
 
 ### VKI
+
+### UTIAS Toronto
 
 ### UT Austin
 
 ### ICME, 
 
-### Iowa State University, CTR Stanford, UTIAS
+### Iowa State University
+
+### CTR Stanford
 
 
 ## QuantStack

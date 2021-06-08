@@ -1,11 +1,34 @@
 title: Enseignement
 
-## MAP412 - Cours de 2A
+## MAA208 - Cours de 2A de bachelor
+### Numerical linear algebra
+
+This course focuses on numerical methods for solving problems emerging in linear algebra. The aim is to design algorithms for solving linear systems of equations and to compute eigenvalues and eigenvectors. A special focus is given to the efficiency of the algorithms both in terms of accuracy and computational costs. At the end of this course, students should be able, for a given problem, to analyze it, determine its main features, and then choose which algorithm to use, or to develop new ones.
+
+
+## MAP412 - Cours de 2A d'ingénieurs
 ### Introduction à l'Analyse Numérique : des fondements mathématiques à l’expérimentation avec Jupyter
 
 Lorsque l’on souhaite modéliser et simuler un problème réel (qu’il s’agisse de dynamique des populations en écologie, de la croissance tumorale en ingénierie biomédicale, de la dynamique de la combustion dans les nouvelles générations de moteurs fusées – par exemple à SpaceX, de la prédiction des tempêtes solaires et des phénomènes de reconnexion magnétique en physique solaire, de la simulation de la turbulence et de la combustion turbulente en mécanique des fluides) l’ingénieur ou le chercheur en mathématiques appliquées ou en « computational science » doit faire appel à une palette de méthodes numériques qu’il doit savoir analyser mathématiquement, évaluer en termes de qualité et d’efficacité computationnelle et, finalement, implémenter.
 
 Ce cours propose une introduction à l’analyse numérique, partant des fondements mathématiques sur lesquels les méthodes numériques reposent et allant jusqu’à l’implémentation et l’emploi de ces méthodes sur la base de notebooks [Jupyter](https://jupyter.org/) en passant par la compréhension de leur efficacité numérique. Le lien est fait avec les applications afin de comprendre l’étendue de l’utilisation de ce type de méthode d’un point de vue pratique. Les implémentations de ces méthodes dans des bibliothèques numériques existantes sont aussi documentées.
+
+
+## MODAL MAP471A
+### Problem solving en math app
+
+L'objectif  de  ce  Modal  est  d'apprendre  à  développer   une   approche   expérimentale   pour  un  large  spectre  de  méthodes  numé-riques en Mathématiques Appliquées à visée industrielle ou de recherche.
+
+
+## MODAL MAP472A
+### Modélisation mathématique par la démarche expérimentale
+
+Le but de ce module, qui ne requiert aucun prérequis,  est  de  mettre  en  œuvre  les  outils  mathématiques et des méthodes numériques pour modéliser divers phénomènes réels.Les  élèves,  travaillant  en  binôme,  devront  mettre en place une démarche de résolution d’un  problème  complexe  en  utilisant  des  outils de mathématiques appliquées.
+
+
+## Projet scientifique collaboratif (PSC)
+
+
 
 ## MAP551 - Cours de 3A / Master 1
 ### Systèmes dynamiques pour la modélisation et la simulation des milieux réactifs multi-échelles
@@ -19,6 +42,27 @@ Ce cours a été conçu pour donner une base tant au niveau de la modélisation 
 Nous étudierons des exemples dans de nombreux domaines d’application comme la combustion, la mécanique des fluides, la dynamique des populations, la dynamique chimique non-linéaire, le génie biomédical ou la physique des plasmas, que l’on rassemble sous le vocable de “milieux réactifs" (un milieu impliquant plusieurs “espèces" qui “réagissent" entre elles avec un certain niveau de complexité impliquant un large spectre d’échelles de temps, voire d’espace).
 
 Les domaines sur lesquels le cours donnera une expertise sont : analyse mathématique, schémas numériques pour les systèmes d’équations différentielles, analyse de la stabilité des systèmes - bifurcation, implémentation numérique et bibliothèques de programmes permettant la simulation numérique ou l’analyse de bifurcations. Des applications sur machines permettent une analyse de la dynamique mais aussi une compréhension des schémas numériques à la base d’une simulation précise et robuste, ainsi qu’une ouverture sur les enjeux du calcul haute performance. L’ensemble des petites classes se fait au moyen de notebooks Jupyter, ce qui permet une familiarisation avec les concepts et les méthodes numériques particulièrement efficace, puis d’analyser les résultats en termes des applications. L’ensemble des techniques proposées sera illustré sur des exemples simples mais symptomatiques des enjeux des systèmes complexes rencontrés dans les véritables applications. Un mini-projet permet de mettre en œuvre les notions et méthodes enseignées et de se confronter à des systèmes appliqués dans un large spectre de domaines applicatifs.
+
+
+## MAP586 - Enseignement d'approfondissement de 3A
+### Algorithmes et principes de conception logicielle pour les mathématiques appliquées en C++ moderne
+
+La recherche en mathématiques appliquées a connu des avancées majeures ces dernières années grâce à l'évolution rapide des moyens informatiques (GPUs, multi-coeurs, architectures massivement parallèles). Cela implique une adaptation quasi continue des structures de données et des algorithmes afin d’exploiter pleinement les ressources à disposition. Ces évolutions répondent au besoin de simuler et de prédire le comportement de systèmes de plus en plus complexes, au plus proche de la réalité et ce dans de nombreux domaines scientifiques. Ces avancées contribuent également à l’innovation dans le domaine industriel et en particulier dans les PME et les start-up.
+
+Par ailleurs, les logiciels et les infrastructures sur lesquelles ils sont déployés deviennent de plus en plus stratégiques pour les entreprises et les laboratoires de recherche. De ce fait, l'ingénieur/chercheur d'aujourd'hui ne peut plus se contenter d'implémenter des algorithmes pour ses seuls besoins, indépendamment des objectifs de l'entité au sein de laquelle il évolue. Il doit être capable d'intégrer rapidement de nouvelles briques logicielles dans une architecture complexe tout en assurant sa maintenabilité, sa portabilité et son évolutivité. Ceci nécessite d'acquérir non seulement des bases en algorithmie et en programmation, mais aussi de solides connaissances en conception de logiciels.
+
+L'originalité de ce module d'enseignement est de partir de problèmes concrets que nous retrouvons dans les codes industriels et Open Source de calcul scientifique pour ensuite remonter aux algorithmes et à leurs implémentations. Ces problèmes permettront d'illustrer un ensemble de méthodes numériques (analyse numérique des EDPs, apprentissage statistique, calcul stochastique, etc, dont les bases mathématiques ont été présentées dans les cours de deuxième année essentiellement (MAP412 et MAP433)) qui requièrent le choix d’algorithmes avancés et d'en présenter une implémentation élégante, modulaire et performante en C++ moderne. Ce cours sera très interactif et permettra d'expérimenter différentes améliorations des solutions existantes tout en analysant leur intégration potentielle au sein de systèmes complexes.
+
+Pour ce faire, nous nous appuierons dans un premier temps sur [Jupyter](https://jupyter.org/) et le kernel [xeus-cling](https://github.com/jupyter-xeus/xeus-cling) permettant d'écrire du C++ dans des notebooks, puis nous passerons à une structuration de projet plus traditionnelle permettant d'illustrer l'architecture d'un logiciel (arborescence, création de librairies et d'exécutables, etc).
+
+A la fin du cours, des connaissances solides en algorithmie permettront aux étudiants d'appréhender plus facilement l'implémentation de nouvelles méthodes numériques. Grâce à leur connaissance du C++, ils seront à même de lire la plupart des codes écrits dans ce langage et d'envisager sereinement toutes les potentialités de celui-ci. Enfin, les notions de génie logiciel abordées leur permettront de comprendre les architectures logicielles complexes que l’on trouve tant dans le domaine de la recherche que dans les industries de pointe. Les aspects de programmation paralléle pourront être abordés pendant ce cours et faire l'objet de projets conclusifs.
+
+
+## AMS CS1 - Cours de Master 1
+### Méthodes de Moments dérivées d’une équation cinétique
+
+Divers problèmes, notamment en mécanique des fluides ou en ingénierie, peuvent être décrits par une équation detype cinétique, par exemple en théorie cinétique des gaz avec l’équation de Boltzmann ou pour la description depopulation de particules de tailles variées avec la Population Balance Equation. Cette équation est rarement résoluedirectement à cause du coût engendré. On passe plutôt à un problème macroscopique, via la méthode des moments,comme dans le cas des équations d’Euler. On remplace alors l’équation de type cinétique par des équations sur lespremiers moments de la distribution sous-jacente. Il s’agira ici de comprendre dans quel espace évoluent les mo-ments, comment on ferme les équations sur les moments, que ce soit dans le cas mono-varié (moment par rapport àune seule variable) que dans le cas multi-varié, très différent d’un point de vue théorique. On verra aussi quelquesméthodes de résolution numérique de ces équations, préservant l’espace des moments.
+
 
 ## AMS X02 - Cours de Master 2
 ### Méthodes numériques avancées et calcul haute performance pour la simulation de phénomènes complexes
@@ -41,26 +85,14 @@ numérique, modélisation et calcul scientifique. Des séances de mise en oeuvre
 machines en lien avec le mésocentre de calcul de l’Ecole polytechnique seront
 proposées.
 
-## MAP586 - Enseignement d'approfondissement de 3A
-### Algorithmes et principes de conception logicielle pour les mathématiques appliquées en C++ moderne
-
-La recherche en mathématiques appliquées a connu des avancées majeures ces dernières années grâce à l'évolution rapide des moyens informatiques (GPUs, multi-coeurs, architectures massivement parallèles). Cela implique une adaptation quasi continue des structures de données et des algorithmes afin d’exploiter pleinement les ressources à disposition. Ces évolutions répondent au besoin de simuler et de prédire le comportement de systèmes de plus en plus complexes, au plus proche de la réalité et ce dans de nombreux domaines scientifiques. Ces avancées contribuent également à l’innovation dans le domaine industriel et en particulier dans les PME et les start-up.
-
-Par ailleurs, les logiciels et les infrastructures sur lesquelles ils sont déployés deviennent de plus en plus stratégiques pour les entreprises et les laboratoires de recherche. De ce fait, l'ingénieur/chercheur d'aujourd'hui ne peut plus se contenter d'implémenter des algorithmes pour ses seuls besoins, indépendamment des objectifs de l'entité au sein de laquelle il évolue. Il doit être capable d'intégrer rapidement de nouvelles briques logicielles dans une architecture complexe tout en assurant sa maintenabilité, sa portabilité et son évolutivité. Ceci nécessite d'acquérir non seulement des bases en algorithmie et en programmation, mais aussi de solides connaissances en conception de logiciels.
-
-L'originalité de ce module d'enseignement est de partir de problèmes concrets que nous retrouvons dans les codes industriels et Open Source de calcul scientifique pour ensuite remonter aux algorithmes et à leurs implémentations. Ces problèmes permettront d'illustrer un ensemble de méthodes numériques (analyse numérique des EDPs, apprentissage statistique, calcul stochastique, etc, dont les bases mathématiques ont été présentées dans les cours de deuxième année essentiellement (MAP412 et MAP433)) qui requièrent le choix d’algorithmes avancés et d'en présenter une implémentation élégante, modulaire et performante en C++ moderne. Ce cours sera très interactif et permettra d'expérimenter différentes améliorations des solutions existantes tout en analysant leur intégration potentielle au sein de systèmes complexes.
-
-Pour ce faire, nous nous appuierons dans un premier temps sur [Jupyter](https://jupyter.org/) et le kernel [xeus-cling](https://github.com/jupyter-xeus/xeus-cling) permettant d'écrire du C++ dans des notebooks, puis nous passerons à une structuration de projet plus traditionnelle permettant d'illustrer l'architecture d'un logiciel (arborescence, création de librairies et d'exécutables, etc).
-
-A la fin du cours, des connaissances solides en algorithmie permettront aux étudiants d'appréhender plus facilement l'implémentation de nouvelles méthodes numériques. Grâce à leur connaissance du C++, ils seront à même de lire la plupart des codes écrits dans ce langage et d'envisager sereinement toutes les potentialités de celui-ci. Enfin, les notions de génie logiciel abordées leur permettront de comprendre les architectures logicielles complexes que l’on trouve tant dans le domaine de la recherche que dans les industries de pointe. Les aspects de programmation paralléle pourront être abordés pendant ce cours et faire l'objet de projets conclusifs.
 
 ## Research Course
 ### [Introduction to Solving PDEs with Machine Learning](https://jbscoggi.github.io/website/talks/2020-01-27-short_course/) 
 
-
 Solving partial differential equations is an engineer’s bread and butter. Classical discretization techniques such as finite-difference or finite-volume are powerful methods for the numerical solution of PDEs, however, their reliance on robust and efficient mesh generation often presents difficulties in solution convergence or necessitates enormous computational resources to obtain an accurate solution. In this lecture, an alternative method based on a statistical machine learning approach will be presented, which yields a continuous, differentiable, and meshless representation of the hidden PDE solution. The topics covered will include machine learning basics, foundations in neural networks, and PDE solution techniques with neural networks. Following the lecture, a practical session on solving PDEs will be presented using the Tensorflow library and Jupyter notebooks with Google Colab. All lecture slides and Jupyter notebooks will be available after the lecture.
 
 
+## Research Course
+### [Moment Closure Methods for Kinetic Equations of Complex Transport Phenomena and their Numerical Solution](http://arrow.utias.utoronto.ca/~groth/moment-closure-course/index.html) 
 
-
-
+Moment closure methods are considered for kinetic equations governing a range of complex transport phenomena, including non-equilibrium, rarefied, gaseous flow phenomena as described by the Boltzmann kinetic equation, multi-phase poly-disperse spray behaviour described by the Williams-Boltzmann equation, and radiative heat transfer in non-gray, participating media as described by the radiative transfer equation. Moment closure methods offer a means of significant complexity reduction when constructing approximate solutions to such high-dimensional equations, providing a good compromise between computational efficiency and accuracy for many practical engineering applications. Closure techniques based on classical Grad-type methods, maximum-entropy considerations, as well as quadrature formulations will all be considered. The numerical solution of the resulting systems of hyperbolic moment equations that result from the moment closure strategy will also be examined.

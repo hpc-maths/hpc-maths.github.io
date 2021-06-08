@@ -9,13 +9,13 @@ Ward - ONERA
 
 ### Méthodes de moments pour la modélisation des brouillards de gouttes polydispersés
 
-Essadki - Katia - lien JB
+Florence - Essadki - Katia - Arthur - lien JB
 Collaboration CentraleSupélec - F. Laurent, A. Vié
 
 
 ### Méthodes de moments et modèles fluides pour les plasmas partiellement ionisés
 
-Louis - Alejandro
+Louis - Alejandro - Teddy
 
 
 ### Modélisation des écoulements gaz-particules turbulents
@@ -23,34 +23,69 @@ Louis - Alejandro
 Roxane - Aymeric - DGA
 Collaboration CentraleSupélec Fédé Maths Alexandre Richard et Ludovic Goudenège
 
-## Analyse numérique et développement de schémas
 
+### Réalisabilité / Fermeture d'ordre élevé / méthodes de projection pour les modèles aux moments
+
+Teddy
+
+
+### Conditions de bord pour les modèles aux moments
+
+Teddy
+Collaboration UTIAS Joachim - Clinton
+
+
+### Modeles cinétique et aux moments en transfert radiatif (application en radiothérapie)
+
+Teddy
+
+
+## Analyse numérique et développement de schémas
 
 ### Multirésolution adaptative
 
 Marc-Arthur - code Python - film NS
 
+
 ### Méthode de Boltzmann sur réseau
 
 Thomas - Lien SAMURAI
 
+
 ### Méthode d'ordre élevé de type DG préservant un sous espace convexe
+
+Katia - Teddy
+
 
 ### Méthode préservant l'asymptotique pour les systèmes hyperboliques et hyperboliques paraboliques
 
-Louis
+Louis - Alejandro - Teddy
+
+
+### Schéma numérique avec terme source / Well-balanced
+
+Louis - Alejandro - Teddy
+
 
 ### Méthodes de volumes finis et prise en compte de produits non-conservatifs
 
 Quentin
 
+
 ### Méthode d'apprentissage pour la modélisation et la simulations d'équations aux dérivées partielles
 
 JB
 
+
 ### Géométrie algorithmique et reconstruction de propriétés géométriques d'une interface (courbure)
 
 film Mercru(v)e Ruben
+
+
+### Schéma Lagrange-projection pour les écoulements diphasiques
+
+Samuel - Katia - Marica - Teddy
+
 
 ## Calcul scientifique
 
@@ -58,13 +93,16 @@ film Mercru(v)e Ruben
 
 image Pierre
 
+
 ### ONERA CEDRE - allumage
 
 Laurent François
 
+
 ### ONERA Couplage de codes
 
 Allumage Laurent François
+
 
 ## Calcul haute performance (HPC)
 
@@ -72,9 +110,11 @@ Allumage Laurent François
 
 Collaboration INTEL, ICJ pour l'implémentation sur arcthitecture many-coeurs - code z-code (lien), puis algèbre d'ensembles - code SAMURAI (lien code) + image
 
+
 ### couplage adaptation temporelle et adaptation en espace avec contrôle d'erreur
 
 exemple Max - BZ idéalement avec SAMURAI
+
 
 ### Développement d'un plateforme pour la simulation de modèles fluides avec AMR massivement parallèle CanoP (codes)
 
