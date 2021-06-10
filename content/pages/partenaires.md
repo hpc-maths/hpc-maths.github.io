@@ -1,60 +1,30 @@
 title: Partenaires
 
-## Lien avec des entreprises : Safran, SpaceX, CENAERO
+## L'initiative a su créer des liens avec des entreprises ou instituts de recherche privés...
 
-### SAFRAN 
+L'interaction avec un ensemble de partenaires (Safran SAE, SafranTech, SpaceX, CENAERO, Air Liquide, Google, Lockheed Martin, Quantstack - voir ci-dessous) se fait sur la base de projets financés par des institutions européennes, sur la base de travaux de thèse ou de stages commun ou encore sur la base d'interactions directs sur des sujets porteurs.
 
-Thèse Aberto - CORIA + SAFRAN Tech
+Focus sur certains points (Google / ONERA) - News ?
 
-### SpaceX
 
-SpaceX - NDA 
 
-### CENAERO 
+## Mais aussi avec des instituts de recherche publics
 
-Projet ESA
+Un partenariat fort avec plusieurs instituts de recherche publics, en France (ONERA, IFPEN, CEA) mais aussi à l'échelle Européenne (ESA,VKI) et internationale (NASA / JAXA) a pu se mettre en place permettant des travaux en collaboration, la mise en place d'échanges ou de séjour de recherche (Summer Program à la NASA) et finalement de projets financés.
 
-## NASA / ONERA / IFPEn / CEA
+Ex de partenariat privilgié lié à l'initiative : CEA / Kokh DGA MMEED
 
-### NASA
+Ex de projet : ESA - Code - VKI
 
-Nagi Mansour - Thèse Q. Wargnier - Summer Program 2014-2018 
+Ex : M. Massot conseiller scientifique à l'ONERA - DMPE (plusieurs thèses encadrées - prix 3AF Cordesse.
 
-### IFPEn
-
-Thèse Essadki et Ruben - Mercur(v)e
-
-### CEA 
-
-S. Kokh - Maison de la Simulation - développement modèles diphasiques et méthodes - Thèse Pierre, Arthur - Post-doc Katia
-
-### ONERA 
-
-Thèse Laurent François et Pierre Cordesse - DMPE - LMA2S 
-- Diphasique et allumage propulsion solide et liquide - Thèse Ward - lien VKI 
-Joël Dupays - Clément le Touze - Angelo Murrone, 
 
 
 ## Partenaires académiques
 
-### Centralesupélec
+L'équipe de l'initiative possède de nombreuses collaborations académiques en France, parmi lesquelles l'IMO à Orsay, CentraleSupélec (EM2C et Fédération de Mathématiques de CentraleSupélec), ENSTA (IMSIA et UMA), Institut Mathématiques de Bordeaux, Laboratoire Jean-Aleandre Dieudonné, Institut Camille Jordan, Institut de Mécanique des Fluides de Toulouse, INPT... 
 
-### ENSTA
-
-
-## Partenaires internationaux 
-
-### VKI
-
-### UTIAS Toronto
-
-### UT Austin
-
-### ICME, 
-
-### Iowa State University
-
-### CTR Stanford
+Mais aussi un réseau de partenaires académiques internationaux : von Karman Institute, UTIAS - University of Toronto, UT Austin (Oden Institute), KIT, Stanford University (Institute for Computational and Mathematical Engineering and Center for Turbulence Research), Iowa State University...
 
 
 ## QuantStack
