@@ -1,9 +1,5 @@
 title: Enseignement
 
-## MAA208 - Cours de 2A de bachelor
-### Numerical linear algebra
-
-This course focuses on numerical methods for solving problems emerging in linear algebra. The aim is to design algorithms for solving linear systems of equations and to compute eigenvalues and eigenvectors. A special focus is given to the efficiency of the algorithms both in terms of accuracy and computational costs. At the end of this course, students should be able, for a given problem, to analyze it, determine its main features, and then choose which algorithm to use, or to develop new ones.
 
 
 ## MAP412 - Cours de 2A d'ingénieurs
@@ -13,9 +9,14 @@ Lorsque l’on souhaite modéliser et simuler un problème réel (qu’il s’ag
 
 Ce cours propose une introduction à l’analyse numérique, partant des fondements mathématiques sur lesquels les méthodes numériques reposent et allant jusqu’à l’implémentation et l’emploi de ces méthodes sur la base de notebooks [Jupyter](https://jupyter.org/) en passant par la compréhension de leur efficacité numérique. Le lien est fait avec les applications afin de comprendre l’étendue de l’utilisation de ce type de méthode d’un point de vue pratique. Les implémentations de ces méthodes dans des bibliothèques numériques existantes sont aussi documentées.
 
+## MAA208 - Cours de 2A de bachelor
+### Numerical linear algebra
+
+This course focuses on numerical methods for solving problems emerging in linear algebra. The aim is to design algorithms for solving linear systems of equations and to compute eigenvalues and eigenvectors. A special focus is given to the efficiency of the algorithms both in terms of accuracy and computational costs. At the end of this course, students should be able, for a given problem, to analyze it, determine its main features, and then choose which algorithm to use, or to develop new ones.
+
 
 ## MODAL MAP471A
-### Problem solving en math app
+### Problem solving en mathématiques appliquées
 
 L'objectif  de  ce  Modal  est  d'apprendre  à  développer   une   approche   expérimentale   pour  un  large  spectre  de  méthodes  numé-riques en Mathématiques Appliquées à visée industrielle ou de recherche.
 
@@ -28,6 +29,7 @@ Le but de ce module, qui ne requiert aucun prérequis,  est  de  mettre  en  œu
 
 ## Projet scientifique collaboratif (PSC)
 
+Plusieurs projet PSC sont proposés dans le cadre de l'initiative et l'encadrement des projets PSC est menée par T. Pichard.
 
 
 ## MAP551 - Cours de 3A / Master 1
