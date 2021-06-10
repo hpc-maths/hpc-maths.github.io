@@ -1,17 +1,26 @@
  title: Événements 
 
-## Événements à venir organisés dans le cadre HPC@Maths
+## Événements à venir organisés dans le cadre ou soutenus par l'initiative HPC@Maths
 
-### [Semaine d'étude Maths-Entreprises](https://indico.math.cnrs.fr/event/6326/) 2021 - Institut Polytechnique de Paris 
+### [SpaceCon](https://spacecon.io/) soutenue par l'initiative, 19 et 24 juin 2021
 
-l'initiative HPC@Maths participe à la semaine avec deux projets qu'elle a contribué à faire émerger 
-lien site - CENAERO - Air Liquide
+In a nutshell, #SpaceConnect’21 is the convention dedicated to those who live space to the fullest. That’s why we created a cozy and interesting event that spans multiple days. If you love space as we do, we are sure you’ll enjoy it. The event spans over two days
+
+The 19th June 2021 with a gaming contest for the Kerbal Space Program game (#SpaceContest). If you participate to the KSP competition, you get a free ticket for the 24th June.
+
+The 24th June 2021, you will be able to attend a forum hosting the most innovative space companies (#SpaceConnect), be inspired by the series of talks and panels we selected for you (#SpaceConference), get in touch with startup incubators, pitch your idea and kick off your very own space startup (#SpaceConcept), and, above all, have fun!
+
+### [Semaine d'étude Maths-Entreprises](https://indico.math.cnrs.fr/event/6326/) 2022 - Institut Polytechnique de Paris 
+
+l'initiative HPC@Maths participe à la semaine avec plusieurs projets qu'elle a contribué à faire émerger en particulier avec [CENAERO](https://www.cenaero.be/), [Air Liquide (BU Spatial)](https://www.airliquide.com/fr/industrie/spatial) et [Quantstack](https://quantstack.net/). Initialement prévue en 2021, la semaine d'étude a été repoussée début 2022 pour des raisons associées à la Covid-19.
 
 
-### Mini-symposium SMAI 2021 [Méthode des moments pour la réduction d'EDP] (orga Teddy)
+### Mini-symposium [SMAI 2021](https://smai2021.math.univ-toulouse.fr/) Méthode des moments pour la réduction d'EDP
 
 La méthode des moments est classiquement utilisée en théorie cinétique pour réduire une équationcinétique vers un système d’équations fluides. Classiquement, appliquer cette technique à l’équationde Boltzmann mène aux équations d’Euler. Mais elle peut en fait s’appliquer à une variété de modèleset d’applications, notamment pour les gazs raréfiés, en transfert radiatif, pour les plasmas, les sprays,en quantification d’incertitude, etc.
 Formellement, elle consiste à travailler avec les équations satisfaites par les moments d’une fonction(l’inconnue d’une EDP) plutôt qu’avec la fonction elle-même. Ces moments sont des intégrales pon-dérées de la fonction par rapport à l’une des variables et dépendent ainsi, après intégration, de moinsde variables. Aussi le coût de résolution numérique des EDP aux moments qu’ils satisfont est doncmoindre en comparaison. Or ces équations aux moments sont généralement sous-déterminées et unefermeture reliant les différentes inconnues est nécessaire pour pouvoir les résoudre.En pratique, le choix de fermeture a un fort impact sur l’approximation qui en résulte et il doitêtre adapté à la physique modélisée (différents régimes considérés). Il faut donc relier la fermeture àl’équation cinétique sous-jacente. Ces contraintes se caractérisent non seulement dans la constructionde la fermeture, mais également dans les méthodes numériques pour résoudre ces EDP.Ce mini-symposium met en jeu plusieurs applications de la méthodes des moments et ainsi que desméthodes numériques pour résoudre les équations aux moments.
+
+Co-organisé par T. Pichard
 
 Oratrices et orateurs : F. Laurent-Nègre (CNRS-EM2C-CentraleSupélec), A. Alvarez-Laguna (CNRS-LPP-École polytechnique), K. Ait-Ameur (CMAP-École polytechnique), G. Poette (CEA-CESTA)
 
@@ -72,8 +81,11 @@ Le 4 Mai 2021 a lieu la journée de kick-off du projet DGA MMEED (lien à prévo
 ### Tuto SAMURAI
 
 
-### Invitation de Pr. C. Groth (UTIAS), J.-A. Sarr, J. Xing à l'X en 2020   
+### Invitation de Pr. C. Groth (UTIAS), J.-A. Sarr, J. Xing à l'Ecole polytechnique dans le cadre d'un [Gaspard Monge Visiting Professor](https://xpuissancevous.fr/projets/detail/programme-daccueil-de-professeurs-etrangers-reputes) en 2020   
 
+Teddy - décrire le contexte - lien sur le cours...
+
+Hosts : M. Massot & T. Pichard 
 
 ### Mini-symposium SMAI 2019 [Breaking the Mesh: Solving Partial Differential Equations with Deep Learning](https://github.com/jbscoggi/smai-2019) (J.B. Scoggins, L. Gouarin)
 
