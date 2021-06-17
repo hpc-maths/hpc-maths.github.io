@@ -1,6 +1,7 @@
 title: Présentation
 URL:
-save_as: index.html
+
+<!-- save_as: index.html -->
 
 L’initiative HPC@Maths a pour but de développer au sein du [Centre de Mathématiques Appliquées](https://portail.polytechnique.edu/cmap/fr/page-daccueil) une compétence en Calcul Scientifique et Calcul Haute Performance (HPC) articulée avec les axes d’excellence du laboratoire en mathématiques. Lancée en 2016 par F. Alouges, Professeur à l'Ecole polytechnique, elle est maintenant coordonnée par M. Massot, lui aussi Professeur à l'Ecole polytechnique.
 
@@ -17,6 +18,5 @@ Le projet repose sur des actions à quatre niveaux :
 3. Mise en place progressive d’une filière d’enseignement dédiée à l'analyse numérique, au calcul scientifique et calcul haute performance (2A / 3A / Master). Interaction forte avec les élèves et les entreprises;
 
 4. Développement d’une interface avec les entreprises en utilisant les divers outils à disposition au sein de l’Ecole et de la communauté. Communication autour de l’initiative.
-
 
 Le projet est supporté par la [Fondation de l’Ecole Polytechnique](https://www.polytechnique.edu/fondation) - [Initiative HPC@Maths](https://xpuissancevous.fr/projets/detail/la-modelisation-et-le-calcul-haute-performance)et par un ensemble de financements extérieurs.

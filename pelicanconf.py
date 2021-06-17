@@ -12,7 +12,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 
-OUTPUT_PATH = 'public/'
+# OUTPUT_PATH = 'public/'
 
 # Plugins
 PLUGIN_PATHS = ['plugins']
@@ -22,7 +22,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 I18N_TEMPLATES_LANG = 'fr'
 
 # Theme
-THEME = "themes/pelican-bootstrap3"
+THEME = "themes/hpc_math_theme"
 
 HIDE_SIDEBAR = True
 BANNER = 'images/banner.jpg'
@@ -39,3 +39,11 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+MENUITEMS = [('Présentation', '/index.html'),
+             ('Codes', '/pages/codes.html'),
+             ('Enseignement', '/pages/enseignement.html'),
+             ('Partenaires', '/pages/partenaires.html'),
+             ('Recherche', '/pages/recherche.html'),
+             ("Ressources", '/pages/ressources.html'),
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>HPC@Maths template</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<!--  <link href="{{ SITEURL }}/theme/img/favicon.png" rel="icon">
+  <link href="{{ SITEURL }}/theme/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+
+<!-- Adobe Fonts -->
+<link rel="stylesheet" href="https://use.typekit.net/jev7sbt.css">
+
+<!-- Vendor CSS Files -->
+<link href="{{ SITEURL }}/theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="{{ SITEURL }}/theme/css/style.css" rel="stylesheet">
+<link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+  <div class="container d-flex">
+    <div class="warning_info mr-auto"> Site en construction </div>
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <a href="index.html" class="logo mr-auto"><img src="{{ SITEURL }}/theme/img/logo_blanc.svg" width="104" height="51" alt=""/></a>
+    <nav class="nav-menu d-none d-lg-block">
+      <ul>
+        {% for title, url in MENUITEMS %}
+        <li>
+            <a class="nav-link" href="{{ SITEURL }}{{ url }}">{{ title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <!-- .nav-menu -->
+
+  </div>
+</header>
+<!-- End Header -->
+
+<main id="content">
+{% block content %}{% endblock content %}
+</main>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-links"> <a href="index.html" class="logo mr-auto"><img src="{{ SITEURL }}/theme/img/logo_blanc.svg" width="104" height="51" alt=""/></a>
+          <div class="credits"> Design réalisé par<a href="https://portail.polytechnique.edu/cpm/fr/accueil"> CPM</a> </div>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>CMAP</h4>
+          <p><strong>Centre de Mathémathiques Appliquées</strong></p>
+          <p> Route de Saclay<br>
+            91120 PALAISEAU<br>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>CONTACT</h4>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Réseaux sociaux</h4>
+          <div class="social-links mt-3"> <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" class="github"><i class="fa fa-github" aria-hidden="true"></i></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container py-2">
+    <div class="btn_up"> <a href="#" class="back-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i>
+      <p>Haut</p>
+      </a> </div>
+    <div class="copyright"> &copy; Copyright <strong><span>HPC@Maths 2021</span></strong>. Tous droits réservés </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+<!-- JS Files -->
+<script src="{{ SITEURL }}/theme/vendor/jquery/jquery.min.js"></script>
+<script src="{{ SITEURL }}/theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ SITEURL }}/theme/vendor/jquery.easing/jquery.easing.min.js"></script>
+</body>
+</html>
