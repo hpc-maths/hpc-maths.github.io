@@ -12,7 +12,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 
-# OUTPUT_PATH = 'public/'
+OUTPUT_PATH = 'public/'
 
 # Plugins
 PLUGIN_PATHS = ['plugins']
