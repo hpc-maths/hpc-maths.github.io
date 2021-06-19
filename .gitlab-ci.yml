@@ -1,9 +1,9 @@
-image: python:3.7-alpine
+image: python:3.8-alpine
 
 pages:
   script:
   - pip install -r requirements.txt
-  - pelican -s publishconf.py -t themes/pelican-bootstrap3/
+  - pelican -s publishconf.py -t themes/hpc_math_theme/
   artifacts:
     paths:
     - public/
