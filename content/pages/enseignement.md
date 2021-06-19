@@ -81,6 +81,9 @@ Ce cours est porté par J.B. Scoggins (CMAP/NASA)
 
 Moment closure methods are considered for kinetic equations governing a range of complex transport phenomena, including non-equilibrium, rarefied, gaseous flow phenomena as described by the Boltzmann kinetic equation, multi-phase poly-disperse spray behaviour described by the Williams-Boltzmann equation, and radiative heat transfer in non-gray, participating media as described by the radiative transfer equation. Moment closure methods offer a means of significant complexity reduction when constructing approximate solutions to such high-dimensional equations, providing a good compromise between computational efficiency and accuracy for many practical engineering applications. Closure techniques based on classical Grad-type methods, maximum-entropy considerations, as well as quadrature formulations will all be considered. The numerical solution of the resulting systems of hyperbolic moment equations that result from the moment closure strategy will also be examined.
 
+Ce cours est porté par C. Groth (UTIAS, University of Toronto) dans le cadre d'un fellowship "Gaspard Monge Visiting Professor" de l'École polytechnique (2020-2021).
+
+
 ## Autres cours 
 
 
