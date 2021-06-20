@@ -1,6 +1,6 @@
 title: Enseignement
 
-
+Un ensemble d'enseignements a été créé afin de former les étudiants au domaine de l'analyse numérique et du HPC dans le but de les amener au plus près des compétences nécessaires à l'innovation dans ce domaine riche et en pleine évolution. 
 
 ## MAP412 - Cours de 2A d'ingénieurs
 ### Introduction à l'Analyse Numérique : des fondements mathématiques à l’expérimentation avec Jupyter
@@ -9,27 +9,8 @@ Lorsque l’on souhaite modéliser et simuler un problème réel (qu’il s’ag
 
 Ce cours propose une introduction à l’analyse numérique, partant des fondements mathématiques sur lesquels les méthodes numériques reposent et allant jusqu’à l’implémentation et l’emploi de ces méthodes sur la base de notebooks [Jupyter](https://jupyter.org/) en passant par la compréhension de leur efficacité numérique. Le lien est fait avec les applications afin de comprendre l’étendue de l’utilisation de ce type de méthode d’un point de vue pratique. Les implémentations de ces méthodes dans des bibliothèques numériques existantes sont aussi documentées.
 
-## MAA208 - Cours de 2A de bachelor
-### Numerical linear algebra
+Ce cours est porté par  M. Massot en collaboration avec L. Séries, M. Breden, T. Pichard (CMAP).
 
-This course focuses on numerical methods for solving problems emerging in linear algebra. The aim is to design algorithms for solving linear systems of equations and to compute eigenvalues and eigenvectors. A special focus is given to the efficiency of the algorithms both in terms of accuracy and computational costs. At the end of this course, students should be able, for a given problem, to analyze it, determine its main features, and then choose which algorithm to use, or to develop new ones.
-
-
-## MODAL MAP471A
-### Problem solving en mathématiques appliquées
-
-L'objectif  de  ce  Modal  est  d'apprendre  à  développer   une   approche   expérimentale   pour  un  large  spectre  de  méthodes  numé-riques en Mathématiques Appliquées à visée industrielle ou de recherche.
-
-
-## MODAL MAP472A
-### Modélisation mathématique par la démarche expérimentale
-
-Le but de ce module, qui ne requiert aucun prérequis,  est  de  mettre  en  œuvre  les  outils  mathématiques et des méthodes numériques pour modéliser divers phénomènes réels.Les  élèves,  travaillant  en  binôme,  devront  mettre en place une démarche de résolution d’un  problème  complexe  en  utilisant  des  outils de mathématiques appliquées.
-
-
-## Projet scientifique collaboratif (PSC)
-
-Plusieurs projet PSC sont proposés dans le cadre de l'initiative et l'encadrement des projets PSC est menée par T. Pichard.
 
 
 ## MAP551 - Cours de 3A / Master 1
@@ -45,7 +26,9 @@ Nous étudierons des exemples dans de nombreux domaines d’application comme la
 
 Les domaines sur lesquels le cours donnera une expertise sont : analyse mathématique, schémas numériques pour les systèmes d’équations différentielles, analyse de la stabilité des systèmes - bifurcation, implémentation numérique et bibliothèques de programmes permettant la simulation numérique ou l’analyse de bifurcations. Des applications sur machines permettent une analyse de la dynamique mais aussi une compréhension des schémas numériques à la base d’une simulation précise et robuste, ainsi qu’une ouverture sur les enjeux du calcul haute performance. L’ensemble des petites classes se fait au moyen de notebooks Jupyter, ce qui permet une familiarisation avec les concepts et les méthodes numériques particulièrement efficace, puis d’analyser les résultats en termes des applications. L’ensemble des techniques proposées sera illustré sur des exemples simples mais symptomatiques des enjeux des systèmes complexes rencontrés dans les véritables applications. Un mini-projet permet de mettre en œuvre les notions et méthodes enseignées et de se confronter à des systèmes appliqués dans un large spectre de domaines applicatifs.
 
+Ce cours est porté par M. Massot, M. Breden et L. Séries (CMAP).
 
+ 
 ## MAP586 - Enseignement d'approfondissement de 3A
 ### Algorithmes et principes de conception logicielle pour les mathématiques appliquées en C++ moderne
 
@@ -59,11 +42,8 @@ Pour ce faire, nous nous appuierons dans un premier temps sur [Jupyter](https://
 
 A la fin du cours, des connaissances solides en algorithmie permettront aux étudiants d'appréhender plus facilement l'implémentation de nouvelles méthodes numériques. Grâce à leur connaissance du C++, ils seront à même de lire la plupart des codes écrits dans ce langage et d'envisager sereinement toutes les potentialités de celui-ci. Enfin, les notions de génie logiciel abordées leur permettront de comprendre les architectures logicielles complexes que l’on trouve tant dans le domaine de la recherche que dans les industries de pointe. Les aspects de programmation paralléle pourront être abordés pendant ce cours et faire l'objet de projets conclusifs.
 
+Ce cours est porté par L. Gouarin (CMAP) et Y. Mabile (Quantstack)
 
-## AMS CS1 - Cours de Master 1
-### Méthodes de Moments dérivées d’une équation cinétique
-
-Divers problèmes, notamment en mécanique des fluides ou en ingénierie, peuvent être décrits par une équation detype cinétique, par exemple en théorie cinétique des gaz avec l’équation de Boltzmann ou pour la description depopulation de particules de tailles variées avec la Population Balance Equation. Cette équation est rarement résoluedirectement à cause du coût engendré. On passe plutôt à un problème macroscopique, via la méthode des moments,comme dans le cas des équations d’Euler. On remplace alors l’équation de type cinétique par des équations sur lespremiers moments de la distribution sous-jacente. Il s’agira ici de comprendre dans quel espace évoluent les mo-ments, comment on ferme les équations sur les moments, que ce soit dans le cas mono-varié (moment par rapport àune seule variable) que dans le cas multi-varié, très différent d’un point de vue théorique. On verra aussi quelquesméthodes de résolution numérique de ces équations, préservant l’espace des moments.
 
 
 ## AMS X02 - Cours de Master 2
@@ -87,14 +67,27 @@ numérique, modélisation et calcul scientifique. Des séances de mise en oeuvre
 machines en lien avec le mésocentre de calcul de l’Ecole polytechnique seront
 proposées.
 
+Ce cours est porté par L. Séries (CMAP) et M. Massot (CMAP)
 
 ## Research Course
 ### [Introduction to Solving PDEs with Machine Learning](https://jbscoggi.github.io/website/talks/2020-01-27-short_course/) 
 
 Solving partial differential equations is an engineer’s bread and butter. Classical discretization techniques such as finite-difference or finite-volume are powerful methods for the numerical solution of PDEs, however, their reliance on robust and efficient mesh generation often presents difficulties in solution convergence or necessitates enormous computational resources to obtain an accurate solution. In this lecture, an alternative method based on a statistical machine learning approach will be presented, which yields a continuous, differentiable, and meshless representation of the hidden PDE solution. The topics covered will include machine learning basics, foundations in neural networks, and PDE solution techniques with neural networks. Following the lecture, a practical session on solving PDEs will be presented using the Tensorflow library and Jupyter notebooks with Google Colab. All lecture slides and Jupyter notebooks will be available after the lecture.
 
+Ce cours est porté par J.B. Scoggins (CMAP/NASA) 
 
 ## Research Course
 ### [Moment Closure Methods for Kinetic Equations of Complex Transport Phenomena and their Numerical Solution](http://arrow.utias.utoronto.ca/~groth/moment-closure-course/index.html) 
 
 Moment closure methods are considered for kinetic equations governing a range of complex transport phenomena, including non-equilibrium, rarefied, gaseous flow phenomena as described by the Boltzmann kinetic equation, multi-phase poly-disperse spray behaviour described by the Williams-Boltzmann equation, and radiative heat transfer in non-gray, participating media as described by the radiative transfer equation. Moment closure methods offer a means of significant complexity reduction when constructing approximate solutions to such high-dimensional equations, providing a good compromise between computational efficiency and accuracy for many practical engineering applications. Closure techniques based on classical Grad-type methods, maximum-entropy considerations, as well as quadrature formulations will all be considered. The numerical solution of the resulting systems of hyperbolic moment equations that result from the moment closure strategy will also be examined.
+
+Ce cours est porté par C. Groth (UTIAS, University of Toronto) dans le cadre d'un fellowship "Gaspard Monge Visiting Professor" de l'École polytechnique (2020-2021).
+
+
+## Autres cours 
+
+
+Plusieurs autres cours sont portés par des membres de l'initiative à divers niveaux. Un Cours de Master 1 (AMS CS1) en collaboration avec CentraleSupélec porte sur les "Méthodes de Moments dérivées d’une équation cinétique". Un cours de 2A de bachelor (MAA208) sur "Numerical linear algebra" est porté par T. Pichard en particulier. T. Pichard participe aussi aux MODAL MAP471A
+"Problem solving en mathématiques appliquées" et 
+MODAL MAP472A "Modélisation mathématique par la démarche expérimentale". Une implication sur les "Projet scientifique collaboratif (PSC)" est aussi coordonnée par T. Pichard et des projets sont proposés dans le cadre de l'intiative.
+
