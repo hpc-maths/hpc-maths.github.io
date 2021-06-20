@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
+import math
 
 AUTHOR = 'Marc Massot'
 SITENAME = 'HPC@Maths'
@@ -47,3 +49,10 @@ MENUITEMS = [('Présentation', '/index.html'),
              ('Recherche', '/pages/recherche.html'),
              ("Ressources", '/pages/ressources.html'),
 ]
+
+LOGOS = os.listdir('content/images/logo')
+LOGOS.sort()
+LOGOS_NCOLS = 3
+LOGOS_NROWS = math.ceil(len(LOGOS)/LOGOS_NCOLS)
+print(len(LOGOS))
+print(LOGOS)

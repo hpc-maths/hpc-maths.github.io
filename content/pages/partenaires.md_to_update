@@ -1,0 +1,129 @@
+title: Partenaires
+
+Safran SAE, SafranTech, SpaceX, CENAERO, Air Liquide, Google, Lockheed Martin, Quantstack
+
+ONERA, IFPEN, CEA, ESA, VKI, NASA / JAXA
+
+IMO à Orsay, CentraleSupélec
+
+ENSTA Institut Mathématiques de Bordeaux,
+
+Laboratoire Jean-Aleandre Dieudonné, Institut Camille Jordan, Institut de Mécanique des Fluides de Toulouse, INPT
+
+UTIAS - University of Toronto, UT Austin (Oden Institute), KIT, Stanford University (Institute for Computational and Mathematical Engineering and Center for Turbulence Research), Iowa State University...
+
+## L'initiative a su créer des liens avec des entreprises ou instituts de recherche privés...
+
+L'interaction avec un ensemble de partenaires (Safran SAE, SafranTech, SpaceX, CENAERO, Air Liquide, Google, Lockheed Martin, Quantstack - voir ci-dessous) se fait sur la base de projets financés par des institutions européennes, sur la base de travaux de thèse ou de stages commun ou encore sur la base d'interactions directs sur des sujets porteurs.
+
+Focus sur certains points (Google / ONERA) - News ?
+
+## Mais aussi avec des instituts de recherche publics
+
+Un partenariat fort avec plusieurs instituts de recherche publics, en France (ONERA, IFPEN, CEA) mais aussi à l'échelle Européenne (ESA,VKI) et internationale (NASA / JAXA) a pu se mettre en place permettant des travaux en collaboration, la mise en place d'échanges ou de séjour de recherche (Summer Program à la NASA) et finalement de projets financés.
+
+Ex de partenariat privilgié lié à l'initiative : CEA / Kokh DGA MMEED
+
+Ex de projet : ESA - Code - VKI
+
+Ex : M. Massot conseiller scientifique à l'ONERA - DMPE (plusieurs thèses encadrées - prix 3AF Cordesse.
+
+## Partenaires académiques
+
+L'équipe de l'initiative possède de nombreuses collaborations académiques en France, parmi lesquelles l'IMO à Orsay, CentraleSupélec (EM2C et Fédération de Mathématiques de CentraleSupélec), ENSTA (IMSIA et UMA), Institut Mathématiques de Bordeaux, Laboratoire Jean-Aleandre Dieudonné, Institut Camille Jordan, Institut de Mécanique des Fluides de Toulouse, INPT...
+
+Mais aussi un réseau de partenaires académiques internationaux : von Karman Institute, UTIAS - University of Toronto, UT Austin (Oden Institute), KIT, Stanford University (Institute for Computational and Mathematical Engineering and Center for Turbulence Research), Iowa State University...
+
+## QuantStack
+
+QuantStack est une société basée à Paris et Berlin rassemblant les auteurs et mainteneurs de
+logiciels de calcul scientifique Open Source. L'équipe comporte notamment cinq "core
+contributors" du projet Jupyter, couvrant les principaux composants de l'écosystème
+(JupyterHub, JupyterLab, Voilà, ipywidgets). En plus de Jupyter, le groupe a une grande
+expertise en C++ scientifique.
+
+L'initiative HPC@Maths et la société QuantStack ont des niveaux d’expertise dans des domaines très variés
+et complémentaires. La collaboration scientifique permet d’enrichir les logiciels open source développés par QuantStack, de mettre à la disposition de la communauté de nouvelles méthodes numériques et de nouveaux algorithmes à la pointe des recherches actuelles, de répondre à des problématiques d’industriels faisant intervenir des mathématiques appliquées, ...
+
+Cette collaboration scientifique s’articule autour des trois axes suivants:
+
+### Logiciel d’algèbre linéaire moderne
+
+Dans la plupart des thématiques abordées pour le CMAP, on retrouve l’utilisation de matrices
+dites creuses du fait de la présence de nombreux zéros. Cette structure est liée aux méthodes
+de discrétisation utilisées (différences finies, volumes finis, éléments finis, ...) pour représenter
+des opérateurs différentiels intervenant dans les EDPs. Il existe différents formats (CSR, LIL,
+COO, ...) plus ou moins efficaces selon les opérations effectuées. Une fois que l’on a une
+structure de données pour représenter ces matrices, on résout généralement un système
+linéaire qui peut être préconditionné. Les méthodes utilisées pour résoudre ces systèmes
+peuvent être directes (LU, Cholesky, ...) ou itératives (CG, GMRES, ...). Les problèmes étudiés
+peuvent être de grande taille (plusieurs centaines de millions d’inconnues) et il est alorsnécessaire d’avoir un parallélisme très efficace. Un certain nombre de logiciel existe déjà en
+algèbre linéaire. Le plus connu est probablement PETSc qui permet d’appeler des librairies
+externes implémentant certaines résolutions de système (mumps, superLU, Hypre, ...).
+Nous travaillons ensemble sur l’élaboration d’une bibliothèque en algèbre linéaire
+qui soit moderne, parallèle et facilement interfaçable avec des solveurs externes, des mailleurs,
+des partitionneurs, ... en utilisant la philosophie de xtensor (système d’expressions, évaluation
+paresseuse, ...).
+
+Afin de valider l’implémentation, nous nous focaliserons sur les problèmes étudiés au sein du
+CMAP.
+
+### Optimisation et paradigme parallèle pour xtensor
+
+La bibliothèque xtensor est de plus en plus utilisé par la communauté et permet réellement de
+gagner du temps et de la lisibilité pour les noyaux de calcul. Néanmoins, certaines
+implémentations dans xtensor ne sont pas encore très optimisées. C’est le cas par exemple
+lorsque l’on écrit des algorithmes faisant intervenir certaines vues. Nous définissons un
+certain nombre de benchmarks sur des algorithmes bien connues des mathématiques
+appliquées (équation de la chaleur avec des différences finies, ensembles de Julia, problèmes à
+N corps, ...) qui serviront de référence.
+
+Le fait que xtensor décrive des expressions mathématiques de manière paresseuse (sans
+écrire de boucles) est un réel atout pour les personnes qui débutent et qui ne sont pas
+forcément familiers avec la programmation bas niveau comme le C++. Un autre avantage est
+que la partie optimisation du noyau de calcul est cachée à l’utilisateur. A partir du graphe
+d’exécution, nous pouvons analyser finement et découper le noyau de calcul afin de faire
+certaines opérations sur des accélérateurs si ils sont disponibles (GPU par exemple). Nous
+pouvons également avoir un parallélisme distribué.
+
+Nous proposons donc ici de réfléchir à des optimisations simples validant l’implémentation des
+différentes briques de xtensor, puis de réfléchir à l’élaboration de graphes de tâches et à leur
+manipulation afin d’optimiser des noyaux de calcul sur différentes architectures.
+
+### Représentation de données
+
+Une bibliothèque scientifique sera utilisée par la communauté si son interface utilisateur est
+simple, si la documentation est bien faite mais également s’il est facile de représenter ses
+données. L’utilisation des notebooks Jupyter simplifie grandement la description et la mise en
+place d’une expérience ainsi que l’analyse des données recueillies. QuantStack a une grande
+expérience dans la création de widgets permettant d’interagir plus facilement avec son calcul.
+Néanmoins, la visualisation de grandes masses de données pendant ou après le calcul reste
+encore un problème ouvert.
+
+Dans cette collaboration, nous souhaitons d’une part avoir des widgets spécialisés
+permettant de visualiser rapidement les données des problèmes mathématiques étudiés
+(champs sur une surface, maillage adapté, ...) et ce dans différents langages (Python, Julia,
+C++, ...), et d’autres part avoir la possibilité d'interroger en temps réel un calcul HPC effectué
+sur un cluster de calcul sans écriture des données sur un disque.
+
+### L'enseignement
+
+Depuis 2017, le département de Mathématiques Appliquées, sous l’impulsion de l’initiative
+HPC@Maths, a mis en place une offre de cours allant du Bachelor au Master 2 en passant par
+des cours d'amphithéâtre de 2A et des cours plus spécialisés de 3A dans le domaine de
+l’analyse numérique et des sciences computationnelles reposant sur une utilisation intensive de
+Jupyter. Par ailleurs, en lien avec la communauté des élèves, une journée Jupyter ayant eu un
+succès important auprès des élèves a eu lieu en mars 2018, déjà en lien avec Quantstack et la
+communauté autour de Jupyter.
+L’idée est de profiter de la présente collaboration pour aller plus loin. Trois points sont ici
+concernés:
+
+1. Aide à la découverte de Jupyter / Journées Jupyter avec les élèves / Binet Réseau
+   (prolonger l’idée de la journée de Mars 2018 mais en lien avec les initiatives locale des
+   départements - Physique/Mécanique/Biologie...),
+
+2. Proposer une initiation à Jupyter et son environnement en début d’année pour les élèves
+   de 3A et leur faire découvrir l’univers du projet Jupyter,
+
+3. Proposer des stages en lien avec l’initiative et les activités de Quantstack et du présent
+   projet pour faire le lien avec la communauté des élèves.
