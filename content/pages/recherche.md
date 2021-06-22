@@ -50,7 +50,8 @@ Le but de cet axe est de développer un modèle "two-way coupled" à grande éch
 
 ### Multirésolution adaptative
 
-Nous avons développé la capacité de développer des méthodes d'ordre élevée en temps couplées à de la multirésolution adaptative en espace permettant de mener à un contrôle de l'erreur globale avec des applications en combustion, physique des plasmas et génie biomédical (PhD Max Duarte) et en mécanique des fluides (Navier-Stokes incompressible et Low Mach / Combustion, PhD Marc-Arthur N'Guessan). Les techniques en temps peuvent être des intégrateurs de type DAE ordre élévé, RK implicite (RADAU5) ou des méthodes de séparation d'opérateur avec adaptation dynamique du pas de temps. Ces techniques font aussi l'objet d'une collaboration avec SpaceX. Ces technique sont en cours d'implémentation dans le code SAMURAI.
+Nous avons développé la capacité de développer des méthodes d'ordre élevée en temps couplées à de la multirésolution adaptative en espace permettant de mener à un contrôle de l'erreur globale avec des applications en combustion, physique des plasmas et génie biomédical (PhD Max Duarte) et en mécanique des fluides (Navier-Stokes incompressible et Low Mach / Combustion, PhD Marc-Arthur N'Guessan). Les techniques en temps peuvent être des intégrateurs de type DAE ordre élévé, RK implicite (RADAU5) ou des méthodes de séparation d'opérateur avec adaptation dynamique du pas de temps. Ces techniques font aussi l'objet d'une collaboration avec SpaceX. Ces techniques on été implémentées sur architecture many-coeurs en collaboration avec INTEL et l'ICJ (T. Dumont) et 
+sont en cours d'implémentation dans le code SAMURAI.
 
 
 ### Méthode de Boltzmann sur réseau
@@ -81,29 +82,10 @@ Issu de la modélisation fluide des plasmas multi-composants hors équilibre the
 
 ## Calcul scientifique et Calcul haute performance (HPC)
 
-### ONERA CEDRE - diphasique
 
-image Pierre
+Cet axe s'articule autour de deux stratégies : 
+ -  le développement de code de calcul efficaces soit pour le prototypage rapide de modèles et de méthodes numériques (Collaboration Quantstack), soit des codes parallèles qui passent à l'échelle sur les architectures parallèles. 
+ -  l'intégration des modèles et méthodes numérique que nous développons dans des codes semi-industriels ou industriels de nos partenaires (ONERA / IFPEN / CEA / CERFACS / SAFRAN) 
 
-### ONERA CEDRE - allumage
+Les applications visées sont les chambres de combustion aéronautiques et automobiles, l'allumage et la dynamique diphasique des moteurs à propergol solide en propulsion solide des fusées, la propulsion liquide et hybride des moteurs fusée, la propulsion électrique pour les satellites, la modélisation des reconnexions magnétiques en physique solaire, ou le génie nucléaire, mais aussi en dynamique chimique non-linéaire et le génie biomédical.
 
-Laurent François
-
-### ONERA Couplage de codes
-
-Allumage Laurent François
-
-### développement de structures de données pour la MR adaptative
-
-Collaboration INTEL, ICJ pour l'implémentation sur arcthitecture many-coeurs - code z-code (lien), puis algèbre d'ensembles - code SAMURAI (lien code) + image
-
-### couplage adaptation temporelle et adaptation en espace avec contrôle d'erreur
-
-exemple Max - BZ idéalement avec SAMURAI
-
-### Développement d'un plateforme pour la simulation de modèles fluides avec adapatation de maillage (cell-based AMR) massivement parallèle CanoP (codes)
-
-CanoP - p4est - CEA - Maison de la Simulation
-Application plasmas partiellement ionisé (NASA / VKI), Ecoulements diphasiques pour les moteurs à combustion interne et génie nucléaire (IFPEN / CEA) et la propulsion électrique (LPP)
-
-Film Florence - film Louis - film Quentin
