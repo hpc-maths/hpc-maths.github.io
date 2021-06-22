@@ -9,9 +9,9 @@ calcul scientifique et calcul haute performance (HPC).
 
 L'objectif est de proposer un nouvelle gamme de modèles unifiés pour l'injection diphasique (par exemple d'un carburant liquide dans une chambre de combustion) depuis l'injecteur jusqu'à la zone dispersée où va se produire évaporation et combustion, sachant que les régimes de combustion dépendent de la granulométrie des brouillards de gouttes produits et qu'il faut donc décire.
 
-Dans la lignée de plusieurs thèses (F. Drui, M. Essadki, P. Cordesse) et dans le cadre d'une collaboration forte avec l'ONERA, le CEA et IFPEN, deux thèse viennent d'être ou sont en cours de soutenance (R. Di Battista, A. Remigi - collaboration CORIA) et deux thèses ont démarré sur le sujet A. Loison et W. Haegeman. Il s'agit de construire des modèles de type phase séparées (multi-fluides) avec modélisation de sous-échelle impliquant des variables géométriques et de s'appuyer sur le principe de l'actions stationnaire, le second principe de la thermodynamique et des outils de géométrie algorithmique permettant des analyses de DNS d'écoulements interfaciaux.
+Dans la lignée de plusieurs thèses (F. Drui, M. Essadki, P. Cordesse) et dans le cadre d'une collaboration forte avec l'ONERA, le CEA et IFPEN, deux thèse viennent d'être ou sont en cours de soutenance (R. Di Battista, A. Remigi - collaboration CORIA) et deux thèses ont démarré sur le sujet A. Loison et W. Haegeman. Il s'agit de construire des modèles de type phase séparées (multi-fluides) avec modélisation de sous-échelle impliquant des variables géométriques et de s'appuyer sur le principe de l'actions stationnaire, le second principe de la thermodynamique et des outils de géométrie algorithmique permettant des analyses de DNS d'écoulements interfaciaux (Code Mercru(v)e Ruben Di Battista).
 Il s'agit aussi d'étudier la structure mathématique des systèmes d'EDP produits par ces techniques afin d'en assurer le caractère bien posé.
-Cet axe de recherche est très présent dans le projet AID DGA MMEED (Pi. M. Massot) et permet une connexion entre tous ces acteurs. Une gamme de plusieurs code de calcul (Josiepy, CanoP, Mercur(v)e, SAMURAI - lien codes) et une articulation avec le code CEDRE de l'ONERA ont été développées.
+Cet axe de recherche est très présent dans le projet AID DGA MMEED (Pi. M. Massot) et permet une connexion entre tous ces acteurs. Une gamme de plusieurs code de calcul (Josiepy, CanoP, Mercur(v)e, SAMURAI - voir la section codes) et une articulation avec le code CEDRE de l'ONERA ont été développées.
 
 ### Méthodes de moments pour la modélisation des brouillards de gouttes polydispersés
 
@@ -75,19 +75,9 @@ Cette thématique a été initiée autour de la thèse de Louis Reboul pour des 
 
 ### Méthodes de volumes finis et prise en compte de produits non-conservatifs
 
-Quentin
+Issu de la modélisation fluide des plasmas multi-composants hors équilibre thermique, des équations mixtes-hyperboliques paraboliques avec présence de produits non conservatifs sur l'énergie des électrons pose depuis longtemps des soucis en termes de définition des conditions de saut et des schémas numériques pour leur résolution. Une approche originale s'appuyant sur une dérivation détaillée à partir de la théorie cinétique des gaz dans un scaling mixte hyperbolique-parabolique, permet une évaluation des conditions de saut et la construction de schémas adaptés avec application en physique solaire (Collaboration NASA / VKI - PhD Q. Wargnier).
 
-### Méthode d'apprentissage pour la modélisation et la simulations d'équations aux dérivées partielles
 
-JB
-
-### Géométrie algorithmique et reconstruction de propriétés géométriques d'une interface (courbure)
-
-film Mercru(v)e Ruben
-
-### Schéma Lagrange-projection pour les écoulements diphasiques
-
-Samuel - Katia - Marica - Teddy
 
 ## Calcul scientifique et Calcul haute performance (HPC)
 
