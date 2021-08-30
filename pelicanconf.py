@@ -50,9 +50,9 @@ MENUITEMS = [('Présentation', '/index.html'),
              ("Ressources", '/pages/ressources.html'),
 ]
 
-LOGOS = os.listdir('content/images/logo')
-LOGOS.sort()
-LOGOS_NCOLS = 3
-LOGOS_NROWS = math.ceil(len(LOGOS)/LOGOS_NCOLS)
-print(len(LOGOS))
-print(LOGOS)
+# LOGOS = os.listdir('content/images/logo')
+# LOGOS.sort()
+# LOGOS_NCOLS = 3
+# LOGOS_NROWS = math.ceil(len(LOGOS)/LOGOS_NCOLS)
+# print(len(LOGOS))
+# print(LOGOS)

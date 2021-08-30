@@ -1,6 +1,76 @@
 title: Enseignement
 
-Un ensemble d'enseignements a été créé afin de former les étudiants au domaine de l'analyse numérique et du HPC dans le but de les amener au plus près des compétences nécessaires à l'innovation dans ce domaine riche et en pleine évolution. 
+<section id="enseignement" class="enseignement">
+<h1 class="page_title">Enseignement et offre de cours</h1>
+
+<div class="container" data-aos="fade-up">
+<p class="well">Un ensemble d'enseignements a été créé afin de former les étudiants au domaine de l'analyse numérique et du HPC dans le but de les amener au plus près des compétences nécessaires à l'innovation dans ce domaine riche et en pleine évolution.</p>
+    <div class="row course_box">
+    <div class="col-lg-8">
+        <div class="course_title bg1">
+        <h2 class="section_title">MAP412 <br>
+            COURS DE 2A D'INGÉNIEURS</h2>
+        </div>
+        <h3 class="subtitle">INTRODUCTION À L'ANALYSE NUMÉRIQUE : DES FONDEMENTS MATHÉMATIQUES À L’EXPÉRIMENTATION AVEC JUPYTER</h3>
+        <p class="text">Lorsque l’on souhaite modéliser et simuler un problème réel (qu’il s’agisse de dynamique des populations en écologie, de la croissance tumorale en ingénierie biomédicale, de la dynamique de la combustion dans les nouvelles générations de moteurs fusées – par exemple à SpaceX, de la prédiction des tempêtes solaires et des phénomènes de reconnexion magnétique en physique solaire, de la simulation de la turbulence et de la combustion turbulente en mécanique des fluides) l’ingénieur ou le chercheur en mathématiques appliquées ou en « computational science » doit faire appel à une palette de méthodes numériques qu’il doit savoir analyser mathématiquement, évaluer en termes de qualité et d’efficacité computationnelle et, finalement, implémenter.</p>
+        <p>Ce cours propose une introduction à l’analyse numérique, partant des fondements mathématiques sur lesquels les méthodes numériques reposent et allant jusqu’à l’implémentation et l’emploi de ces méthodes sur la base de notebooks Jupyter en passant par la compréhension de leur efficacité numérique. Le lien est fait avec les applications afin de comprendre l’étendue de l’utilisation de ce type de méthode d’un point de vue pratique. Les implémentations de ces méthodes dans des bibliothèques numériques existantes sont aussi documentées.</p>
+    </div>
+    <div class="col-lg-4">
+        <div class="course-info">
+        <ul class="list_item">
+            <strong>Ce cours est porté par :</strong>
+            <li>M. Massot (CMAP)</li>
+            <li>L. Séries (CMAP)</li>
+            <li>M. Breden (CMAP)</li>
+            <li>T. Pichard (CMAP)</li>
+        </ul>
+        </div>
+    </div>
+    </div>
+
+    <div class="row course_box">
+    <div class="col-lg-8">
+        <div class="course_title bg2">
+        <h2 class="section_title">research course
+            </h2>
+        </div>
+        <h3 class="subtitle">INTRODUCTION TO SOLVING PDES WITH MACHINE LEARNING</h3>
+        <p class="text">Solving partial differential equations is an engineer’s bread and butter. Classical discretization techniques such as finite-difference or finite-volume are powerful methods for the numerical solution of PDEs, however, their reliance on robust and efficient mesh generation often presents difficulties in solution convergence or necessitates enormous computational resources to obtain an accurate solution. In this lecture, an alternative method based on a statistical machine learning approach will be presented, which yields a continuous, differentiable, and meshless representation of the hidden PDE solution. The topics covered will include machine learning basics, foundations in neural networks, and PDE solution techniques with neural networks. Following the lecture, a practical session on solving PDEs will be presented using the Tensorflow library and Jupyter notebooks with Google Colab. All lecture slides and Jupyter notebooks will be available after the lecture.</p>
+    </div>
+    <div class="col-lg-4">
+        <div class="course-info">
+        <ul class="list_item">
+            <strong>Ce cours est porté par :</strong>
+            <li>JB. Scoggins (CMAP - NASA)</li>
+        </ul>
+        </div>
+    </div>
+    </div>
+
+<div class="row course_box">
+    <div class="col-lg-8">
+        <div class="course_title bg3">
+        <h2 class="section_title">autres cours
+            </h2>
+        </div>
+        <h3 class="subtitle">Les autres cours portés par des membres de l'initiative à divers niveaux.</h3>
+<p>Plusieurs autres cours sont portés par des membres de l'initiative à divers niveaux. Un Cours de Master 1 (AMS CS1) en collaboration avec CentraleSupélec porte sur les "Méthodes de Moments dérivées d’une équation cinétique". Un cours de 2A de bachelor (MAA208) sur "Numerical linear algebra" est porté par T. Pichard en particulier. T. Pichard participe aussi aux MODAL MAP471A "Problem solving en mathématiques appliquées" et MODAL MAP472A "Modélisation mathématique par la démarche expérimentale".</p>
+    </div>
+            <div class="col-lg-4">
+        <div class="course-info">
+
+        <p><strong>Une implication sur les "Projet scientifique collaboratif (PSC)" est aussi coordonnée par T. Pichard et des projets sont proposés dans le cadre de l'intiative</strong></p>
+
+
+        </div>
+    </div>
+    </div>
+
+</div>
+</section>
+
+<!--
+Un ensemble d'enseignements a été créé afin de former les étudiants au domaine de l'analyse numérique et du HPC dans le but de les amener au plus près des compétences nécessaires à l'innovation dans ce domaine riche et en pleine évolution.
 
 ## MAP412 - Cours de 2A d'ingénieurs
 ### Introduction à l'Analyse Numérique : des fondements mathématiques à l’expérimentation avec Jupyter
@@ -28,7 +98,7 @@ Les domaines sur lesquels le cours donnera une expertise sont : analyse mathéma
 
 Ce cours est porté par M. Massot, M. Breden et L. Séries (CMAP).
 
- 
+
 ## MAP586 - Enseignement d'approfondissement de 3A
 ### Algorithmes et principes de conception logicielle pour les mathématiques appliquées en C++ moderne
 
@@ -70,24 +140,24 @@ proposées.
 Ce cours est porté par L. Séries (CMAP) et M. Massot (CMAP)
 
 ## Research Course
-### [Introduction to Solving PDEs with Machine Learning](https://jbscoggi.github.io/website/talks/2020-01-27-short_course/) 
+### [Introduction to Solving PDEs with Machine Learning](https://jbscoggi.github.io/website/talks/2020-01-27-short_course/)
 
 Solving partial differential equations is an engineer’s bread and butter. Classical discretization techniques such as finite-difference or finite-volume are powerful methods for the numerical solution of PDEs, however, their reliance on robust and efficient mesh generation often presents difficulties in solution convergence or necessitates enormous computational resources to obtain an accurate solution. In this lecture, an alternative method based on a statistical machine learning approach will be presented, which yields a continuous, differentiable, and meshless representation of the hidden PDE solution. The topics covered will include machine learning basics, foundations in neural networks, and PDE solution techniques with neural networks. Following the lecture, a practical session on solving PDEs will be presented using the Tensorflow library and Jupyter notebooks with Google Colab. All lecture slides and Jupyter notebooks will be available after the lecture.
 
-Ce cours est porté par J.B. Scoggins (CMAP/NASA) 
+Ce cours est porté par J.B. Scoggins (CMAP/NASA)
 
 ## Research Course
-### [Moment Closure Methods for Kinetic Equations of Complex Transport Phenomena and their Numerical Solution](http://arrow.utias.utoronto.ca/~groth/moment-closure-course/index.html) 
+### [Moment Closure Methods for Kinetic Equations of Complex Transport Phenomena and their Numerical Solution](http://arrow.utias.utoronto.ca/~groth/moment-closure-course/index.html)
 
 Moment closure methods are considered for kinetic equations governing a range of complex transport phenomena, including non-equilibrium, rarefied, gaseous flow phenomena as described by the Boltzmann kinetic equation, multi-phase poly-disperse spray behaviour described by the Williams-Boltzmann equation, and radiative heat transfer in non-gray, participating media as described by the radiative transfer equation. Moment closure methods offer a means of significant complexity reduction when constructing approximate solutions to such high-dimensional equations, providing a good compromise between computational efficiency and accuracy for many practical engineering applications. Closure techniques based on classical Grad-type methods, maximum-entropy considerations, as well as quadrature formulations will all be considered. The numerical solution of the resulting systems of hyperbolic moment equations that result from the moment closure strategy will also be examined.
 
 Ce cours est porté par C. Groth (UTIAS, University of Toronto) dans le cadre d'un fellowship "Gaspard Monge Visiting Professor" de l'École polytechnique (2020-2021).
 
 
-## Autres cours 
+## Autres cours
 
 
 Plusieurs autres cours sont portés par des membres de l'initiative à divers niveaux. Un Cours de Master 1 (AMS CS1) en collaboration avec CentraleSupélec porte sur les "Méthodes de Moments dérivées d’une équation cinétique". Un cours de 2A de bachelor (MAA208) sur "Numerical linear algebra" est porté par T. Pichard en particulier. T. Pichard participe aussi aux MODAL MAP471A
-"Problem solving en mathématiques appliquées" et 
+"Problem solving en mathématiques appliquées" et
 MODAL MAP472A "Modélisation mathématique par la démarche expérimentale". Une implication sur les "Projet scientifique collaboratif (PSC)" est aussi coordonnée par T. Pichard et des projets sont proposés dans le cadre de l'intiative.
-
+ -->

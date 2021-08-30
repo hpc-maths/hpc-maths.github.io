@@ -1,30 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% if page.title == 'Partenaires' %}
+{% if page.title == 'Partenaires' %}
 
-    <section id="hero" class="hero">
-        <div class="container" data-aos="fade-up">
-            <div class="container">
-                {% for irow in range(LOGOS_NROWS) %}
-                    <div class='row justify-content-center align-items-center'>
-                        {% for icol in range(LOGOS_NCOLS) %}
-                            {% if (irow*3 + icol) < (LOGOS|length) %}
-                                <div class='col-md-4 py-4 text-center'>
-                                    <img src='../images/logo/{{LOGOS[irow*3+icol]}}'/>
-                                </div>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-    {% endif %}
+{% endif %}
 
-    <section id="hero" class="hero">
-        <div class="container" data-aos="fade-up">
-            {{page.content}}
-        </div>
-    </section>
+<section id="hero" class="hero">
+    <div class="container" data-aos="fade-up">
+        {{page.content}}
+    </div>
+</section>
 {% endblock content %}
