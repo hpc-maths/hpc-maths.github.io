@@ -47,9 +47,58 @@ title: pylbm
 <div class="container">
     <p class="well"  data-aos="fade-down">Les autres codes proposés</p>
     <div class="row justify-content-center">
-    <div class="img_link" data-aos="fade-right" data-aos-delay="100"><a href="mercurve.html"><img class="img-fluid" src="../images/codes/mercurve/thumb_mercurve.png" alt=""/></a> </div>
-    <div class="img_link" data-aos="fade-up" data-aos-delay="200" ><a href="pylbm.html"><img class="img-fluid" src="../images/codes/pylbm/thumb_pylbm.png" alt=""/></a></div>
-    <div class="img_link" data-aos="fade-left" data-aos-delay="300" ><a  href="samurai.html"><img class="img-fluid" src="../images/codes/samurai/thumb_samurai.png" alt=""/></a></div>
+        <a href="josiepy.html" class="code-thumb row">
+            <div class="code-title col">
+                <h1>
+                    josiepy
+                </h1>
+                <h2>
+                    Méthodes volumes finis en Python
+                </h2>
+            </div>
+            <div class="code-image col">
+                <img class="img-fluid" src="../images/codes/josiepy/logo_josiepy.png" alt=""/>
+            </div>
+        </a>
+        <a href="mercurve.html"  class="code-thumb row">
+            <div class="code-title col">
+                <h1>
+                    mercurve
+                </h1>
+                <h2>
+                    Outils de post-traitement
+                </h2>
+            </div>
+            <div class="code-image col">
+                <img class="img-fluid" src="../images/codes/mercurve/logo_mercurve.png" alt=""/>
+            </div>
+        </a>
+        <!-- <a href="pylbm.html" class="code-thumb row">
+            <div class="code-title col">
+                <h1>
+                    pylbm
+                </h1>
+                <h2>
+                    Lattice Boltzmann methods
+                </h2>
+            </div>
+            <div class="code-image col">
+                <img class="img-fluid" src="../images/codes/pylbm/logo_pylbm.png" alt=""/>
+            </div>
+        </a> -->
+        <a href="samurai.html"  class="code-thumb row">
+            <div class="code-title col">
+                <h1>
+                    samurai
+                </h1>
+                <h2>
+                    Adaptation de maillage
+                </h2>
+            </div>
+            <div class="code-image col">
+                <img class="img-fluid" src="../images/codes/samurai/logo_samurai.png" alt=""/>
+            </div>
+        </a>
     </div>
 </div>
 </section>

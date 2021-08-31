@@ -8,8 +8,24 @@ title: codes
         <!-- ++++++ Code feature ++++++ -->
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="code">
-            <div class="code-img"> <img src="../images//codes/josiepy/thumb_josiepy.png" class="img-fluid" alt="">
-              <div class="social"><a href="https://gitlab.com/rubendibattista/josiepy" class="github"><i class="bx bxl-github"></i></a><a href="https://josiepy.rdb.is" class="readdoc"><i class="bx bx-file"></i></a> </div>
+            <div class="code-img">
+              <div class="row align-items-baseline m-0">
+              <div class="code-title col">
+                  <h1>
+                      josiepy
+                  </h1>
+                  <h2>
+                      Méthodes volumes finis en Python
+                  </h2>
+              </div>
+              <div class="code-image col">
+                  <img class="img-fluid" src="../images/codes/josiepy/logo_josiepy.png" alt=""/>
+              </div>
+                <div class="social">
+                  <a href="https://gitlab.com/rubendibattista/josiepy" class="github"><i class="bx bxl-github"></i></a>
+                  <a href="https://josiepy.rdb.is" class="readdoc"><i class="bx bx-file"></i></a>
+                </div>
+              </div>
             </div>
             <div class="code-info">
               <h3>josiepy</h3>
@@ -23,8 +39,24 @@ title: codes
         <!-- ++++++ Code feature ++++++ -->
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="code">
-            <div class="code-img"> <img src="../images//codes/mercurve/thumb_mercurve.png" class="img-fluid" alt="">
-              <div class="social"><a href="https://gitlab.com/rubendibattista/mercurve" class="github"><i class="bx bxl-github"></i></a><a href="https://docs.mercurve.rdb.is" class="readdoc"><i class="bx bx-file"></i></a></div>
+            <div class="code-img">
+              <div class="row align-items-baseline m-0">
+              <div class="code-title col">
+                  <h1>
+                      mercurve
+                  </h1>
+                  <h2>
+                      Outils de post-traitement
+                  </h2>
+              </div>
+              <div class="code-image col">
+                  <img class="img-fluid" src="../images/codes/mercurve/logo_mercurve.png" alt=""/>
+              </div>
+                <div class="social">
+                  <a href="https://gitlab.com/rubendibattista/mercurve" class="github"><i class="bx bxl-github"></i></a>
+                  <a href="https://docs.mercurve.rdb.is" class="readdoc"><i class="bx bx-file"></i></a>
+                </div>
+              </div>
             </div>
             <div class="code-info">
               <h3>mercurve</h3>
@@ -38,8 +70,24 @@ title: codes
         <!-- ++++++ Code feature ++++++ -->
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="code">
-            <div class="code-img"> <img src="../images//codes/pylbm/thumb_pylbm.png" class="img-fluid" alt="">
-              <div class="social"><a href="https://github.com/pylbm/pylbm" class="github"><i class="bx bxl-github"></i></a><a href="https://pylbm.readthedocs.io/" class="readdoc"><i class="bx bx-file"></i></a></div>
+            <div class="code-img">
+              <div class="row align-items-baseline m-0">
+              <div class="code-title col">
+                  <h1>
+                      pylbm
+                  </h1>
+                  <h2>
+                      Lattice Boltzmann methods
+                  </h2>
+              </div>
+              <div class="code-image col">
+                  <img class="img-fluid" src="../images/codes/pylbm/logo_pylbm.png" alt=""/>
+              </div>
+                <div class="social">
+                  <a href="https://github.com/pylbm/pylbm" class="github"><i class="bx bxl-github"></i></a>
+                  <a href="https://pylbm.readthedocs.io/" class="readdoc"><i class="bx bx-file"></i></a>
+                </div>
+              </div>
             </div>
             <div class="code-info">
               <h3>pylbm</h3>
@@ -53,12 +101,28 @@ title: codes
         <!-- ++++++ Code feature ++++++ -->
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="code">
-            <div class="code-img"> <img src="../images//codes/samurai/thumb_samurai.png" class="img-fluid" alt="">
-              <div class="social"><a href="https://github.com/hpc-maths/samurai" class="github"><i class="bx bxl-github"></i></a><a href="https://hpc-math-samurai.readthedocs.io" class="readdoc"><i class="bx bx-file"></i></a></div>
+            <div class="code-img">
+              <div class="row align-items-baseline m-0">
+              <div class="code-title col">
+                  <h1>
+                      samurai
+                  </h1>
+                  <h2>
+                      Adaptation de maillage
+                  </h2>
+              </div>
+              <div class="code-image col">
+                  <img class="img-fluid" src="../images/codes/samurai/logo_samurai.png" alt=""/>
+              </div>
+                <div class="social">
+                  <a href="https://github.com/hpc-maths/samurai" class="github"><i class="bx bxl-github"></i></a>
+                  <a href="https://hpc-math-samurai.readthedocs.io" class="readdoc"><i class="bx bx-file"></i></a>
+                </div>
+              </div>
             </div>
             <div class="code-info">
               <h3>samurai</h3>
-              <p>L'objectif principal de <span class="glossary_link">Samoura&iuml;</span> est de fournir une nouvelle structure de données basée sur les intervalles et l'algèbre d'ensembles pour traiter efficacement les méthodes de raffinement de maillage adaptatif basées sur une grille cartésienne. Une telle approche doit être suffisamment polyvalente pour traiter les méthodes AMR et multi-résolution. La plupart des structures de </p>
+              <p>L'objectif principal de <span class="glossary_link">Samurai</span> est de fournir une nouvelle structure de données basée sur les intervalles et l'algèbre d'ensembles pour traiter efficacement les méthodes de raffinement de maillage adaptatif basées sur une grille cartésienne. Une telle approche doit être suffisamment polyvalente pour traiter les méthodes AMR et multi-résolution. La plupart des structures de </p>
             </div>
             <div class="d-flex justify-content-center"> <a href="samurai.html">
               <div class="btn_more"><span>En savoir +</span><i class="point"></i><i class="point"></i><i class="point"></i></div>

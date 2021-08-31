@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-/** 
+/**
 /*THEME Design
 * Template Name: hpc@maths - v1.1
 * Author : L.LE GAL - CPM - ECOLE POLYTECHNIQUE
@@ -258,7 +258,7 @@ i.bx.bx-chevron-up {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -377,7 +377,7 @@ i.bx.bx-chevron-up {
   }
 }
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #509ab8;
@@ -571,7 +571,7 @@ h3.subtitle {
   opacity: 0.5;
 }
 
-h4 {  
+h4 {
   color: #003e5c;
   font-family: shackleton, serif;
   font-weight: 500;
@@ -591,7 +591,7 @@ hr.separateur {
   padding: 30px;
   overflow: hidden;
   border-radius: 30px;
-	
+
 }
 .bandeau_img {
   float: left;
@@ -806,14 +806,10 @@ h3.title {
   /*box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);*/
   padding: 2em 1em;
 }
-.feature .code .code-img {
-  position: relative;
-  overflow: hidden;
-  border: 2px solid #e2a854;
-}
+
 .feature .code .social {
   position: absolute;
-  left: 4px;
+  /* left: 4px; */
   bottom: 30px;
   top: 35%;
   /* right: 0; */
@@ -838,7 +834,7 @@ h3.title {
 }
 .feature .code .social a:hover {
    color: #003e5c;
- 
+
 }
 .feature .code .social i {
   font-size: 18px;
@@ -914,6 +910,90 @@ h3.title {
 
 #autresCodes img {
   border: 2px solid #e2a854;
+}
+
+.code-thumb {
+  align-items: baseline;
+  border: 2px solid #e2a854;
+  width: 175px;
+  height: 83px;
+  background-color: #003e5c;
+  padding: 0px;
+  margin: 0   1em 2em
+}
+
+.code-img {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #e2a854;
+  background-color: #003e5c;
+  padding: 0px;
+}
+
+.code-title
+{
+  text-align: center;
+  padding: 0px;
+  height:100%;
+}
+
+.code-title h1
+{
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 12px;
+  color: white;
+  margin-bottom: .3rem;
+}
+
+.code-title h2
+{
+  text-transform: none;
+  font-size: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #e2a854;
+}
+
+@media(min-width:767px)
+{
+  .code-img .code-title h1
+  {
+    font-size: 18px;
+  }
+
+  .code-img .code-title h2
+  {
+    font-size: 10px;
+  }
+}
+
+@media(max-width:767px)
+{
+  .code-img .code-title h1
+  {
+    font-size: 30px;
+  }
+
+  .code-img .code-title h2
+  {
+    font-size: 16px;
+  }
+}
+
+.code-image
+{
+  padding: 0px;
+  height:100%;
+  text-align: center;
+  background-color: white;
+}
+
+.code-image img
+{
+  border: 0px !important;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -1365,7 +1445,7 @@ h2 .huge {display: inline-block;
   border-bottom: 1px solid #e2a854;
   margin-bottom: 10px;
   padding-bottom: 10px;
-  
+
 }
 
 .theme .theme-list .axe {
@@ -1415,13 +1495,13 @@ h2 .huge {display: inline-block;
   transition: 0.6s;
 }
 
-.theme .recherche_img {  
+.theme .recherche_img {
 
   float: right;
  margin:10px 0 10px 30px;
   width:150px;
   height:150px;
-	
+
   border:2px solid #e2a854;
 
 
@@ -1515,7 +1595,7 @@ background-color: #F1f1f1;
   position: relative;
   padding-bottom: 12px;
   text-align: left;
-  
+
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
