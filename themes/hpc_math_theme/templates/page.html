@@ -6,6 +6,9 @@
     {% if page.title == "codes" %}
         {% import 'codes.html' as page_template with context %}
         {{ page_template.content(pages) }}
+    {% elif page.title == "members" %}
+        {% import 'members.html' as page_template with context %}
+        {{ page_template.content(pages) }}
     {% else %}
         {% if page.category == "code" %}
             {% import 'code.html' as page_template with context %}

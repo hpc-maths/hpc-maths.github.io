@@ -1,0 +1,53 @@
+{% macro content(pages) %}
+    <section id="membres" class="page membres">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="page_title">Les membres de l'initiative</h1>
+        </div>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="100">
+                <ul id="portfolio-flters">
+                    <li data-filter=".filter_researcher">
+                        <div class="btn_portfolio"><span class="btn_title">Chercheurs</span></div>
+                    </li>
+                    <li data-filter=".filter_engineer">
+                        <div class="btn_portfolio"><span class="btn_title">Ingénieurs</span></div>
+                    </li>
+                    <li data-filter=".filter_phd">
+                        <div class="btn_portfolio"><span class="btn_title">Doctorants</span></div>
+                    </li>
+                    <li data-filter=".filter_postdoc">
+                        <div class="btn_portfolio"><span class="btn_title">Postdocs</span></div>
+                    </li>
+                    <li data-filter="*" class="filter-active">
+                        <div class="btn_portfolio"><span class="btn_title">Tous</span></div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--****************************PORTFOLIO************************************-->
+
+            <div class="row portfolio-container">
+                {%for p in pages %}
+                    {% if p.category == 'member' %}
+                        <div class="filter_{{p.position}} portfolio-item col-lg-3 col-md-4 col-sm-6">
+                            <div class=" member_card">
+                                <a href="#">
+                                    <h2>
+                                        <span class="nom"> {{ p.lastname }} </span>
+                                        <br>
+                                        <span class="prenom"> {{ p.firstname }} </span>
+                                    </h2>
+                                    <div class="member_photo"> <img src="{{ p.image }}" class="img-fluid" alt=""></div>
+                                    <div class="member_infos">
+                                        <h3 class="fonction"> {{ p.fonction }} </h3>
+                                        {{ p.content }}
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endmacro %}

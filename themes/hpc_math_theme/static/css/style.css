@@ -1045,14 +1045,14 @@ padding:1em;
 clear: both;
 }
 
-.course_title.bg1 h2{background:#eef7fd url("../img/membres/background_card_2.png");
+.course_title.bg1 h2{background:#eef7fd url("../img/background_card_2.png");
 background-repeat: no-repeat; }
 
-.course_title.bg2 h2{background:#fdfbf8 url("../img/membres/background_card.png");
+.course_title.bg2 h2{background:#fdfbf8 url("../img/background_card.png");
 background-repeat: no-repeat;}
 
 
-.course_title.bg3 h2{background:#fbfbfb url("../img/membres/background_card_3.png");
+.course_title.bg3 h2{background:#fbfbfb url("../img/background_card_3.png");
 background-repeat: no-repeat;}
 
 
@@ -1227,15 +1227,15 @@ padding:5em;
   border: 2px solid #003e5c;
 }
 .member_card {
- background: #fff url("../img/membres/background_card_2.png") no-repeat;
-background-size: contain;
-background-repeat: no-repeat;
-padding:1em;
-margin: 1em auto;
-box-shadow: 0px 5px 5px rgba(127, 137, 161, 0.5);
+  background: #fff url("../img/background_card_2.png") no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding:1em;
+  margin: 1em auto;
+  box-shadow: 0px 5px 5px rgba(127, 137, 161, 0.5);
 }
 .member_card:hover {
- background: #fff url("../img/membres/background_card.png") no-repeat;
+ background: #fff url("../img/background_card.png") no-repeat;
 background-size: contain;
 background-repeat: no-repeat;
   cursor: pointer;
@@ -1278,6 +1278,9 @@ box-shadow: 0px 5px 5px rgba(127, 137, 161, 0);
   font-size: 12px;
   opacity: 0.5;
   text-align: center;
+}
+.member_infos {
+  height: 125px;
 }
 .member_infos p {
   text-align: center;
