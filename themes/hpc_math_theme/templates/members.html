@@ -5,7 +5,7 @@
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="100">
-                <ul id="portfolio-flters">
+                <ul id="portfolio-filters">
                     <li data-filter=".filter_researcher">
                         <div class="btn_portfolio"><span class="btn_title">Chercheurs</span></div>
                     </li>
@@ -16,7 +16,10 @@
                         <div class="btn_portfolio"><span class="btn_title">Doctorants</span></div>
                     </li>
                     <li data-filter=".filter_postdoc">
-                        <div class="btn_portfolio"><span class="btn_title">Postdocs</span></div>
+                        <div class="btn_portfolio"><span class="btn_title">Post doctorants</span></div>
+                    </li>
+                    <li data-filter=".filter_valo">
+                        <div class="btn_portfolio"><span class="btn_title">Valoristion et management</span></div>
                     </li>
                     <li data-filter="*" class="filter-active">
                         <div class="btn_portfolio"><span class="btn_title">Tous</span></div>
@@ -31,9 +34,9 @@
                     {% if p.category == 'member' %}
                         <div class="filter_{{p.position}} portfolio-item col-lg-3 col-md-4 col-sm-6">
                             <div class=" member_card">
-                                <a href="#">
+                                {# <a href="#"> #}
                                     <h2>
-                                        <span class="nom"> {{ p.lastname }} </span>
+                                        <span class="lastname"> {{ p.lastname }} </span>
                                         <br>
                                         <span class="prenom"> {{ p.firstname }} </span>
                                     </h2>
@@ -42,7 +45,7 @@
                                         <h3 class="fonction"> {{ p.fonction }} </h3>
                                         {{ p.content }}
                                     </div>
-                                </a>
+                                {# </a> #}
                             </div>
                         </div>
                     {% endif %}
