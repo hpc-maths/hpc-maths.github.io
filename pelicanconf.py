@@ -18,7 +18,7 @@ OUTPUT_PATH = 'public/'
 
 # Plugins
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'code_directive']
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 I18N_TEMPLATES_LANG = 'fr'

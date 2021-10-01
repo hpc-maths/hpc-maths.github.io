@@ -1,0 +1,53 @@
+{% macro content(page) %}
+{% set list1 = page.content.split('<break>') %}
+    <section class="page code">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="page_title">Logiciel {{page.title}}</h1>
+        </div>
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+                    {{ list1[0] }}
+                    <!-- {{ list1[1] }} -->
+                </div>
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100"> <img src="{{page.logo}}" class="img-fluid
+                    img_logo_code" alt="">
+                    <div class="codes_link">
+                        <div class="codedoc"> <a href="{{page.source}}" class="github"> <i
+                                    class="bi bi-github float-lg-start"></i>
+                                <div> <span class="title">Code</span><br>
+                                    <span class="url">{{page.source}}</span>
+                                </div>
+                            </a> </div>
+                        <div class="codedoc"> <a href="{{page.documentation}}" class="readdoc"><i
+                                    class="bi bi-file-text-fill float-lg-start"></i>
+                                <div class=""> <span class="title">Documentation</span><br>
+                                    <span class="url">{{page.documentation}}</span>
+                                </div>
+                            </a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="separateur">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                {% if page.illustration is defined %}
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="{{ page.illustration }}" class="img-fluid picture" alt="">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                    {{ list1[1] }}
+                </div>
+                {% else %}
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                    {{ list1[1] }}
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                    {{ list1[2] }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    {% endmacro %}

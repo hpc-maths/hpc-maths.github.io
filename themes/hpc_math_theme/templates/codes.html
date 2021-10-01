@@ -1,0 +1,56 @@
+{% macro content(pages) %}
+
+
+
+<section id="code" class="feature">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h1 class="page_title">Les codes proposés</h1>
+        <div class="row">
+            {%for p in pages %}
+                {% if p.category == 'code' %}
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="code">
+                            <div class="code-img">
+                                <div class="row align-items-baseline m-0">
+                                    <div class="code-title col">
+                                        <h1>
+                                            {{ p.title }}
+                                        </h1>
+                                        <h2>
+                                            {{ p.subtitle }}
+                                        </h2>
+                                    </div>
+                                    <div class="code-image col">
+                                        <img class="img-fluid" src="{{p.logo }}" alt=""/>
+                                    </div>
+                                    <div class="social">
+                                        <a href="{{ p.source }}" class="github"><i class="bx bxl-github"></i></a>
+                                        <a href="{{ p.documentation }}" class="readdoc"><i class="bx bx-file"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="code-info">
+                                <h3> {{ p.title }}</h3>
+                                <p>
+                                    {{ p.description }}
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <a href="{{ SITEURL }}/{{ p.url }}">
+                                    <div class="btn_more">
+                                        <span>En savoir +</span>
+                                        <i class="point"></i>
+                                        <i class="point"></i>
+                                        <i class="point"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endmacro %}

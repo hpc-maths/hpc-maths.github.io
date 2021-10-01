@@ -586,6 +586,13 @@ hr.separateur {
 
 }
 /*+++BANDEAU++++*/
+.highlights {
+  background: #e4e4e4;
+  padding: 30px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
 .bandeau {
   background: #e4e4e4;
   padding: 30px;
@@ -697,6 +704,28 @@ ul.list_item.bandeau li {
 }
 /*puces*/
 ul.list_item li::before {
+  font-family: "bootstrap-icons";
+  content: "\f287";
+  margin-right: 10px;
+  color: #e2a854;
+  margin-left: -1.5em;
+  font-size: 0.8em;
+}
+
+ul.simple li {
+  display: block;
+  text-decoration: none;
+  border: none;
+  text-transform: none;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+/*  margin-left: -1em;*/
+}
+blockquote.highligths ul.simple li {
+  margin-left: 1em;
+}
+
+ul.simple li::before {
   font-family: "bootstrap-icons";
   content: "\f287";
   margin-right: 10px;
@@ -877,6 +906,11 @@ h3.title {
   padding: 3em;
   border: 2px solid #e2a854;
   margin-top: 3em;
+}
+.code strong{
+  font-size: 15px;
+  font-weight: 600;
+  color: #e2a854;
 }
 .codes_link i {
   font-size: 2.2em;

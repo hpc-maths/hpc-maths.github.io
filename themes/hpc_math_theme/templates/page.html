@@ -1,13 +1,46 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% if page.title == 'Partenaires' %}
-
-{% endif %}
-
 <section id="hero" class="hero">
     <div class="container" data-aos="fade-up">
-        {{page.content}}
+    {% if page.title == "codes" %}
+        {% import 'codes.html' as page_template with context %}
+        {{ page_template.content(pages) }}
+    {% else %}
+        {% if page.category == "code" %}
+            {% import 'code.html' as page_template with context %}
+            {{ page_template.content(page) }}
+
+            <section id="autresCodes" class="section-bg">
+                <div class="container">
+                    <p class="well" data-aos="fade-down">Les autres codes proposés</p>
+                    <div class="row justify-content-center">
+                        {% for p in pages %}
+                        {% if p.category == 'code' and p.url != page.url %}
+                        <a href="{{ SITEURL }}/{{ p.url }}" class="code-thumb row">
+                            <div class="code-title col">
+                                <h1>
+                                    {{ p.title }}
+                                </h1>
+                                <h2>
+                                    {{ p.subtitle }}
+                                </h2>
+                            </div>
+                            <div class="code-image col">
+                                <img class="img-fluid" src="{{ p.logo }}" alt="" />
+                            </div>
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+        {% else %}
+            {{page.content}}
+        {% endif %}
+    {% endif %}
     </div>
 </section>
+
 {% endblock content %}
