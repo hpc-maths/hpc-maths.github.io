@@ -1,7 +1,7 @@
 title: saux
 firstname: Marine
 lastname: Saux
-fonction: responsable valorisation
+fonction: Manager de projet
 category: member
 position: valo
 image: ../images/membres/saux.jpg
