@@ -38,7 +38,9 @@
                     </div>
                 </div>
             </section>
-
+        {% elif page.category == "member" %}
+            {% import 'member.html' as page_template with context %}
+            {{ page_template.content(page) }}
         {% else %}
             {{page.content}}
         {% endif %}
