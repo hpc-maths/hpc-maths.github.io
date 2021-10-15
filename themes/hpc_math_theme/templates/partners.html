@@ -1,0 +1,78 @@
+{% macro description_content(group) %}
+    <div class="col-lg-6">
+        <div class="portfolio-description">
+            <h2 class="section_title text-left">{{ PARTNERS[group]['title'] }}</h2>
+            <p>
+                {% set partners_list = [] %}
+                {% for k, v in PARTNERS[group]['list'].items() %}
+                    {% set partners_list = partners_list.append('<a class="partenaire-link" href="' + v['url'] + '"> ' + k.upper() + ' </a>') %}
+                {% endfor %}
+                {{ partners_list|join('|') }}
+            </p>
+            <p class="partenaire-description">
+                {{ PARTNERS[group]['description']}}
+            </p>
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro detail_content(group) %}
+    <div class="col-lg-6">
+        <div class="portfolio-details-slider swiper-container">
+            <div class="swiper-wrapper align-items-center">
+                {% for k,v in PARTNERS[group]['list'].items() %}
+                    <div class="swiper-slide"> <img src="{{ v['img'] }}" class="img-fluid" alt="{{ k }}">
+                        <p>{{ v['description'] }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro content() %}
+<section id="partenaires" class="partenaires">
+    <div class="container" data-aos="fade-up">
+        <h1 class="page_title">PARTENAIRES ET PROJETS COLLABORATIFS</h1>
+    </div>
+    {% for group in PARTNERS.keys() %}
+        <section class="portfolio-details"  data-aos="fade-up">
+            <div class="container">
+                <div class="row gy-4">
+                    {% if loop.index % 2 %}
+                        {{ description_content(group) }}
+                        {{ detail_content(group) }}
+                    {% else %}
+                        {{ detail_content(group) }}
+                        {{ description_content(group) }}
+                    {% endif %}
+                </div>
+                {# {% if loop.index != PARTNERS.keys()|length %} #}
+                    <hr class="separateur">
+                {# {% endif %} #}
+            </div>
+        </section>
+    {% endfor %}
+    <section id="portfolio-quantstack" class="portfolio-details"  data-aos="fade-up">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6">
+                    <img src="../images/partenaires/cmap_quanstack.png" class="img-fluid picture" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio-description">
+                        <h2 class="section_title text-left">NOS PROJETS ENTREPRENEURIAUX AVEC LA SOciété QUANTSTACK</h2>
+                            <p> <a class="partenaire-link" href="https://quantstack.net">QUANTSTACK</a> | <a class="partenaire-link" href="https://portail.polytechnique.edu/cmap/fr/page-daccueil">CMAP</a></p>
+                            <p> L'initiative HPC@Maths et la société QuantStack ont des niveaux d’expertise dans des domaines très variés
+                                et complémentaires. La collaboration scientifique permet d’enrichir les logiciels open source développés par QuantStack, de mettre à la disposition de la communauté de nouvelles méthodes numériques et de nouveaux algorithmes à la pointe des recherches actuelles, de répondre à des problématiques d’industriels faisant intervenir des mathématiques appliquées. </p>
+                            {# <div class="d-flex"> <a href="quantstack_cmap.html">
+                            <div class="btn_more"><span>En savoir +</span><i class="point"></i><i class="point"></i><i class="point"></i></div>
+                            </a> </div> #}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+{% endmacro %}

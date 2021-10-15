@@ -12,6 +12,9 @@
     {% elif page.title == "enseignements" %}
         {% import 'enseignements.html' as page_template with context %}
         {{ page_template.content(pages) }}
+    {% elif page.title == "partenaires" %}
+        {% import 'partners.html' as page_template with context %}
+        {{ page_template.content() }}
     {% else %}
         {% if page.category == "code" %}
             {% import 'code.html' as page_template with context %}
