@@ -21,6 +21,9 @@ class title_element(nodes.General, nodes.Element):
 class subtitle_element(nodes.General, nodes.Element):
     """ code element """
 
+class course_info(nodes.General, nodes.Element):
+    """ code element """
+
 class break_element(nodes.General, nodes.Element):
     """ code element """
 
@@ -55,6 +58,18 @@ class SubTitle(Directive):
         node['text'] = self.arguments[0]
         return [node]
 
+class CourseInfo(Directive):
+    required_arguments = 0
+    final_argument_whitespace = True
+    optional_arguments = 0
+    has_content = True
+
+    def run(self):
+        self.assert_has_content()
+        node = course_info()
+        self.state.nested_parse(self.content, self.content_offset, node)
+        return [node]
+
 class myHTMLTranslator(PelicanHTMLTranslator):
     """Extend default translator"""
 
@@ -80,6 +95,15 @@ class myHTMLTranslator(PelicanHTMLTranslator):
     def depart_subtitle_element(self, node):
         pass
 
+    def visit_course_info(self, node):
+        self.body.append('''</div>
+        <div class="col-lg-4">
+            <div class="course-info">
+        ''')
+
+    def depart_course_info(self, node):
+        self.body.append('</div>')
+
 # Overwrite default translator so that extensions can be chained
 readers.PelicanHTMLTranslator = myHTMLTranslator
 
@@ -87,3 +111,4 @@ def register():
     directives.register_directive('break', Break)
     directives.register_directive('title', Title)
     directives.register_directive('subtitle', SubTitle)
+    directives.register_directive('course_info', CourseInfo)

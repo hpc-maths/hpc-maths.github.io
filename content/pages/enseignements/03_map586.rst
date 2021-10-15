@@ -1,0 +1,22 @@
+:title: MAP586
+:subtitle: EA de 3A
+:longname: Algorithmes et principes de conception logicielle pour les mathématiques appliquées en C++ moderne
+:category: teaching
+:bgcolor: bg1
+
+La recherche en mathématiques appliquées a connu des avancées majeures ces dernières années grâce à l'évolution rapide des moyens informatiques (GPUs, multi-coeurs, architectures massivement parallèles). Cela implique une adaptation quasi continue des structures de données et des algorithmes afin d’exploiter pleinement les ressources à disposition. Ces évolutions répondent au besoin de simuler et de prédire le comportement de systèmes de plus en plus complexes, au plus proche de la réalité et ce dans de nombreux domaines scientifiques. Ces avancées contribuent également à l’innovation dans le domaine industriel et en particulier dans les PME et les start-up.
+
+Par ailleurs, les logiciels et les infrastructures sur lesquelles ils sont déployés deviennent de plus en plus stratégiques pour les entreprises et les laboratoires de recherche. De ce fait, l'ingénieur/chercheur d'aujourd'hui ne peut plus se contenter d'implémenter des algorithmes pour ses seuls besoins, indépendamment des objectifs de l'entité au sein de laquelle il évolue. Il doit être capable d'intégrer rapidement de nouvelles briques logicielles dans une architecture complexe tout en assurant sa maintenabilité, sa portabilité et son évolutivité. Ceci nécessite d'acquérir non seulement des bases en algorithmie et en programmation, mais aussi de solides connaissances en conception de logiciels.
+
+L'originalité de ce module d'enseignement est de partir de problèmes concrets que nous retrouvons dans les codes industriels et Open Source de calcul scientifique pour ensuite remonter aux algorithmes et à leurs implémentations. Ces problèmes permettront d'illustrer un ensemble de méthodes numériques (analyse numérique des EDPs, apprentissage statistique, calcul stochastique, etc, dont les bases mathématiques ont été présentées dans les cours de deuxième année essentiellement (MAP412 et MAP433)) qui requièrent le choix d’algorithmes avancés et d'en présenter une implémentation élégante, modulaire et performante en C++ moderne. Ce cours sera très interactif et permettra d'expérimenter différentes améliorations des solutions existantes tout en analysant leur intégration potentielle au sein de systèmes complexes.
+
+Pour ce faire, nous nous appuierons dans un premier temps sur [Jupyter](https://jupyter.org/) et le kernel [xeus-cling](https://github.com/jupyter-xeus/xeus-cling) permettant d'écrire du C++ dans des notebooks, puis nous passerons à une structuration de projet plus traditionnelle permettant d'illustrer l'architecture d'un logiciel (arborescence, création de librairies et d'exécutables, etc).
+
+A la fin du cours, des connaissances solides en algorithmie permettront aux étudiants d'appréhender plus facilement l'implémentation de nouvelles méthodes numériques. Grâce à leur connaissance du C++, ils seront à même de lire la plupart des codes écrits dans ce langage et d'envisager sereinement toutes les potentialités de celui-ci. Enfin, les notions de génie logiciel abordées leur permettront de comprendre les architectures logicielles complexes que l’on trouve tant dans le domaine de la recherche que dans les industries de pointe. Les aspects de programmation paralléle pourront être abordés pendant ce cours et faire l'objet de projets conclusifs.
+
+.. course_info::
+
+    Ce cours est porté par
+
+    - L\. Gouarin (CMAP),
+    - J\. Mabille (Quantstack).

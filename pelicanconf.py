@@ -44,7 +44,7 @@ RELATIVE_URLS = True
 
 MENUITEMS = [('Présentation', '/index.html'),
              ('Codes', '/pages/codes.html'),
-             ('Enseignement', '/pages/enseignement.html'),
+             ('Enseignements', '/pages/enseignements.html'),
              ('Partenaires', '/pages/partenaires.html'),
              ('Recherche', '/pages/recherche.html'),
              ("Ressources", '/pages/ressources.html'),

@@ -1,0 +1,30 @@
+:title: AMS X02
+:subtitle: Cours de Master 2
+:longname: Méthodes numériques avancées et calcul haute performance pour la simulation de phénomènes complexes
+:category: teaching
+:bgcolor: bg1
+
+Dans un nombre croissant d’applications, scientifiques ou industrielles, la simulation
+numérique joue un rôle clef pour comprendre et analyser les phénomènes
+physiques complexes. Elle permet aussi de prédire le fonctionnement de dispositifs
+comme les chambres de combustion aéronautiques dans l’optique
+d’une conception avancée. La complexité des systèmes et la taille des simulations
+multi-dimensionnelles rendent l’utilisation du calcul haute performance nécessaire.
+Ce cours propose dans un premier temps une présentation des enjeux que
+pose la modélisation des systèmes complexes pour les méthodes numériques et la
+simulation et un état de l’art des nouvelles architectures de calcul et des modèles
+de programmation parallèle. Après avoir rappelé les bases de l’analyse numérique
+des EDP pour les problèmes multi-échelles, nous proposons d’explorer quelques
+méthodes numériques avancées conçues pour traiter la raideur présente dans ces
+modèles complexes tout en tirant le meilleur parti des nouvelles architectures
+de calcul. Ces méthodes s’appuient sur une combinaison efficace entre analyse
+numérique, modélisation et calcul scientifique. Des séances de mise en oeuvre sur
+machines en lien avec le mésocentre de calcul de l’Ecole polytechnique seront
+proposées.
+
+.. course_info::
+
+    Ce cours est porté par
+
+    - L\. Séries (CMAP),
+    - M\. Massot (CMAP).

@@ -1,0 +1,19 @@
+:title: MAP412
+:subtitle: COURS DE 2A D'INGÉNIEURS
+:long_name: INTRODUCTION À L'ANALYSE NUMÉRIQUE : DES FONDEMENTS MATHÉMATIQUES À L’EXPÉRIMENTATION AVEC JUPYTER
+:category: teaching
+:bgcolor: bg1
+
+Lorsque l’on souhaite modéliser et simuler un problème réel (qu’il s’agisse de dynamique des populations en écologie, de la croissance tumorale en ingénierie biomédicale, de la dynamique de la combustion dans les nouvelles générations de moteurs fusées – par exemple à SpaceX, de la prédiction des tempêtes solaires et des phénomènes de reconnexion magnétique en physique solaire, de la simulation de la turbulence et de la combustion turbulente en mécanique des fluides) l’ingénieur ou le chercheur en mathématiques appliquées ou en « computational science » doit faire appel à une palette de méthodes numériques qu’il doit savoir analyser mathématiquement, évaluer en termes de qualité et d’efficacité computationnelle et, finalement, implémenter.
+
+Ce cours propose une introduction à l’analyse numérique, partant des fondements mathématiques sur lesquels les méthodes numériques reposent et allant jusqu’à l’implémentation et l’emploi de ces méthodes sur la base de notebooks Jupyter en passant par la compréhension de leur efficacité numérique. Le lien est fait avec les applications afin de comprendre l’étendue de l’utilisation de ce type de méthode d’un point de vue pratique. Les implémentations de ces méthodes dans des bibliothèques numériques existantes sont aussi documentées.
+
+
+.. course_info::
+
+    Ce cours est porté par:
+
+        - M\. Massot (CMAP),
+        - L\. Séries (CMAP),
+        - M\. Breden (CMAP),
+        - T\. Pichard (CMAP).

@@ -1,0 +1,32 @@
+{% macro content(pages) %}
+<section id="enseignement" class="enseignement">
+    <h1 class="page_title">Enseignement et offre de cours</h1>
+    <div class="container" data-aos="fade-up">
+        <p class="well">Un ensemble d'enseignements a été créé afin de former les étudiants au domaine de l'analyse numérique et du HPC dans le but de les amener au plus près des compétences nécessaires à l'innovation dans ce domaine riche et en pleine évolution.</p>
+
+        {%for p in pages %}
+            {% if p.category == 'teaching' %}
+                <div class="row course_box">
+                    <div class="col-lg-8">
+                        <div class="course_title {{ p.bgcolor }}">
+                            <h2 class="section_title">
+                                {% if p.shortname %}
+                                    {{ p.shortname }}
+                                {% else %}
+                                    {{ p.title }}
+                                {% endif %}
+                                {% if p.subtitle %}
+                                <br> {{ p.subtitle }}
+                                {% endif %}
+                            </h2>
+                        </div>
+                        <h3 class="subtitle"> {{ p.longname }} </h3>
+                        {{ p.content }}
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+{% endmacro %}
