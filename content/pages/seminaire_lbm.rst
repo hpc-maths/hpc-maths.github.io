@@ -1,0 +1,67 @@
+:title: Recent advances on lattice Boltzmann methods 
+
+=============================================
+ Recent advances on lattice Boltzmann methods
+=============================================
+
+.. image:: ../images/seminaire_lbm/air_conditioning.jpg
+   :scale: 50
+   :alt: air conditioning using pyLBM
+
+Simulation of an air-conditioning system using pyLBM_
+
+.. _pyLBM: https://pylbm.readthedocs.io/
+
+.. title:: Aims and scope
+
+The aim of this workshop is to gather internationally recognized scientists from France and abroad to discuss recent breakthroughs concerning **lattice Boltzmann methods and related numerical schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
+
+
+.. title:: Invited speakers
+
+- **Denise Aregba-Driollet**, IMB - Université de Bordeaux, *Title TBA*
+- **Paul J. Dellar**, OCIAM - University of Oxford, *Title TBA*
+- **Philippe Helluy**, IRMA - Université de Strasbourg, *Title TBA*
+- **Li-Shi Luo**, Old Dominion University, *Title TBA*
+- **Pierre Sagaut**, Aix-Marseille Université, *Title TBA*
+
+.. title:: Tentative programme
+
+- 10:00-10:30: Live demonstration of pyLBM_
+- 10:30-11:30: Talk by P. Sagaut
+- 11:30-12:30: Talk by P. Helluy
+- 12:30-14:00: Lunch break
+- 14:00-15:00: Talk by D. Aregba-Driollet
+- 15:00-16:30: Talk by P. J. Dellar
+- 16:00-16:30: Coffee break
+- 16:30-17:30: Talk by L-S. Luo
+
+.. title:: Attending the workshop
+
+People willing to attend the workshop are warmly welcomed free of charge. Still, we kindly ask you to register writing an email to
+
+.. image:: ../images/seminaire_lbm/email.png
+   :scale: 50
+   :alt: email thomas
+
+We also plan to provide video-streaming for the workshop. If you want to receive the link, please contact us!
+
+
+.. title:: Venue and how to get there
+
+**Conference Room "Jean Lascoux" - Aile 0 CPHT**
+
+Ecole polytechnique, Route de Saclay, 91120 Palaiseau, France
+
+How to get at `Ecole polytechnique`_
+
+How to get to the `conference room`_
+
+
+.. _Ecole polytechnique: https://www.polytechnique.edu/en/campus/maps-and-directions
+
+.. _conference room: https://www.cpht.polytechnique.fr/?q=en/node/32
+
+.. title:: Organizers
+
+*T. Bellotti, L. Gouarin, B. Graille, M. Massot*
