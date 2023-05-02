@@ -1,8 +1,7 @@
 :title: Around numerical analysis of lattice Boltzmann methods
-
-===========================================================
- Around numerical analysis of lattice Boltzmann methods
-===========================================================
+:category: event
+:date: 2023-06-02
+:place: Amphi Faure
 
 .. image:: ../images/seminaire_lbm/air_conditioning.jpg
    :scale: 50

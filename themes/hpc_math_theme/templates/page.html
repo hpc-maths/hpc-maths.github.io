@@ -3,54 +3,59 @@
 {% block content %}
 <section id="hero" class="hero">
     <div class="container" data-aos="fade-up">
-    {% if page.title == "codes" %}
+        {% if page.title == "codes" %}
         {% import 'codes.html' as page_template with context %}
         {{ page_template.content(pages) }}
-    {% elif page.title == "members" %}
+        {% elif page.title == "events" %}
+        {% import 'events.html' as page_template with context %}
+        {{ page_template.content(pages) }}
+        {% elif page.title == "members" %}
         {% import 'members.html' as page_template with context %}
         {{ page_template.content(pages) }}
-    {% elif page.title == "enseignements" %}
+        {% elif page.title == "enseignements" %}
         {% import 'enseignements.html' as page_template with context %}
         {{ page_template.content(pages) }}
-    {% elif page.title == "partenaires" %}
+        {% elif page.title == "partenaires" %}
         {% import 'partners.html' as page_template with context %}
         {{ page_template.content() }}
-    {% else %}
-        {% if page.category == "code" %}
-            {% import 'code.html' as page_template with context %}
-            {{ page_template.content(page) }}
-
-            <section id="autresCodes" class="section-bg">
-                <div class="container">
-                    <p class="well" data-aos="fade-down">Les autres codes proposés</p>
-                    <div class="row justify-content-center">
-                        {% for p in pages %}
-                        {% if p.category == 'code' and p.url != page.url %}
-                        <a href="{{ SITEURL }}/{{ p.url }}" class="code-thumb row">
-                            <div class="code-title col">
-                                <h1>
-                                    {{ p.title }}
-                                </h1>
-                                <h2>
-                                    {{ p.subtitle }}
-                                </h2>
-                            </div>
-                            <div class="code-image col">
-                                <img class="img-fluid" src="{{ p.logo }}" alt="" />
-                            </div>
-                        </a>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-                </div>
-            </section>
-        {% elif page.category == "member" %}
-            {% import 'member.html' as page_template with context %}
-            {{ page_template.content(page) }}
         {% else %}
-            {{page.content}}
+        {% if page.category == "code" %}
+        {% import 'code.html' as page_template with context %}
+        {{ page_template.content(page) }}
+
+        <section id="autresCodes" class="section-bg">
+            <div class="container">
+                <p class="well" data-aos="fade-down">Les autres codes proposés</p>
+                <div class="row justify-content-center">
+                    {% for p in pages %}
+                    {% if p.category == 'code' and p.url != page.url %}
+                    <a href="{{ SITEURL }}/{{ p.url }}" class="code-thumb row">
+                        <div class="code-title col">
+                            <h1>
+                                {{ p.title }}
+                            </h1>
+                            <h2>
+                                {{ p.subtitle }}
+                            </h2>
+                        </div>
+                        <div class="code-image col">
+                            <img class="img-fluid" src="{{ p.logo }}" alt="" />
+                        </div>
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% elif page.category == "member" %}
+        {% import 'member.html' as page_template with context %}
+        {% elif page.category == "event" %}
+        {% import 'event.html' as page_template with context %}
+        {{ page_template.content(page) }}
+        {% else %}
+        {{page.content}}
         {% endif %}
-    {% endif %}
+        {% endif %}
     </div>
 </section>
 
