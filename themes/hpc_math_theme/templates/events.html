@@ -26,6 +26,10 @@
             <p>
                 <strong>Lieu:</strong> {{ p.place }}
             </p>
+            {% if p.shortdescription %}
+            <p>
+                {{ p.shortdescription }}
+            </p>
         </div>
         {% endif %}
         {% endfor %}

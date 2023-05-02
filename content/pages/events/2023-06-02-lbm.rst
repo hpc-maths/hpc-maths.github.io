@@ -2,6 +2,7 @@
 :category: event
 :date: 2023-06-02
 :place: Amphi Faure
+:shortdescription: This is my short description
 
 .. image:: ../images/seminaire_lbm/air_conditioning.jpg
    :scale: 50
@@ -14,7 +15,7 @@ Simulation of an air-conditioning system using pyLBM_, see_.
 
 .. title:: Purpose of the workshop
 
-The aim of this workshop is to gather internationally recognized scientists from France and abroad—on the occasion of T. Bellotti's PhD defence (contingent upon validation of the jury)—to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical analysis and schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
+The aim of this workshop is to gather internationally recognized scientists from France and abroad—on the occasion of T. Bellotti's PhD defence (contingent upon validation by the jury)—to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical analysis and schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
 
 
 .. title:: Invited speakers
