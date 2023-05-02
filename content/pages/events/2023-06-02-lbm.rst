@@ -40,12 +40,7 @@ The aim of this workshop is to gather internationally recognized scientists from
 
 .. title:: Attending the workshop
 
-People willing to attend the workshop are warmly welcomed free of charge. Still, we kindly ask you to register writing an email to
-
-.. image:: ../images/seminaire_lbm/email.png
-   :scale: 50
-   :alt: email thomas
-
+People willing to attend the workshop are warmly welcomed free of charge. Still, we kindly ask you to register writing an email to thomas.bellotti[at]polytechnique.edu.
 We also plan to provide video-streaming for the workshop. If you want to receive the link, please contact us!
 
 
