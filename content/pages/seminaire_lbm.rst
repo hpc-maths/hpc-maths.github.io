@@ -1,20 +1,21 @@
-:title: Recent advances on lattice Boltzmann methods 
+:title: Around numerical analysis of lattice Boltzmann methods
 
-=============================================
- Recent advances on lattice Boltzmann methods
-=============================================
+===========================================================
+ Around numerical analysis of lattice Boltzmann methods
+===========================================================
 
 .. image:: ../images/seminaire_lbm/air_conditioning.jpg
    :scale: 50
    :alt: air conditioning using pyLBM
 
-Simulation of an air-conditioning system using pyLBM_
+Simulation of an air-conditioning system using pyLBM_, see_.
 
 .. _pyLBM: https://pylbm.readthedocs.io/
+.. _see: https://github.com/pylbm/pylbm_gallery/blob/master/2D/Air_cond/air_conditioning.py
 
 .. title:: Purpose of the workshop
 
-The aim of this workshop is to gather internationally recognized scientists from France and abroad to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
+The aim of this workshop is to gather internationally recognized scientists from France and abroad—on the occasion of T. Bellotti's PhD defence—to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical analysis and schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
 
 
 .. title:: Invited speakers
