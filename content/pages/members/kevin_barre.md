@@ -5,3 +5,4 @@ fonction: doctorant
 category: member
 position: phd
 image: ../images/membres/barre.png
+date: 2023-01-01

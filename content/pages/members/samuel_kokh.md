@@ -5,6 +5,7 @@ fonction: chercheur
 category: member
 position: researcher
 image: ../images/membres/masculin.png
+date: 2023-01-01
 
 Il est chercheur en mathématiques appliquées à la Direction des Énergies (DES) au CEA Saclay. Ses travaux portent sur plusieurs aspects de la simulation numériques des écoulements fluides.
 Une partie de ses recherches concernent la modélisation d'écoulements dans des situations pouvant mettre en jeu plusieurs constituants ou des variations importantes de certaines régime que tels que le régime de Mach ou les régimes de topologie d'interface.

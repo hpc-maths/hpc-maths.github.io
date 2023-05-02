@@ -3,6 +3,7 @@
 :longname: Algorithmes et principes de conception logicielle pour les mathématiques appliquées en C++ moderne
 :category: teaching
 :bgcolor: bg1
+:date: 2023-01-01
 
 La recherche en mathématiques appliquées a connu des avancées majeures ces dernières années grâce à l'évolution rapide des moyens informatiques (GPUs, multi-coeurs, architectures massivement parallèles). Cela implique une adaptation quasi continue des structures de données et des algorithmes afin d’exploiter pleinement les ressources à disposition. Ces évolutions répondent au besoin de simuler et de prédire le comportement de systèmes de plus en plus complexes, au plus proche de la réalité et ce dans de nombreux domaines scientifiques. Ces avancées contribuent également à l’innovation dans le domaine industriel et en particulier dans les PME et les start-up.
 

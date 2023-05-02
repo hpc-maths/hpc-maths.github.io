@@ -1,4 +1,5 @@
 :title: josiepy
+:date: 2023-01-01
 :subtitle: Méthodes volumes finis en Python
 :category: code
 :logo: ../images/codes/josiepy/logo_josiepy.png

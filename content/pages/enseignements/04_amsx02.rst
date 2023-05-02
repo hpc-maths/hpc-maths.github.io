@@ -3,6 +3,7 @@
 :longname: Méthodes numériques avancées et calcul haute performance pour la simulation de phénomènes complexes
 :category: teaching
 :bgcolor: bg1
+:date: 2023-01-01
 
 Dans un nombre croissant d’applications, scientifiques ou industrielles, la simulation
 numérique joue un rôle clef pour comprendre et analyser les phénomènes

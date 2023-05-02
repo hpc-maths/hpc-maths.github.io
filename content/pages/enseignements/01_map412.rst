@@ -3,6 +3,8 @@
 :longname: INTRODUCTION À L'ANALYSE NUMÉRIQUE : DES FONDEMENTS MATHÉMATIQUES À L’EXPÉRIMENTATION AVEC JUPYTER
 :category: teaching
 :bgcolor: bg1
+:date: 2023-01-01
+
 
 Lorsque l’on souhaite modéliser et simuler un problème réel (qu’il s’agisse de dynamique des populations en écologie, de la croissance tumorale en ingénierie biomédicale, de la dynamique de la combustion dans les nouvelles générations de moteurs fusées – par exemple à SpaceX, de la prédiction des tempêtes solaires et des phénomènes de reconnexion magnétique en physique solaire, de la simulation de la turbulence et de la combustion turbulente en mécanique des fluides) l’ingénieur ou le chercheur en mathématiques appliquées ou en « computational science » doit faire appel à une palette de méthodes numériques qu’il doit savoir analyser mathématiquement, évaluer en termes de qualité et d’efficacité computationnelle et, finalement, implémenter.
 

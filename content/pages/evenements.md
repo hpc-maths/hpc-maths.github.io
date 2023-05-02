@@ -1,4 +1,5 @@
- title: Événements 
+ title: Événements
+date: 2023-01-01
 
 ## Événements à venir organisés dans le cadre ou soutenus par l'initiative HPC@Maths
 
@@ -10,7 +11,7 @@ The 19th June 2021 with a gaming contest for the Kerbal Space Program game (#Spa
 
 The 24th June 2021, you will be able to attend a forum hosting the most innovative space companies (#SpaceConnect), be inspired by the series of talks and panels we selected for you (#SpaceConference), get in touch with startup incubators, pitch your idea and kick off your very own space startup (#SpaceConcept), and, above all, have fun!
 
-### [Semaine d'étude Maths-Entreprises](https://indico.math.cnrs.fr/event/6326/) 2022 - Institut Polytechnique de Paris 
+### [Semaine d'étude Maths-Entreprises](https://indico.math.cnrs.fr/event/6326/) 2022 - Institut Polytechnique de Paris
 
 l'initiative HPC@Maths participe à la semaine avec plusieurs projets qu'elle a contribué à faire émerger en particulier avec [CENAERO](https://www.cenaero.be/), [Air Liquide (BU Spatial)](https://www.airliquide.com/fr/industrie/spatial) et [Quantstack](https://quantstack.net/). Initialement prévue en 2021, la semaine d'étude a été repoussée début 2022 pour des raisons associées à la Covid-19.
 
@@ -37,55 +38,55 @@ Le 4 Mai 2021 a lieu la journée de kick-off du projet DGA MMEED (lien à prévo
 > Chair Marica Pelanti et Teddy Pichard  - 9h00 - 13H00 (talk = 25 min + 5 questions)
 >
 >
-> * **Modélisation** 
+> * **Modélisation**
 >
 > 	 - Arthur Loison (CMAP) : modèles, méthodes numériques et variables géométriques
 >   - Joël Dupays (ONERA) :  modèles et simulation d'un jet haute vitesse sur une surface libre - lien thèse Ward
 >   - Marica Pelanti (ENSTA) : modélisation diffuse interface d’écoulements multiphasiques avec transition liquide-vapeur
 >
-> * **Méthodes numériques** 
+> * **Méthodes numériques**
 >
 > 	 - Katia Ait-Ameur (CMAP) : méthodes de moments / méthodes numériques d'ordre élevé
-> 	 - Clément le Touze (ONERA) : modèles diphasiques et méthodes numérique dans CEDRE 
-> 	 - Samuel Kokh (CEA/CMAP) : Lagrange projection 
+> 	 - Clément le Touze (ONERA) : modèles diphasiques et méthodes numérique dans CEDRE
+> 	 - Samuel Kokh (CEA/CMAP) : Lagrange projection
 >
-> * **HPC et Environnements de calcul** 
+> * **HPC et Environnements de calcul**
 >
 >	- `SAMURAI`  Loic Gouarin et Laurent Séries (CMAP) : maillage adaptatif / Multirésolution
 >	 -  `Josiepy` -  Ruben Di Battista  / Arthur Loison (CMAP/DGA)
 >
-> * **Synthèse et directions : 12H30-13h** 
+> * **Synthèse et directions : 12H30-13h**
 >
 
-* **Déjeuner** 
+* **Déjeuner**
 
 > #### Partie 2 :  *Conception d’un modèle aux grandes échelles pour la simulation prédicitive des écoulement turbulente gaz-gouttes fortement couplés avec comparaison expérimentale*
 > Chair Romain Monchaux et Aymeric Vié  - 14h
 >
-> * **Expérimental** 
+> * **Expérimental**
 >
-> 	 - Till Zurner - Romain Monchaux (ENSTA) - 45 min 
+> 	 - Till Zurner - Romain Monchaux (ENSTA) - 45 min
 >
-> * **Numérique et modélisation** 
+> * **Numérique et modélisation**
 >
 > 	 - Roxane Letournel, Ludovic Goudenège, Alexandre Richard (Fédé. Maths CentraleSupélec et CMAP) - 45 min : Modèles stochastiques Lagrangiens, aspects mathématiques et numériques, ségrégation
 >  	- Aymeric Vié (Fédé. Maths CentraleSupélec - EM2C) 1/2h - Enjeux sur les modèles two-way .
 >
 >
-> * **Synthèse et directions : 16h-16h30** 
+> * **Synthèse et directions : 16h-16h30**
 >
 
-* **Conclusions générales, discussion et organisation prochaines séances** 
+* **Conclusions générales, discussion et organisation prochaines séances**
 
 
 ### Tuto SAMURAI
 
 
-### Invitation de Pr. C. Groth (UTIAS), J.-A. Sarr, J. Xing à l'Ecole polytechnique dans le cadre d'un [Gaspard Monge Visiting Professor](https://xpuissancevous.fr/projets/detail/programme-daccueil-de-professeurs-etrangers-reputes) en 2020   
+### Invitation de Pr. C. Groth (UTIAS), J.-A. Sarr, J. Xing à l'Ecole polytechnique dans le cadre d'un [Gaspard Monge Visiting Professor](https://xpuissancevous.fr/projets/detail/programme-daccueil-de-professeurs-etrangers-reputes) en 2020
 
 Teddy - décrire le contexte - lien sur le cours...
 
-Hosts : M. Massot & T. Pichard 
+Hosts : M. Massot & T. Pichard
 
 ### Mini-symposium SMAI 2019 [Breaking the Mesh: Solving Partial Differential Equations with Deep Learning](https://github.com/jbscoggi/smai-2019) (J.B. Scoggins, L. Gouarin)
 
@@ -94,7 +95,7 @@ The repository hosts the presentations from the SMAI 2019 Mini-Symposium entitil
 
 ### [Journée Jupyter](http://www.cmap.polytechnique.fr/~massot/Personal_web_page_of_Marc_Massot/JupyterX.html)
 
-Jupyter et son écosystème offrent un ensemble d'outils permettant d'avoir un environnement de développement et de travail convivial aussi bien pour la recherche que pour l'enseignement. Destiné à la base pour développer du code Python, Julia ou R, c'est aujourd'hui bien plus que ça. Les notebooks (page web où l'on peut écrire du code numérique, du texte, des équations mathématiques, insérer des vidéos, des graphiques interactifs, ...) sont de plus en plus utilisés et ont été introduits de manière systématique dès 2017 dans le cadre du Département de Mathématiques Appliquées où ils ont trouvé un véritable écho auprès des élèves. Leurs usages sont variés : feuilles d'exercices pour les étudiants, cahiers de recherche, tutoriels, ... 
+Jupyter et son écosystème offrent un ensemble d'outils permettant d'avoir un environnement de développement et de travail convivial aussi bien pour la recherche que pour l'enseignement. Destiné à la base pour développer du code Python, Julia ou R, c'est aujourd'hui bien plus que ça. Les notebooks (page web où l'on peut écrire du code numérique, du texte, des équations mathématiques, insérer des vidéos, des graphiques interactifs, ...) sont de plus en plus utilisés et ont été introduits de manière systématique dès 2017 dans le cadre du Département de Mathématiques Appliquées où ils ont trouvé un véritable écho auprès des élèves. Leurs usages sont variés : feuilles d'exercices pour les étudiants, cahiers de recherche, tutoriels, ...
 
 L'école polytechnique a organisé le 6 mars 2018 une demi-journée sur les outils autour du projet Jupyter de 9h15 à 12h45 à l'amphi Poincaré. Cette journée a été organisée conjointement par des étudiants, des chercheurs et ingénieurs de l'école suite à une initiative et une forte demande des étudiants. Les étudiants de deuxième et de troisième années ont été conviés à l'événement qui a rassemblé plusieurs centaines de personnes avec une répartition équilibrée entre étudiants, chercheurs et enseignants chercheurs de l'École  et extérieurs du plateau de Saclay.
 

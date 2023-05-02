@@ -1,4 +1,5 @@
 title: Recherche
+date: 2023-01-01
 
 <section id="recherche" class="theme">
 <div class="container" data-aos="fade-up">

@@ -1,5 +1,6 @@
 :title: Mercurve
 :subtitle: Outils de post-traitement
+:date: 2023-01-01
 :category: code
 :logo: ../images/codes/mercurve/logo_mercurve.png
 :source: https://gitlab.com/rubendibattista/mercurve

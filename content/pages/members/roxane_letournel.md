@@ -5,6 +5,7 @@ fonction: doctorante
 category: member
 position: phd
 image: ../images/membres/letournel.jpg
+date: 2023-01-01
 
 Au cours de sa scolarité à l’école Centrale Paris, elle s'est impliquée dans des travaux de recherche que elle a eu l’occasion de poursuivre durant un semestre à l’université de Stanford.
 A la suite d’un master en sciences thermiques, elle a démarré une thèse aux laboratoires de mathématique et d’énergie de Polytechnique et CentraleSupélec.
