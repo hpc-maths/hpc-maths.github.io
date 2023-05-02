@@ -1,0 +1,10 @@
+:title: Théorie des observateurs en assimilation de données. Des ondes à la mécanique cardiaque.
+:category: event
+:date: 2023-05-05
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Philippe Moireau (Inria Saclay - LMS)
+:shortdescription: Exposé de Philippe Moireau dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+Dans cet exposé, je présenterai un panorama d’un travail collectif sur la théorie des observateurs comme stratégie d’estimation de problème d’évolution. Sur des problèmes de type "équation des ondes”, nous montrons comment cette approche permet d’utiliser des données mesurées de toutes sortes afin de reconstruire la trajectoire observée et d’estimer la condition initiale ou des paramètres. Nous en faisons l’analyse en combinant conditions d’observabilité et techniques de régularisation de problèmes inverses pour des données bruitées. Les questions de discrétisation et l’analyse numérique seront aussi évoquées ainsi que les questions d’échantillonnage des données. Enfin, nous illustrons l’application de cette approche dans différents cas pratiques, de l'équation des ondes à l’élastodynamique, jusqu’à des applications en modélisation/estimation cardiaque qui ont initialement motivé notre approche.

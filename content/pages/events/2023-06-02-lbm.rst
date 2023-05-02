@@ -1,7 +1,7 @@
 :title: Around numerical analysis of lattice Boltzmann methods
 :category: event
 :date: 2023-06-02
-:place: Amphi Faure
+:place: Amphi Faure - Ecole polytechnique
 :shortdescription: This workshop aims at gathering internationally recognized scientists from France and abroad to discuss recent breakthroughs on lattice Boltzmann methods and related numerical analysis and schemes. The workshop pays particular attention to the theory behind these numerical methods.
 
 .. image:: ../images/seminaire_lbm/air_conditioning.jpg
