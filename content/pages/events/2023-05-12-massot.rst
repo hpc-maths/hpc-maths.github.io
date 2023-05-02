@@ -1,0 +1,10 @@
+:title: A venir
+:category: event
+:date: 2023-05-12-14-00
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Josselin Massot (CMAP - Ecole Polytechnique)
+:shortdescription: Exposé de Josselin Massot dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+A venir
