@@ -2,6 +2,7 @@
 :category: event
 :date: 2023-06-02
 :place: Amphi Faure
+:shortdescription: This is the short description
 
 .. image:: ../images/seminaire_lbm/air_conditioning.jpg
    :scale: 50
