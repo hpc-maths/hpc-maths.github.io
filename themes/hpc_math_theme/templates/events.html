@@ -1,0 +1,35 @@
+{% macro content(pages) %}
+<section id="events" class="events">
+    <h1 class="page_title">Événements</h1>
+    <div class="container" data-aos="fade-up">
+        <p class="well">Un ensemble d'enseignements a été créé afin de former
+            les étudiants au domaine de l'analyse numérique et du HPC dans le
+            but de les amener au plus près des compétences nécessaires à
+            l'innovation dans ce domaine riche et en pleine évolution.</p>
+
+        {%for p in pages %}
+        {% if p.category == 'event' %}
+        <div class="row event_box">
+            <div class="event_title {{ p.bgcolor }}">
+                <a href="{{ SITEURL }}/{{ p.url }}">
+                    <h2 class="section_title">
+                        {{ p.date.strftime('%Y-%m-%d') }} -
+                        {{ p.title }}
+                    </h2>
+                </a>
+            </div>
+            {% if p.speaker %}
+            <p>
+                <strong>Intervenant:</strong> {{ p.speaker }}
+            </p>
+            {% endif %}
+            <p>
+                <strong>Lieu:</strong> {{ p.place }}
+            </p>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+{% endmacro %}
