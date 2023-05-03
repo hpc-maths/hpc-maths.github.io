@@ -28,19 +28,17 @@ The aim of this workshop is to gather internationally recognized scientists from
 - **Paul J. Dellar**, OCIAM - University of Oxford, *Title TBA*
 - **Philippe Helluy**, IRMA - Université de Strasbourg, *Title TBA*
 - **Li-Shi Luo**, Old Dominion University, *Title TBA*
-- **Pierre Sagaut**, Aix-Marseille Université, *Title TBA*
 
 .. title:: Tentative programme
 
-- 09:30-10:30: Talk by P. Sagaut
+- 09:30-10:30: Talk by P. Helluy 
 - 10:30-11:00: Coffee break
-- 11:00-12:00: Talk by P. Helluy
+- 11:00-12:00: Talk by D. Aregba-Driollet
 - 12:00-12:30: Live demonstration of pyLBM_ by L. Gouarin
 - 12:30-14:00: Lunch break
-- 14:00-15:00: Talk by D. Aregba-Driollet
-- 15:00-16:30: Talk by P. J. Dellar
-- 16:00-16:30: Coffee break
-- 16:30-17:30: Talk by L-S. Luo
+- 14:00-15:00: Talk by P. J. Dellar
+- 15:00-15:30: Coffee break
+- 15:30-16:30: Talk by L-S. Luo
 
 .. title:: Attending the workshop
 
