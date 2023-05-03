@@ -5,3 +5,4 @@ fonction: doctorant
 category: member
 position: phd
 image: ../images/membres/dibattista.jpeg
+date: 2023-01-01

@@ -3,6 +3,7 @@
 :longname: Systèmes dynamiques pour la modélisation et la simulation des milieux réactifs multi-échelles
 :category: teaching
 :bgcolor: bg1
+:date: 2023-01-01
 
 Dans un nombre croissant d’applications scientifiques et industrielles, la modélisation et la simulation numérique jouent un rôle clef pour comprendre et analyser les phénomènes physiques complexes mis en jeu. Un élément commun à ces systèmes énergétiques, spatiaux, biologiques, mécaniques, fluides, etc... tourne autour de la notion de systèmes dynamiques. En mathématiques, un système dynamique est la donnée d’un système et d’une loi décrivant l’évolution de ce système dans le temps. Ces systèmes sont particulièrement multi-échelles, c’est-à-dire qu’ils impliquent une très large variété d’échelles en temps, voire d’espace. Ils posent alors de nombreuses difficultés si l’on veut les analyser et en faire une résolution numérique précise afin de disposer d’outils fiables de prédiction de leur dynamique.
 

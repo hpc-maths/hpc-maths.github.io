@@ -1,4 +1,5 @@
 title: Ressources
+date: 2023-01-01
 
 <section id="ressources" class="ressources">
 <h1 class="page_title">Ressources</h1>

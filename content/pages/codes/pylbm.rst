@@ -1,6 +1,7 @@
 :title: pylbm
 :subtitle: Méthodes lattice Boltzmann
 :category: code
+:date: 2023-01-01
 :logo: ../images/codes/pylbm/logo_pylbm.png
 :source: https://github.com/pylbm/pylbm
 :documentation: https://pylbm.readthedocs.io

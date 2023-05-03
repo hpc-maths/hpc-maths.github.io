@@ -1,6 +1,6 @@
 :title: Théorie des observateurs en assimilation de données. Des ondes à la mécanique cardiaque.
 :category: event
-:date: 2023-05-05-14-00
+:date: 2023-05-05 14:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Philippe Moireau (Inria Saclay - LMS)
 :shortdescription: Exposé de Philippe Moireau dans le cadre du séminaire HPC@Maths.

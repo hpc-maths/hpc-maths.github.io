@@ -1,6 +1,7 @@
 :title: Samurai
 :subtitle: Adaptation de maillage
 :category: code
+:date: 2023-01-01
 :logo: ../images/codes/samurai/logo_samurai.png
 :source: https://github.com/hpc-maths/samurai
 :documentation: https://hpc-math-samurai.readthedocs.io
