@@ -4,6 +4,10 @@
 :place: Amphi Faure - Ecole polytechnique
 :shortdescription: This workshop aims at gathering internationally recognized scientists from France and abroad to discuss recent breakthroughs on lattice Boltzmann methods and related numerical analysis and schemes. The workshop pays particular attention to the theory behind these numerical methods.
 
+.. class:: center
+
+Friday 2nd June 2023, Ecole polytechnique, France
+
 .. image:: ../images/seminaire_lbm/air_conditioning.jpg
    :scale: 50
    :alt: air conditioning using pyLBM
@@ -44,7 +48,10 @@ People willing to attend the workshop are warmly welcomed free of charge. Still,
 We also plan to provide video-streaming for the workshop. If you want to receive the link, please contact us!
 
 
-.. title:: Venue and how to get there
+.. title:: Date, venue and how to get there
+
+The workshop is going to take place on **Friday 2nd June 2023**.
+The venue will be:
 
 **Conference Room "Amphithéâtre Pierre Faurre"**
 
