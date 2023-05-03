@@ -32,9 +32,9 @@ The aim of this workshop is to gather internationally recognized scientists from
 
 .. title:: Tentative programme
 
-- 09:30-10:30: Talk by P. Sagaut
+- 09:30-10:30: Talk by P. Helluy 
 - 10:30-11:00: Coffee break
-- 11:00-12:00: Talk by P. Helluy
+- 11:00-12:00: Talk by P. Sagaut
 - 12:00-12:30: Live demonstration of pyLBM_ by L. Gouarin
 - 12:30-14:00: Lunch break
 - 14:00-15:00: Talk by D. Aregba-Driollet
