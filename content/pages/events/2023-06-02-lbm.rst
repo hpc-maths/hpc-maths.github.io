@@ -71,7 +71,3 @@ How to get to the `conference room`_
 
 *T. Bellotti, L. Gouarin, B. Graille, M. Massot*
 
-.. title:: Abstracts
-
-- **Philippe Helluy**, *Stable and accurate boundary conditions for kinetic approximations*
-The stability analysis of the lattice-Boltzmann method (LBM) is commonly examined using a Chapman-Enskog analysis. However, this approach may not always provide sufficient insights in certain cases. In this presentation, I will rather use an entropy stability analysis, initially proposed by Bouchut or Dubois, which has proven to be more reliable and effective in practical scenarios. I will demonstrate how this analysis can be applied to develop second-order stable boundary conditions for the LBM.
