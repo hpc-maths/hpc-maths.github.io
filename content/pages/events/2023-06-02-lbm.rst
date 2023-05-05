@@ -22,13 +22,15 @@ Simulation of an air-conditioning system using pyLBM_, see_.
 The aim of this workshop is to gather internationally recognized scientists from France and abroad—on the occasion of T. Bellotti's PhD defence (contingent upon validation by the jury)—to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical analysis and schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
 
 
-.. title:: Invited speakers (abstracts at the end of the page)
+.. title:: Invited speakers
 
 - **Denise Aregba-Driollet**, IMB - Université de Bordeaux, *Title TBA*
 - **Paul J. Dellar**, OCIAM - University of Oxford, *Title TBA*
 - **Philippe Helluy**, IRMA - Université de Strasbourg, *Stable and accurate boundary conditions for kinetic approximations*
 - **Li-Shi Luo**, Old Dominion University, *Title TBA*
 - **Pierre Sagaut**, Aix-Marseille Université, *Title TBA*
+
+The abstracts of these talks are provided at the bottom of the page.
 
 .. title:: Tentative programme
 
@@ -41,7 +43,6 @@ The aim of this workshop is to gather internationally recognized scientists from
 - 15:00-16:30: Talk by P. J. Dellar
 - 16:00-16:30: Coffee break
 - 16:30-17:30: Talk by L-S. Luo
-
 
 .. title:: Attending the workshop
 
@@ -71,3 +72,10 @@ How to get to the `conference room`_
 
 *T. Bellotti, L. Gouarin, B. Graille, M. Massot*
 
+.. title:: Abstracts
+
+:Author:
+   **Philippe Helluy**
+
+:Title: *Stable and accurate boundary conditions for kinetic approximations*
+:Abstract: The stability analysis of the lattice-Boltzmann method (LBM) is commonly examined using a Chapman-Enskog analysis. However, this approach may not always provide sufficient insights in certain cases. In this presentation, I will rather use an entropy stability analysis, initially proposed by Bouchut or Dubois, which has proven to be more reliable and effective in practical scenarios. I will demonstrate how this analysis can be applied to develop second-order stable boundary conditions for the LBM.
