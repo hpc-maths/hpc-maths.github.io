@@ -24,7 +24,7 @@ The aim of this workshop is to gather internationally recognized scientists from
 
 .. title:: Invited speakers
 
-- **Denise Aregba-Driollet**, IMB - Université de Bordeaux, *Title TBA*
+- **Denise Aregba-Driollet**, IMB - Université de Bordeaux, *Discrete BGK models for the approximation of nonlinear conservative and nonconservative hyperbolic systems*
 - **Paul J. Dellar**, OCIAM - University of Oxford, *Title TBA*
 - **Philippe Helluy**, IRMA - Université de Strasbourg, *Stable and accurate boundary conditions for kinetic approximations*
 - **Li-Shi Luo**, Old Dominion University, *Title TBA*
@@ -73,6 +73,13 @@ How to get to the `conference room`_
 *T. Bellotti, L. Gouarin, B. Graille, M. Massot*
 
 .. title:: Abstracts
+
+
+:Author:
+   **Denise Aregba-Driollet**
+
+:Title: *Discrete BGK models for the approximation of nonlinear conservative and nonconservative hyperbolic systems*
+:Abstract: Discrete BGK models are semilinear systems of transport equations with source terms which formally resemble the BGK model of the kinetic theory of gases. They provide a general relaxation approximation of quasilinear hyperbolic or hyperbolic-parabolic systems of PDEs. The framework for scalar conservation laws has been introduced in [R. Natalini, JDE 1998]. The generalization to systems of conservation laws and the design of related finite volume schemes was done in [D. Aregba-Driollet and R. Natalini, HYP98 Zurich proceedings, Birkhäuser, Basel, 1999]. Many papers were then written, both theoretically and numerically, in various physical and numerical contexts. In this talk, I shall give some results for conservative and nonconservative systems and try to link with the LBM.
 
 :Author:
    **Philippe Helluy**
