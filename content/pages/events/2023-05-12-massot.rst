@@ -1,4 +1,4 @@
-:title: A venir
+:title: Comparison of two classes of exponential Runge-Kutta methods for solving advection and diffusion problems
 :category: event
 :date: 2023-05-12 14:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
@@ -7,4 +7,5 @@
 
 .. title:: Résumé de l'exposé
 
-A venir
+Dans cet exposé, nous présenterons deux classes de méthodes Runge-Kutta construites pour résoudre un problème scindé en une partie linéaire et non-linéaire. Ces classes de méthodes proposent de résoudre exactement le problème en temps lorsque la non-linéarité tend vers 0. Nous comparerons ces méthodes dans des contextes où les enjeux de stabilité sont orthogonaux : problème d'advection et problème de diffusion, avant de comparer avec des méthodes plus classiques de la littérature. Nous évoquerons également l'inconvénient de ces méthodes qui réside dans le calcul d'exponentielles, et proposerons des alternatives à partir d'approximant de Padé ou de troncature de la série de Taylor et leur impact sur la stabilité et l'ordre de la méthode engendré.
+Il s'agit d'une synthèse de travaux effectués pendant et après ma thèse en collaboration avec Benjamin Boutin, Anaïs Crestetto, Nicolas Crouseilles, Marc Massot et Laurent Séries.

@@ -1,0 +1,10 @@
+:title: A venir
+:category: event
+:date: 2023-05-26-14-00
+:place: Salle de conférence - CMLS - Ecole polytechnique
+:speaker: Pierre Matalon (CMAP - Ecole Polytechnique)
+:shortdescription: Exposé de Pierre Matalon dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+A venir
