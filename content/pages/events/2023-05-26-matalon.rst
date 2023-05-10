@@ -1,4 +1,4 @@
-:title: A venir
+:title: A venir (Pierre Matalon)
 :category: event
 :date: 2023-05-26-14-00
 :place: Salle de conférence - CMLS - Ecole polytechnique
@@ -8,3 +8,4 @@
 .. title:: Résumé de l'exposé
 
 A venir
+

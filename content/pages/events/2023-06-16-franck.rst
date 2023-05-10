@@ -1,4 +1,4 @@
-:title: A venir
+:title: A venir (Emmanuel Franck)
 :category: event
 :date: 2023-06-16-14-00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
