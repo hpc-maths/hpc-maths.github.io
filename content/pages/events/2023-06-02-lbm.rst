@@ -40,7 +40,7 @@ The abstracts of these talks are provided at the bottom of the page.
 - 12:00-12:30: Live demonstration of pyLBM_ by L. Gouarin
 - 12:30-14:00: Lunch break
 - 14:00-15:00: Talk by D. Aregba-Driollet
-- 15:00-16:30: Talk by P. J. Dellar
+- 15:00-16:00: Talk by P. J. Dellar
 - 16:00-16:30: Coffee break
 - 16:30-17:30: Talk by L-S. Luo
 
