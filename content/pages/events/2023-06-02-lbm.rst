@@ -28,7 +28,7 @@ The aim of this workshop is to gather internationally recognized scientists from
 - **Paul J. Dellar**, OCIAM - University of Oxford, *Title TBA*
 - **Philippe Helluy**, IRMA - Université de Strasbourg, *Stable and accurate boundary conditions for kinetic approximations*
 - **Li-Shi Luo**, Old Dominion University, *Title TBA*
-- **Pierre Sagaut**, Aix-Marseille Université, *Title TBA*
+- **Pierre Sagaut**, Aix-Marseille Université, *LBM as a general approach for solving conservation laws: recent results*
 
 The abstracts of these talks are provided at the bottom of the page.
 
@@ -86,3 +86,9 @@ How to get to the `conference room`_
 
 :Title: *Stable and accurate boundary conditions for kinetic approximations*
 :Abstract: The stability analysis of the lattice-Boltzmann method (LBM) is commonly examined using a Chapman-Enskog analysis. However, this approach may not always provide sufficient insights in certain cases. In this presentation, I will rather use an entropy stability analysis, initially proposed by Bouchut or Dubois, which has proven to be more reliable and effective in practical scenarios. I will demonstrate how this analysis can be applied to develop second-order stable boundary conditions for the LBM.
+
+:Author:
+   **Pierre Sagaut**
+
+:Title: *Pierre Sagaut*
+:Abstract: Lattice Boltzmann Methods were first developed as an improvement of Lattice Gas Automata, and, in  a second step, were re-interpreted as  discretisations of the continuous Boltzmann equation and/or of the Discrete Velocity Boltzmann Equation. But, since a long time, LBM-type methods have been proposed to solve equations that completely escape the fluid dynamics framework (and therefore the Gas Kinetic Theory) such as solid mechanics, Maxwell equations or miscellaneous PDEs, rendering the classical physical interpretation of LBM as a discrete version of Gas Kinetic Theory meaningless.  The talk will deal with recents results dealing with the analysis of LBM as a general tool to solve systems of PDEs that can be reformulated as a set of conservation laws, with some illustrations.
