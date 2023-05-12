@@ -90,5 +90,5 @@ How to get to the `conference room`_
 :Author:
    **Pierre Sagaut**
 
-:Title: *Pierre Sagaut*
+:Title: *LBM as a general approach for solving conservation laws: recent results*
 :Abstract: Lattice Boltzmann Methods were first developed as an improvement of Lattice Gas Automata, and, in  a second step, were re-interpreted as  discretisations of the continuous Boltzmann equation and/or of the Discrete Velocity Boltzmann Equation. But, since a long time, LBM-type methods have been proposed to solve equations that completely escape the fluid dynamics framework (and therefore the Gas Kinetic Theory) such as solid mechanics, Maxwell equations or miscellaneous PDEs, rendering the classical physical interpretation of LBM as a discrete version of Gas Kinetic Theory meaningless.  The talk will deal with recents results dealing with the analysis of LBM as a general tool to solve systems of PDEs that can be reformulated as a set of conservation laws, with some illustrations.
