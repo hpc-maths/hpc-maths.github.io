@@ -3,13 +3,33 @@
 <section id="event-details" class="event-details">
     <div class="container">
         <h1 class="page_title">{{page.title}}</h1>
+        <ul>
+        {% if page.speaker %} 
+        {% set speakers = page.speaker.split(',') %} 
+        <li><strong>Intervenant{%+ if speakers | length > 1 -%}s{% endif %} :</strong> {{ speakers | join(', ') }}</li>
+        {% endif %}
+        {% if page.date %}
+        <li><strong>Date :</strong> {{ page.date.strftime('le %d-%m-%Y à partir de %Hh%M') }}</li>
+        {% endif %}
+        {% if page.place %}
+        <li><strong>Lieu :</strong> {{ page.place }}</li>
+        {% endif %}
+        </ul>
     </div>
     <div class="container">
 
         <div class="row gy-4">
 
             {{ page.content }}
+
+            <a href="#" class="ics" >Ajouter l'évènement à l'agenda (ics) <i class="bi bi-calendar2-event" ></i></a>
         </div>
     </div>
 </section>
+
+<script type="text/javascript" src="{{ SITEURL }}/theme/js/event_ics.js" ></script>
+<script>
+add_ics_link( document.getElementsByClassName('ics')[0], "{{ page.title }}", "{{ page.date.strftime('%Y%m%dT%H%M00') }}", "{{ page.date.strftime('%Y%m%dT%H%M00') }}", "{{ page.place }}", "{{ page.speaker }}", "{{ SITEURL }}/{{ page.url }}" );
+</script>
+
 {% endmacro %}

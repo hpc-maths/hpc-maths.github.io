@@ -17,8 +17,9 @@
                 </a>
             </div>
             {% if p.speaker %}
+            {% set speakers = p.speaker.split(',') %}
             <p>
-                <strong>Intervenant:</strong> {{ p.speaker }}
+            <strong>Intervenant{%+ if speakers | length > 1 -%}s{% endif %}:</strong> {{ speakers | join(', ') }}
             </p>
             {% endif %}
             <p>
