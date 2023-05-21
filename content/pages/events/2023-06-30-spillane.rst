@@ -3,7 +3,7 @@
 :date: 2023-06-30-14-00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Elise Fressart (CMAP - Ecole Polytechnique), Michel Nowak (Thalès), Nicole Spillane (CNRS - CMAP - Ecole Polytechnique)
-:shortdescription: Exposé d'Emmanuel Franck dans le cadre du séminaire HPC@Maths.
+:shortdescription: Exposé d'informatique quantique dans le cadre du séminaire HPC@Maths.
 
 .. title:: Résumé de l'exposé
 
