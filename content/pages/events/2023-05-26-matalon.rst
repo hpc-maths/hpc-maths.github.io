@@ -1,4 +1,4 @@
-:title: A venir (Pierre Matalon)
+:title: Basics of multigrid methods: practical guide for half asleep users
 :category: event
 :date: 2023-05-26-14-00
 :place: Salle de conférence - CMLS - Ecole polytechnique
@@ -7,5 +7,5 @@
 
 .. title:: Résumé de l'exposé
 
-A venir
+Multigrid methods are highly efficient iterative methods, known for their ability to solve large scale systems arising from partial differential equations. This talk targets both beginners and multigrid users wanting to look under the hood. In particular, we will give answers to the following practical questions: on which problems can I use a multigrid method? What performance can I expect? How to configure a multigrid method for best performance? To do so, we will build a geometric multigrid method from scratch and introduce its main ingredients: smoother, coarse-grid correction, intergrid transfer operators. Those ingredients will also be used to explain how purely algebraic multigrid methods are built. Theoretical results will be stated, as well as some issues commonly arising in the design of a multigrid method. Finally, we will consider implementation techniques for large scale problems.
 
