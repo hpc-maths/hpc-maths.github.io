@@ -3,7 +3,7 @@ firstname: Christian
 lastname: Tenaud
 fonction: chercheur
 category: member
-position: researcher
+position: associate
 image: ../images/membres/tenaud.jpg
 date: 2023-01-01
 

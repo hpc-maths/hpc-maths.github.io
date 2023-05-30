@@ -3,7 +3,7 @@ firstname: Samuel
 lastname: Kokh
 fonction: chercheur
 category: member
-position: researcher
+position: associate
 image: ../images/membres/masculin.png
 date: 2023-01-01
 

@@ -5,7 +5,7 @@ URL:
 
 <!-- save_as: index.html -->
 
-L’initiative HPC@Maths a pour but de développer au sein du [Centre de Mathématiques Appliquées](https://portail.polytechnique.edu/cmap/fr/page-daccueil) une compétence en Calcul Scientifique et Calcul Haute Performance (HPC) articulée avec les axes d’excellence du laboratoire en mathématiques. Lancée en 2016 par F. Alouges, Professeur à l'Ecole polytechnique, elle est maintenant coordonnée par M. Massot, lui aussi Professeur à l'Ecole polytechnique.
+L’initiative HPC@Maths a pour but de développer au sein du [Centre de Mathématiques Appliquées](https://portail.polytechnique.edu/cmap/fr/page-daccueil) une compétence en Calcul Scientifique et Calcul Haute Performance (HPC) articulée avec les axes d’excellence du laboratoire en mathématiques. Lancée en 2016 par F. Alouges, professeur à l'Ecole polytechnique, elle est maintenant coordonnée par M. Massot, lui aussi professeur à l'Ecole polytechnique et Loïc Gouarin, ingénieur de recherche CNRS à l'Ecole polytechnique.
 
 Cette compétence permet de créer un pôle visible dans le domaine de la modélisation mathématique et numérique, couplé au calcul scientifique et intensif, point d’interaction forte et de transfert efficace vers les entreprises et en particulier les PME et ETI. Le calcul haute performance bien coordonné aux avancées en recherche dans le domaine des mathématiques est un fort vecteur d’innovation.
 
@@ -21,4 +21,4 @@ Le projet repose sur des actions à quatre niveaux :
 
 4. Développement d’une interface avec les entreprises en utilisant les divers outils à disposition au sein de l’Ecole et de la communauté. Communication autour de l’initiative.
 
-Le projet est supporté par la [Fondation de l’Ecole Polytechnique](https://www.polytechnique.edu/fondation) - [Initiative HPC@Maths](https://xpuissancevous.fr/projets/detail/la-modelisation-et-le-calcul-haute-performance)et par un ensemble de financements extérieurs.
+Le projet est supporté par la [Fondation de l’Ecole polytechnique](https://www.polytechnique.edu/fondation) - [Initiative HPC@Maths](https://xpuissancevous.fr/projets/detail/la-modelisation-et-le-calcul-haute-performance)et par un ensemble de financements extérieurs.

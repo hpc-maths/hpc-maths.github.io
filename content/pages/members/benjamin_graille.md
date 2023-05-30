@@ -3,7 +3,7 @@ firstname: Benjamin
 lastname: Graille
 fonction: enseignant-chercheur
 category: member
-position: researcher
+position: associate
 image: ../images/membres/graille.jpg
 date: 2023-01-01
 
