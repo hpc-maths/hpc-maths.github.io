@@ -3,7 +3,7 @@ firstname: Nicolas
 lastname: Grenier
 fonction: enseignant-chercheur
 category: member
-position: researcher
+position: associate
 image: ../images/membres/grenier.jpg
 date: 2023-01-01
 

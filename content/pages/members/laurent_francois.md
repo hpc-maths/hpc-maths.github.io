@@ -3,7 +3,7 @@ firstname: Laurent
 lastname: François
 fonction: doctorant
 category: member
-position: phd
+position: associate
 image: ../images/membres/francois.jpg
 date: 2023-01-01
 
