@@ -3,7 +3,7 @@ firstname: Roxane
 lastname: Letournel
 fonction: doctorante
 category: member
-position: phd
+position: associate
 image: ../images/membres/letournel.jpg
 date: 2023-01-01
 
