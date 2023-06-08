@@ -1,0 +1,38 @@
+:title: PhD defence Thomas Bellotti
+:category: event
+:date: 2023-06-01 14:00
+:place: Amphi Becquerel - Ecole polytechnique
+:shortdescription: Numerical analysis of lattice Boltzmann schemes: from fundamental issues to efficient and accurate adaptive methods
+
+
+.. class:: center
+
+
+:Title: **Numerical analysis of lattice Boltzmann schemes: from fundamental issues to efficient and accurate adaptive methods**
+:Abstract: The work presented in this thesis falls within the field tackling the analysis of numerical methods for Partial Differential Equations and pays particular attention to lattice Boltzmann schemes. This class of schemes has been used since the end of the 1980s, particularly in fluid mechanics, and is characterised by its great computational efficiency. However, lattice Boltzmann methods are very demanding in terms of memory space and are designed for uniform Cartesian meshes. Moreover, we lack general theoretical tools allowing us to analyse their consistency, stability and finally convergence. The work of the thesis is articulated around two main axes. The first one consists in proposing a strategy to apply lattice Boltzmann methods to non-uniform grids being adapted in time, in order to reduce the computing and storage costs. The ability to control the error and to be able to use the same approach irrespective of the underlying lattice Boltzmann scheme are additional constraints to be taken into account. To this end, we propose to dynamically adapt the lattice as well as to adjust any Boltzmann method to non-uniform meshes by relying on multiresolution analysis. This allows us to propose an innovative framework for moving meshes while respecting the posed constraints. Then, we demonstrate that the proposed method has excellent properties in terms of the perturbations of the original scheme and that it thus allows to reduce the spurious phenomena linked to the adapted meshes. The implementation of this procedure in an open-source software, allowing to represent and manage adapted grids by different approaches in a unified and innovative framework, is then addressed. The second line of research consists in giving a mathematically rigorous framework to the lattice Boltzmann methods, related in particular to their consistency with respect to the target PDEs, their stability, and thus their convergence. For this purpose, we propose a procedure, based on algebraic results, to eliminate the non-conservative moments of any lattice Boltzmann scheme, by recasting it into a multi-step Finite Difference scheme on the conserved moments. The notions of consistency and stability relevant to lattice Boltzmann methods are therefore those of Finite Difference schemes. In particular, all the results concerning the latter, among others the Lax theorem, are naturally transposed to the lattice Boltzmann schemes. A further step consists in studying the consistency and stability directly on the original scheme without having to calculate its "corresponding" Finite Difference method. This allows us to obtain the modified equations and to show the validity of the von Neumann stability analyses commonly used within the community. This new theoretical framework also makes it possible to study the influence of the initialization of the methods on the result of the simulations as well as to initiate preliminary studies on the monotonicity of lattice Boltzmann schemes and on their boundary conditions, which constitute openings for future work.
+
+
+*Under the supervision of Marc MASSOT, Benjamin GRAILLE and Loïc GOUARIN.*
+
+
+
+The defense will be held on Thursday, June 1, 2023 at 2:00 pm
+in the Amphitheatre Becquerel at Ecole Polytechnique
+
+The defense will also be broadcast live at: https://enseignement.medias.polytechnique.fr/videos/live-amphi-becquerel/
+
+
+The jury will be composed of
+
+- Marc MASSOT - École polytechnique - Doctoral advisor
+- Paul DELLAR  - OCIAM, Mathematical Institute, University of Oxford - Rapporteur
+- Philippe HELLUY - Université de Strasbourg - Rapporteur
+- Pierre SAGAUT - Aix-Marseille Université - Rapporteur
+- Denise AREGBA-DRIOLLET - IMB, Université de Bordeaux - Examiner
+- Li-Shi LUO - Old Dominion University - Examiner
+- Christophe CHALONS - Université Versailles Saint-Quentin-en-Yvelines - Examiner
+- Irina GINZBURG - Laboratoire MaiAge, INRAE - Examiner
+- François DUBOIS - Conservatoire National des Arts et Métiers et Laboratoire de Mathématiques d'Orsay – Guest
+
+
+You are all invited to the drink that will take place after the defense (around 5 pm) in the Salon d'honneur of Ecole polytechnique (next to the main hall, facing the lake).

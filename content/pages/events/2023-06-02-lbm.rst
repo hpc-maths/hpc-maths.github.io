@@ -19,13 +19,16 @@ Simulation of an air-conditioning system using pyLBM_, see_.
 
 .. title:: Purpose of the workshop
 
-The aim of this workshop is to gather internationally recognized scientists from France and abroad—on the occasion of T. Bellotti's PhD defence (contingent upon validation by the jury)—to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical analysis and schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
+.. _T. Bellotti's PhD defence: https://initiative-hpc-maths.gitlab.labos.polytechnique.fr/site/pages/phd-defence-thomas-bellotti.html
+
+
+The aim of this workshop is to gather internationally recognized scientists from France and abroad—on the occasion of `T. Bellotti's PhD defence`_—to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical analysis and schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
 
 
 .. title:: Invited speakers
 
 - **Denise Aregba-Driollet**, IMB - Université de Bordeaux, *Discrete BGK models for the approximation of nonlinear conservative and nonconservative hyperbolic systems*
-- **Paul J. Dellar**, OCIAM - University of Oxford, *Title TBA*
+- **Paul J. Dellar**, OCIAM - University of Oxford, *Magic two-relaxation-time lattice Boltzmann schemes as macroscopic finite difference schemes for the Navier—Stokes and Maxwell equations*
 - **Philippe Helluy**, IRMA - Université de Strasbourg, *Stable and accurate boundary conditions for kinetic approximations*
 - **Li-Shi Luo**, Old Dominion University, *Title TBA*
 - **Pierre Sagaut**, Aix-Marseille Université, *LBM as a general approach for solving conservation laws: recent results*
@@ -80,6 +83,14 @@ How to get to the `conference room`_
 
 :Title: *Discrete BGK models for the approximation of nonlinear conservative and nonconservative hyperbolic systems*
 :Abstract: Discrete BGK models are semilinear systems of transport equations with source terms which formally resemble the BGK model of the kinetic theory of gases. They provide a general relaxation approximation of quasilinear hyperbolic or hyperbolic-parabolic systems of PDEs. The framework for scalar conservation laws has been introduced in [R. Natalini, JDE 1998]. The generalization to systems of conservation laws and the design of related finite volume schemes was done in [D. Aregba-Driollet and R. Natalini, HYP98 Zurich proceedings, Birkhäuser, Basel, 1999]. Many papers were then written, both theoretically and numerically, in various physical and numerical contexts. In this talk, I shall give some results for conservative and nonconservative systems and try to link with the LBM.
+
+:Author:
+   **Paul J. Dellar**
+
+:Title: *Magic two-relaxation-time lattice Boltzmann schemes as macroscopic finite difference schemes for the Navier—Stokes and Maxwell equations*
+:Abstract: We interpret the lattice Boltzmann two-relaxation-time collision operator as prescribing different relaxation rates for the forward- and backward-propagating parts of each anti-parallel pair of discrete velocities. A particular “magic” combination sets the forward-propagating distributions to equilibrium. This allows us to construct closed finite difference schemes for the macroscopic variables alone across three time levels. We interpret these schemes as discretisations of first-order systems, the expected conservation law and a kinetic evolution equation the flux, and study these systems for the Navier—Stokes and Maxwell equations. In particular, we obtain a mimetic finite difference scheme for Maxwell’s equations that exactly preserves a discrete approximation to div B = 0, if it is satisfied initially, and otherwise evolves div B according to a telegraph equation. We obtain the magnetohydrodynamic induction equation solely from a non-relativistic approximation without needing a Chapman—Enskog expansion or equivalent slowly-varying approximation.
+
+
 
 :Author:
    **Philippe Helluy**
