@@ -1,4 +1,4 @@
-:title: A venir (Emmanuel Franck)
+:title: Méthodes d’apprentissage pour les problèmes de fermeture et stabilisation en EDP
 :category: event
 :date: 2023-06-16-14-00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
@@ -7,4 +7,9 @@
 
 .. title:: Résumé de l'exposé
 
-A venir
+Afin de réduire le coût de calcul associé à la résolution d'une EDP une approche de classique est de projeter l'edp considérée sur une base définie sur l ensemble du domaine. Lorsqu’il s'agit d'une base spatiale construite a partie des données on parle de la méthode des bases réduites, lorsqu’il s'agit d'une base polynomiale en vitesse pour les équations cinétiques comme l'équation Vlasov on parle de méthodes aux moments. Dans beaucoup de cas afin de fermer le système réduit on chercher à déterminer une relation nonlinéaire entre les variables réduites. On parle de fermeture.
+
+Dans un premier temps nous introduirons une approche d’apprentissage profond supervisé pour déduire une fermeture pour l'équation de Vlasov poisson en physique des plasmas. Nous discuterons les avantages et limites de l'approche. Ensuite sur un exemple plus simple nous introduirons une méthode plus complète, mais plus coûteuse pour déterminer une fermeture. On appliquera cela à un problème de base réduite pour une équation hyperbolique.
+
+Pour finir si le temps le permet on montrera a un travers un exemple que cette approche peut aussi permettre de déterminer des termes correctifs dans des schémas de type Lattice Boltzmann afin d’améliorer leurs précisions et leurs stabilités.
+
