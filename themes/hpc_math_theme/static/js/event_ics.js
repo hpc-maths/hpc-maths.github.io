@@ -20,7 +20,7 @@ END:VCALENDAR
 
 function event_uri(summary, t_start, t_end, place, abstract, url)
 {
-    return "data:text/calendar;base64," + btoa(event_to_ics(summary, t_start, t_end, place, abstract, url));
+    return "data:text/calendar;base64," + btoa(encodeURIComponent(event_to_ics(summary, t_start, t_end, place, abstract, url)));
 }
 
 function add_ics_link(elm, summary, t_start, t_end, place, abstract, url)
