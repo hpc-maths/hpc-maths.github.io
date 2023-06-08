@@ -1,3 +1,7 @@
+function utf8_to_b64(str) {
+  return window.btoa(unescape(encodeURIComponent(str)));
+}
+
 function event_to_ics( summary, t_start, t_end, place, abstract, url )
 {
     return `BEGIN:VCALENDAR
@@ -20,7 +24,7 @@ END:VCALENDAR
 
 function event_uri(summary, t_start, t_end, place, abstract, url)
 {
-    return "data:text/calendar;base64," + btoa(encodeURIComponent(event_to_ics(summary, t_start, t_end, place, abstract, url)));
+    return "data:text/calendar;base64," + utf8_to_b64(event_to_ics(summary, t_start, t_end, place, abstract, url));
 }
 
 function add_ics_link(elm, summary, t_start, t_end, place, abstract, url)
