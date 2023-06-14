@@ -1,0 +1,11 @@
+:title: Développement de modèles et de méthodes numériques pour les écoulements multiphasiques moyennés 
+:category: event
+:date: 2023-06-15-14-00
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Vincent Perrier (Inria Bordeaux Sud-Ouest)
+:shortdescription: Exposé de Vincent Perrier dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+Cet exposé tournera autour de la recherche de fermetures et de méthodes numériques pour les modèles multiphasiques de type Baer & Nunziato. Dans ces modèles, chaque phase a sa propre vitesse et sa propre pression, Bien que les deux phases soient considérées comme immiscibles, la taille des inclusions (bulles ou gouttes) est supposée suffisamment petite par rapport à l'échelle de modélisation pour que les deux phases puissent être présentes au même endroit. En plus de la densité, la vitesse, et la pression de chaque fluide, le taux de présence de chacun des fluides est donné par la fraction volumique de chaque fluide. En se basant sur une description stochastique de la description des interfaces, je proposerai plusieurs fermetures pour les écoulements multiphasiques. En particulier, je proposerai un modèle monodimensionnel complètement fermé, mais très non-linéaire, qu'on essaiera de relier au système original de Baer & Nunziato. On disutera ensuite l'extension en dimension supérieure à 1, et le lien avec des méthodes numériques existantes.
+
