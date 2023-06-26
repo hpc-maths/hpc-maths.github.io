@@ -1,10 +1,29 @@
-:title: A venir (Nicole Spillane et Elise Fressart et Michel Nowak)
+:title: Calcul Quantique
 :category: event
 :date: 2023-06-30-14-00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
-:speaker: Elise Fressart (CMAP - Ecole Polytechnique), Michel Nowak (Thalès), Nicole Spillane (CNRS - CMAP - Ecole Polytechnique)
+:speaker: Elise Fressart (CMAP - Ecole des Ponts, CMAP et Thales Research and Technology), Michel Nowak (Thales Research and Technology), Nicole Spillane (CNRS et CMAP)
 :shortdescription: Exposé d'informatique quantique dans le cadre du séminaire HPC@Maths.
 
-.. title:: Résumé de l'exposé
+.. title:: Introduction au Calcul Quantique
 
-A venir
+.. rubric:: *Par Nicole Spillane*
+
+Nicole proposera une introduction au calcul quantique pour les débutant.e.s. L’objectif est de présenter le formalisme quantique et les avantages que peuvent apporter le calcul quantique. Un accent particulier sera mis sur la méthode HHL de résolution des systèmes linéaires.
+
+.. title:: Quelques pistes pour le calcul quantique pour l’adaptation de maillage
+
+.. rubric:: *Par Elise Fressart*
+
+Elise présentera ses premiers travaux de stage (encore en cours). L’objectif de son stage est d’étudier le portage au format quantique de techniques d’adaptation de maillage dans le cadre de la simulation par éléments finis des équations de Maxwell. La librairie Qiskit sera aussi présentée.
+
+.. title:: Point de vue hardware et quelques remarques sur le calcul quantique chez Thales
+
+.. rubric:: *Par Michel Nowak*
+
+Michel est chercheur en calcul quantique chez Thales Research and Technology (TRT). Son exposé sera composé de trois parties:
+
+1. 1- Hardware: présentation de la technologie atomes froids et quelques mots sur les autres
+2. 2- Impact du bruit sur les algorithmes variationnels
+3. 3- Quelques mots sur les projets en cours et les directions de recherche à TRT.
+
