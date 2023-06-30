@@ -1,6 +1,6 @@
 :title: Continuum Computational Modeling of Biophysical Systems
 :category: event
-:date: 2023-04-14-14-00
+:date: 2023-04-14 14:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Maxime Theillard (Department of Applied Mathematics - University of California - Merced)  
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

@@ -1,6 +1,6 @@
 :title: Calcul Quantique
 :category: event
-:date: 2023-06-30-14-00
+:date: 2023-06-30 14:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Elise Fressart (CMAP - Ecole des Ponts, CMAP et Thales Research and Technology), Michel Nowak (Thales Research and Technology), Nicole Spillane (CNRS et CMAP)
 :shortdescription: Exposé d'informatique quantique dans le cadre du séminaire HPC@Maths.

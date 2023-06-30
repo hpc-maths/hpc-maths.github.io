@@ -1,6 +1,6 @@
 :title: A volume-preserving reference map method for the level set representation 
 :category: event
-:date: 2023-03-17-14-00
+:date: 2023-03-17 14:00
 :place: amphithéâtre Curie - Ecole polytechnique
 :speaker: Maxime Theillard (Department of Applied Mathematics - University of California - Merced)  
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

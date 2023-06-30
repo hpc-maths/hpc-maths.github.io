@@ -1,6 +1,6 @@
 :title: Relaxation systems and lattice Boltzmann methods
 :category: event
-:date: 2022-10-21-15-00
+:date: 2022-10-21 15:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Stephan Simonis (Institute for Applied and Numerical Mathematics - Karlsruhe Institute of Technology)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

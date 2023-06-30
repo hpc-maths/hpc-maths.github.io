@@ -1,6 +1,6 @@
 :title: Développement de modèles et de méthodes numériques pour les écoulements multiphasiques moyennés 
 :category: event
-:date: 2023-06-15-14-00
+:date: 2023-06-15 14:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Vincent Perrier (Inria Bordeaux Sud-Ouest)
 :shortdescription: Exposé de Vincent Perrier dans le cadre du séminaire HPC@Maths.

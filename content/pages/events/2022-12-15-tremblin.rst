@@ -1,6 +1,6 @@
 :title: Refonte d'une méthode de splitting d'opérateur en un splitting de flux
 :category: event
-:date: 2022-12-15-13-30
+:date: 2022-12-15 13:30
 :place: Salle de séminaires - CMAP - Ecole polytechnique
 :speaker: Remi Bourgeois (Maison de la simulation, CEA), Pascal Tremblin (Maison de la simulation, CEA)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

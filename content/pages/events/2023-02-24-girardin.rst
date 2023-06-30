@@ -1,6 +1,6 @@
 :title: Second-order schemes based on a relaxation system
 :category: event
-:date: 2023-02-24-15-00
+:date: 2023-02-24 15:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Mathieu Girardin (CEA) 
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

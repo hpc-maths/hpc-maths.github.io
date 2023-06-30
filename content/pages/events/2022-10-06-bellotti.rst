@@ -1,6 +1,6 @@
 :title: Initialization of lattice Boltzmann schemes: discrete and asymptotic rigorous analyses
 :category: event
-:date: 2022-10-06-10-30
+:date: 2022-10-06 10:30
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Thomas Bellotti (CMAP)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

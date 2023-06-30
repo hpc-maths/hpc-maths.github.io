@@ -1,6 +1,6 @@
 :title: Convergence of stochastic numerical methods: from simulation to theory
 :category: event
-:date: 2023-01-27-15-30
+:date: 2023-01-27 15:30
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Ludovic Goudenege (Fédé Maths, CentraleSupélec) 
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

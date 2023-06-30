@@ -1,6 +1,6 @@
 :title: Modélisation d'écoulements diphasiques : hiérarchie de modèles et modèles à deux échelles
 :category: event
-:date: 2022-12-02-15-00
+:date: 2022-12-02 15:00
 :place: Salle de séminaires - CMAP - Ecole polytechnique
 :speaker: Arthur Loison (CMAP)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

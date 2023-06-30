@@ -1,6 +1,6 @@
 :title: Algorithmes géométriques parallèles
 :category: event
-:date: 2023-02-10-13-30
+:date: 2023-02-10 13:30
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Bruno Maugars (ONERA), Eric Quemerais (ONEAR), Mohamed Essadki (ONERA)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

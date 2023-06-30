@@ -1,6 +1,6 @@
 :title: An overview of the p4est library
 :category: event
-:date: 2022-11-18-15-00
+:date: 2022-11-18 15:00
 :place: Salle de séminaires - CMAP - Ecole polytechnique
 :speaker: Florence Drui (CEA)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
