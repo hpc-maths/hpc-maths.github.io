@@ -1,0 +1,50 @@
+:title: Algorithmes géométriques parallèles
+:category: event
+:date: 2023-02-10-13-30
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Bruno Maugars (ONERA), Eric Quemerais (ONEAR), Mohamed Essadki (ONERA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Algorithmes géométriques parallèles de la bibliothèque ParaDiGM
+
+.. rubric:: *Par Bruno Maugars et Eric Quemerais*
+
+La bibliothèque ParaDiGM (Parallel Distributed Generalized Mesh),
+développée depuis 2015 à l'ONERA sous licence LGPL, contient un
+catalogue d'algorithmes parallèles géométriques, d'algorithmes de
+manipulation de maillage et d'algorithmes de construction et de parcours
+de graphes de communication MPI. Appelés à bas niveau dans les logiciels
+de simulation numérique, ces services permettent de construire
+rapidement les prérequis géométriques nécessaires aux méthodes
+numériques ainsi que les graphes de communication MPI aux frontières des
+partitions. A haut niveau, ces fonctionnalités sont utilisés pour
+effectuer les pré et post-traitements. La bonne performance des
+algorithmes géométriques permet de les appeler également fréquemment en
+cours de calcul en co-traitement. Après un rapide parcours des
+fonctionnalités, l'exposé se concentra sur la présentation de l'approche
+algorithmique originale adoptée dans ParaDiGM lui permettant d'obtenir
+de bonnes performances et des résultats indépendants du parallélisme.
+
+.. title:: Code Generation for In-Place Stencils in structured grid
+
+.. rubric:: *Par Mohamed Essadki*
+
+Numerical simulation often resorts to iterative in-place stencils
+such as the Gauss-Seidel or Successive Overrelaxation (SOR)
+methods. Writing high performance implementations of such
+stencils requires significant effort and time; it also involves
+non-local transformations beyond the stencil kernel itself.
+While automated code generation is a mature technology for
+image processing stencils, convolutions and out-of-place iterative
+stencils (such as the Jacobi method), the optimization of in-place
+stencils requires manual craftsmanship. Building on recent advances
+in tensor compiler construction,we propose the first domain-specific
+code generator for iterative in-place stencils. Starting from a generic
+tensor compiler implemented in the MLIR framework, tensor
+abstractions are incrementally refined and lowered down to parallel,
+tiled, fused and vectorized code. We used our generator to
+implement a realistic, implicit solver for structured meshes, and
+demonstrate results competitive with an industrial computational
+fluid dynamics framework. We also compare with stand-alone
+stencil kernels for dense tensors.
+

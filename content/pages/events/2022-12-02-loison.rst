@@ -1,0 +1,11 @@
+:title: Modélisation d'écoulements diphasiques : hiérarchie de modèles et modèles à deux échelles
+:category: event
+:date: 2022-12-02-15-00
+:place: Salle de séminaires - CMAP - Ecole polytechnique
+:speaker: Arthur Loison (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Modélisation d'écoulements diphasiques : hiérarchie de modèles et modèles à deux échelles
+
+Au sein des écoulements diphasiques, la simulation de processus d'atomisation d'un jet liquide en un spray de gouttelettes reste un défi pour la simulation numérique. En effet, la bonne résolution de la dynamique de l'interface est cruciale à toutes les échelles. Ce caractère multi-échelle rend l'utilisation des modèles mono-fluide (avec résolution des équations fluides de part et d'autre de l'interface) trop coûteuse pour résoudre toutes les échelles de l'écoulement. Je présenterai comment l'utilisation des modèles multi-fluides (avec résolution des équations sur un mélange des deux fluides) couplée à une modélisation de la dynamique sous-échelle (qui caractérise le mélange) vise à proposer une modélisation unifiée de l'atomisation.
+

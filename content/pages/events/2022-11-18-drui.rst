@@ -1,0 +1,13 @@
+:title: An overview of the p4est library
+:category: event
+:date: 2022-11-18-15-00
+:place: Salle de séminaires - CMAP - Ecole polytechnique
+:speaker: Florence Drui (CEA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: An overview of the p4est library
+
+One of the solutions to reduce the computation costs of numerical simulations is to use the adaptive mesh refinement (AMR) strategy. A few generic AMR libraries have been developed, among which the p4est library [1]. The approach of p4est is to consider an initial mesh of quadrangles (2D) or hexahedra (3D) as a forest of tree-based AMR grids. Based on an intensive use of the z-order curve, the algorithms of p4est have shown a good scalability up to 458k MPI processes. We will see in this presentation the main principles of the p4est library and some applications.
+
+* [1] Carsten Burstedde, Lucas C. Wilcox, and Omar Ghattas, *p4est: Scalable Algorithms for Parallel Adaptive Mesh Refinement on Forests of Octrees.* Published in SIAM Journal on Scientific Computing 33 no. 3 (2011)
+

@@ -1,0 +1,11 @@
+:title: Initialization of lattice Boltzmann schemes: discrete and asymptotic rigorous analyses
+:category: event
+:date: 2022-10-06-10-30
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Thomas Bellotti (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Initialization of lattice Boltzmann schemes: discrete and asymptotic rigorous analyses
+
+Latitude on the choice of initialization is a staple common to mesoscopic and multi-step methods. Lattice Boltzmann schemes can be interpreted as examples of both previous categories of schemes. We propose a method to find the modified equations of the initialization schemes for lattice Boltzmann methods, determined by the choice of initial data.  These equations provide guidelines to devise and analyze the initialization in terms of order of consistency with respect to the target Cauchy problem and time smoothness of the numerical solution. Concerning the constraints to achieve time smoothness, we explain how the strong lack of observability for certain lattice Boltzmann schemes -- seen as dynamical systems on commutative rings -- can yield rather simple conditions. This comes from the reduced number of initialization schemes at the fully discrete level. The theoretical results are successfully assessed on several lattice Boltzmann methods.
+

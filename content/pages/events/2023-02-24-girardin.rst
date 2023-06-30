@@ -1,0 +1,11 @@
+:title: Second-order schemes based on a relaxation system
+:category: event
+:date: 2023-02-24-15-00
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Mathieu Girardin (CEA) 
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Second-order schemes based on a relaxation system
+
+On présente une nouvelle classe de schémas "one-step" d'ordre deux basés sur des systèmes de relaxation pour une équation hyperbolique scalaire. Une extension au système de la dynamique des gaz est proposée (schéma Lagrange-Projection). Des résultats numériques sont fournis pour montrer la bonne précision des schémas notamment pour traiter le cas de la décroissance de la turbulence homogène isotrope. Enfin, une analyse du comportement du schéma en régime Bas Mach est proposée ainsi qu'une stratégie numérique "tout-régime".
+

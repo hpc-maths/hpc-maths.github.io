@@ -1,0 +1,18 @@
+:title: Relaxation systems and lattice Boltzmann methods
+:category: event
+:date: 2022-10-21-15-00
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Stephan Simonis (Institute for Applied and Numerical Mathematics - Karlsruhe Institute of Technology)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Titre
+
+Lattice Boltzmann methods (LBM) promise an unconventional, perfectly
+parallel approximation technique for partial differential equations appearing
+in computational fluid dynamics and beyond. Although the method's intrinsic
+connection of relaxation and discretization limits promotes a simplistic
+implementation, it also complicates its numerical analysis. In this talk, we
+present novel techniques for the latter. We discuss a constructive ansatz
+for LBM, the indication of non-linear stability with high performance
+computing machinery, and limit consistent discretizations.
+

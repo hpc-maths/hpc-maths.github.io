@@ -1,0 +1,19 @@
+:title: Refonte d'une méthode de splitting d'opérateur en un splitting de flux
+:category: event
+:date: 2022-12-15-13-30
+:place: Salle de séminaires - CMAP - Ecole polytechnique
+:speaker: Remi Bourgeois (Maison de la simulation, CEA), Pascal Tremblin (Maison de la simulation, CEA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Refonte d'une méthode de splitting d'opérateur en un splitting de flux; Le cas d'un solveur Lagrange-Projection pour la dynamique des gaz
+
+.. rubric:: *Rémi Bourgeois*
+
+Nous discuterons de la refonte d'un solveur Lagrange-Projection de type splitting d'opérateur acoustique/transport en une méthode de splitting de flux via une modification simple de l'étape de transport. Les avantages de la nouvelle méthode ainsi obtenue seront discutés. Les propriétés de stabilités seront prouvées via l'interprétation du splitting de flux comme un calcul de moyenne entre des flux dits d'advection et de pression. Finalement, la méthode de flux splitting sera aussi comprise via une approche de relaxation. Quelques simulations numériques de cas tests classiques seront présentées.
+
+.. title:: A multi-dimensional, robust, and cell-centered finite-volume scheme for the ideal MHD equations
+
+.. rubric:: *Par Pascal Tremblin* 
+
+We present a new multi-dimensional, robust, and cell-centered finite-volume scheme for the ideal MHD equations. This scheme relies on modern relaxation and splitting techniques and can be easily used at high order. A fully conser- vative version is not entropy satisfying but is observed experimentally to be more robust than standard constrained transport schemes at low plasma beta. At very low plasma beta, we have designed an entropy-satisfying version that is not conservative for the magnetic field but preserve admissible states and we switch locally a-priori between the two versions depending on the regime of plasma beta. This strategy is robust in a wide range of standard MHD test cases, all performed at second order with a classic MUSCL-Hancock scheme.
+
