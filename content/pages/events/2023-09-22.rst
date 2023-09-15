@@ -1,0 +1,12 @@
+:title: Simulation of polydisperse oscillating droplets: numerical methods for geometric moment equations
+:category: event
+:date: 2023-09-22 14:00
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Katia Aït Ameur (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+In this talk, I will present a robust numerical scheme for a system of moment equations describing a polydisperse spray of oscillating droplets. This model is based on a particular choice of variables describing the geometry of the droplets which are linked to the moments of a Number Density Function. This model includes a cloud of non-spherical droplets with a dynamical behavior through incompressible oscillations. The resulting system of equations has a complex structure and the continuous solution satisfies so-called realizability conditions which need to be enforced through the numerical methods. To achieve accuracy, robustness and realizability, the present discretization is based on the kinetic finite volume approach. It relies on a reconstruction of a kinetic distribution function from the vector of unknowns and
+a computation of the characteristics followed by this underlying kinetic solution. We assess the ability of the model and of the related numerical methods to capture the physics of such flows with 1D test cases of  polydisperse sprays with oscillating droplets with a forcing term.
+
