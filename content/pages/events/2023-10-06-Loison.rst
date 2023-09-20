@@ -1,0 +1,10 @@
+:title: To be announced
+:category: event
+:date: 2023-10-06 14:00
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
+:speaker: Arthur Loison (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+To be announced.
