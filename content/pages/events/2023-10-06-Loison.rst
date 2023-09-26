@@ -1,4 +1,4 @@
-:title: To be announced
+:title: Simulation of two-scale capillar models
 :category: event
 :date: 2023-10-06 14:00
 :place: Salle Jean Lascoux - CPHT - Ecole polytechnique
@@ -7,4 +7,7 @@
 
 .. title:: Résumé de l'exposé
 
-To be announced.
+Two-scale models aim at proposing a unified approach for the simulation of two-phase flows with multiple scales and regimes. In this talk, we are particularly interested on the modeling of capillarity phenomena depending on the flow regime, here modeled by different models at each scale: a multi-fluid model at large scale, a geometric method of moments at small scale.
+The model is completed by a transfer process which aims at both modelling the transition from one flow regime to another, and regularizing the interface surface at large-scale.
+We will particularly focus on the simulation of this model with second-order schemes implemented in the finite-volume solver Josiepy.
+
