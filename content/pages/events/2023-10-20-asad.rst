@@ -1,0 +1,11 @@
+:title: Numerical simulations of lithium-ion batteries at microscale
+:category: event
+:date: 2023-10-20 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Ali Asad (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+We investigate the modeling and simulation of ionic transport and charge conservation in lithium-ion batteries (LIBs) at the microscale. It is a multiphysics problem that involves a wide range of time scales. The associated computational challenges motivate the investigation of numerical techniques that can decouple the time integration of the governing equations in the liquid electrolyte and the solid phase (active materials and current collectors). First, it is shown that semi-discretization in space of the non-dimensionalized governing equations leads to a system of index-1 semi-explicit differential algebraic equations (DAEs). Then, a new generation of strategies for multi-domain integration is presented, enabling high-order adaptive coupling of both domains in time. A simple 1D LIB half-cell code is implemented as a demonstrator of the new strategy for the simulation of different modes of cell operation. The integration of the decoupled subsystems is performed with high-order accurate implicit nonlinear solvers. The accuracy of the space discretization is assessed by comparing the numerical results to the analytical solutions. Then, temporal convergence studies demonstrate the accuracy of the new multi-domain coupling approach. The computational efficiency and accuracy of the adaptive coupling strategy are discussed in the light of the conditioning of the decoupled subproblems compared to the one of the fully-coupled problem. Finally, we present some preliminary work towards implementing 3D LIB simulations using SAMURAI and PetSc libraries enabling adaptive grid refinement and implicit solver like ESDIRK, respectively. These numerical approaches involving adaptive space-time methods will constitute a key ingredient for the full scale 3D LIB high-fidelity simulations based on actual electrode microstructures.
+
