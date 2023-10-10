@@ -1,0 +1,11 @@
+:title: TBA
+:category: event
+:date: 2023-11-10 14:00
+:place: CMAP
+:speaker: Olivier Henot (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+-
+
