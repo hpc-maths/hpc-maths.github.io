@@ -1,0 +1,11 @@
+:title: TBA2
+:category: event
+:date: 2023-11-24 14:00
+:place: Jean Lascoux (CPHT, aile0)
+:speaker: Giuseppe Orlando (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+
+
