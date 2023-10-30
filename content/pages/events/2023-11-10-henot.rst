@@ -1,4 +1,4 @@
-:title: TBA
+:title: Computer-assisted proofs of radial solutions of elliptic systems on R^d
 :category: event
 :date: 2023-11-10 14:00
 :place: CMAP
@@ -7,5 +7,5 @@
 
 .. title:: Résumé de l'exposé
 
--
-
+The talk presents a recent work on the rigorous computation of localized radial solutions of semilinear elliptic systems. While there are comprehensive results for scalar equations and some specific classes of elliptic systems, much less is known about these solutions in generic systems of nonlinear elliptic equations. These radial solutions are described by systems of non-autonomous ordinary differential equations. Using an appropriate Lyapunov-Perron operator, we rigorously enclose the centre-stable manifold which contains the asymptotic behaviour of the profile. We then formulate, as a zero-finding problem, a shooting scheme from the set of initial conditions onto the invariant manifold. By means of a Newton-Kantorovich type theorem, we obtain sufficient conditions to prove the existence and local uniqueness of a zero in a vicinity of a numerical approximation.
+We apply this method to prove ground state solutions for the Klein-Gordon equation on R^3, Swift-Hohenberg equation on R^2, and a FitzHugh-Nagumo system on R^2.
