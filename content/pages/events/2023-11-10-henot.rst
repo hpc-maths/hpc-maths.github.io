@@ -1,7 +1,7 @@
 :title: Computer-assisted proofs of radial solutions of elliptic systems on R^d
 :category: event
 :date: 2023-11-10 14:00
-:place: CMAP
+:place: Salle Jean Lascoux - CPHT - Ecole polytechnique
 :speaker: Olivier Henot (CMAP)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
