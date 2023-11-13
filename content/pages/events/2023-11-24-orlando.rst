@@ -5,7 +5,7 @@
 :speaker: Giuseppe Orlando (CMAP)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
-.. title:: Derivation of relations for interfacial area density in two-phase flows through the Stationary Action Principle
+.. title:: Résumé de l'exposé
 
 In this talk, we present the derivation of a dynamic relation for the interfacial area density of a two-phase flow system. The model aims to describe the oscillations of the interfacial area density with respect to a reference configuration. The derivation is based on the Stationary Action Principle (SAP) and dissipative effects are added compatibly with the Second Principle of Thermodynamics. The proposed model is rather flexible and, indeed, thanks to the use of two-scale models recently proposed, we also show that, through a suitable identification of some parameters, we can retrieve equations for the interfacial area density previously obtained by means of empirical approaches, bringing them back into a variational setting.
 
