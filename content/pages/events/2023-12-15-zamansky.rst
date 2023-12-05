@@ -1,4 +1,4 @@
-:title: TBA
+:title: Lagrangian modeling of turbulent two-phase flows
 :category: event
 :date: 2023-12-15 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
@@ -7,4 +7,6 @@
 
 .. title:: Résumé de l'exposé
 
-TBA
+The talk will focus on modeling of the Lagrangian dynamics of turbulent flows, of the motion of inertial particles in turbulent flows and of the generation of turbulence induced by a bubble cloud.
+We first consider the statistics of the acceleration of a fluid particle and the stochastic modeling of its dynamics. A relationship between the force on a fluid particle (the acceleration), the kinetic energy and the dissipated power is highlighted. This relationship links the idea of the energy cascade, and its intrinsic multi-scale character to tracer dynamics in turbulent flows. Based on this relationship, we proposed a vectorial stochastic model that effectively describes the interactions of fluid particles with all other fluid particles of the flow. This model presents some of the remarkable features of the fluid particle dynamics, in particular the occurrence of extreme events, the temporal asymmetry and the emergence of anomalous scaling law. These aspects, linked to the intermittency of the energy cascade, also play a key role in describing the evolution of a dispersed phase. Based on a statistical description of the acceleration and hydrodynamic forces of particles that are heavy or light, small or large, we propose a stochastic modeling of the high-frequency part of the dynamics of real particles. We will illustrate how coupling these models with the Large Eddy Simulation approach allows us to account for the large fluctuations of the unresolved small-scale motion in dispersed-phase dynamics.
+Finally, we consider the numerical modeling of turbulent agitation induced by the rising of a swarm of large bubbles. We proposed a coarse grained approach in which interfaces are not resolved, but which allows us to simulate flows with a large number of bubbles and to focus on the interactions between bubble wakes. This simulation approach enables us to study the structure of the bubble-induced agitation and to propose a mechanism for the origin of the k-3 decay of the energy spectrum.
