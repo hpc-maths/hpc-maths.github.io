@@ -1,0 +1,10 @@
+:title: Autour des reconstructions polynomiales pour les schémas volumes finis d'ordre élevé
+:category: event
+:date: 2024-01-26 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Gaspard Brunelle (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+
