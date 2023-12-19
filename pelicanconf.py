@@ -43,6 +43,8 @@ DATE_FORMATS = {"fr": ""}
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
+SLUGIFY_SOURCE = 'basename'
+
 MENUITEMS = [
     ("Présentation", "/index.html"),
     ("Codes", "/pages/codes.html"),
