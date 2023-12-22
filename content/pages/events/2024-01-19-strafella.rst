@@ -1,7 +1,7 @@
 :title: Optimizing the data pipeline: the RAMSES code use case for astrophysics
 :category: event
 :date: 2024-01-19 14:00
-:place: Salle de conférence CMAP (aile0, 1er étage)
+:place: Salle Jean Lascoux (CPHT, aile0, 1er étage)
 :speaker: Loïc Strafella ()
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
