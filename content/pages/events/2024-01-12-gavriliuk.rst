@@ -7,5 +7,5 @@
 
 .. title:: Résumé de l'exposé
 
-The "hyperbolized"  KdV and BBM equations, Serre-Green-Naghdi equations, bubbly fluid equations, Euler-Koteweg - van der Walls equations, … are derived. Such a "hyperbolisation" approach allows us to use all mathematical and numerical tools of hyperbolic systems of equations to study solutions of the governing equations. 
+The "hyperbolized" KdV and BBM equations, Serre-Green-Naghdi equations, bubbly fluid equations, Euler-Korteweg - van der Walls equations are derived. Such a "hyperbolisation" approach allows us to use all mathematical and numerical tools of hyperbolic systems of equations to study solutions of the governing equations. 
 
