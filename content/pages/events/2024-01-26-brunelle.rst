@@ -1,4 +1,4 @@
-:title: Autour des reconstructions polynomiales pour les schémas volumes finis d'ordre élevé
+:title: Two-Bound Polynomial Projection for Finite Volume Schemes in conservation Laws 
 :category: event
 :date: 2024-01-26 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
@@ -7,4 +7,6 @@
 
 .. title:: Résumé de l'exposé
 
+This work explores the application of a two-bound polynomial projection method to enhance the performance of finite volume schemes for conservation law discretization. The aim is to address the challenges posed by discontinuities, reducing spurious oscillations, and improving shock capturing.
+Non-linear hyperbolic equations often yield discontinuous solutions, and polynomial reconstructions tend to introduce oscillations around these discontinuities. We quantify these oscillations through the total variation, seeking the Total Variation Diminishing (TVD) (or at least essentially non-oscillatory) property as a desirable characteristic in our numerical scheme. A comparison between the suggested approach and the state-of-the-art ENO/WENO reconstruction methods is done in this work.
 
