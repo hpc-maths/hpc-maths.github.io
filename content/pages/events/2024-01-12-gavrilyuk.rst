@@ -2,7 +2,7 @@
 :category: event
 :date: 2024-01-12 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
-:speaker: Sergey Gavriliuk (Université Aix-Marseille)
+:speaker: Sergey Gavrilyuk (Université Aix-Marseille)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
 .. title:: Résumé de l'exposé
