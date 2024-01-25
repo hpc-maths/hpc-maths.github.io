@@ -1,0 +1,11 @@
+:title: exposé de Nicolas Grenier
+:category: event
+:date: 2024-02-09 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Nicolas Grenier (LISN)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+TBA
+
