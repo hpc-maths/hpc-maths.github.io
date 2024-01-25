@@ -1,4 +1,4 @@
-:title: exposé de Nicolas Grenier
+:title: Low-Mach schemes for two-phase models
 :category: event
 :date: 2024-02-09 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
@@ -7,5 +7,5 @@
 
 .. title:: Résumé de l'exposé
 
-TBA
+By considering two-phase flows of separated compressible fluids, in some regimes involving also heat transfer, liquid phase may exhibit small relative velocity (with respect to sound celerity) close to a gas which is subject to dilatation and/or higher speed (also with respect to its own speed of sound). Classical numerical schemes (such as Godunov) are known for presenting excessive numerical dissipation in the low-Mach regime on liquid side. In the context of both sharp modelling of interface (Level-Set approach) and diffuse interface modelling (two-fluid mixing model), two different approaches will be presented to tackle this issue.
 
