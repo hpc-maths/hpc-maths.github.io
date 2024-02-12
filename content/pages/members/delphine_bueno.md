@@ -1,0 +1,7 @@
+title: bueno
+firstname: Delphine
+lastname: Bueno
+fonction: Cheffe de projet
+category: member
+position: valo
+date: 2024-01-01
