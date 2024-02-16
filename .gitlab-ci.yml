@@ -10,20 +10,7 @@ build:
   artifacts:
     paths:
       - public
-
-deploy:
-  stage: deploy
-  dependencies:
-    - build
-  except:
-    - master
-    - /^release\/.+/
-  environment:
-    name: review/$CI_COMMIT_REF_NAME
-    url: "https://initiative-hpc-maths.gitlab.labos.polytechnique.fr/site/-/jobs/$CI_JOB_ID/artifacts/public/index.html"
-  artifacts:
-    paths:
-      - public
+    expire_in: 1 hour
 
 pages:
   stage: deploy
