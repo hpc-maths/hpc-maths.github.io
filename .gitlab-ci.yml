@@ -1,9 +1,41 @@
 image: python:3.8-alpine
 
-pages:
+build:
+  stage: build
   script:
-  - pip install -r requirements.txt
-  - pelican -s publishconf.py -t themes/hpc_math_theme/
+    - pip install -r requirements.txt
+    - pelican -s publishconf.py -t themes/hpc_math_theme/
+  except:
+    - master
   artifacts:
     paths:
-    - public/
+      - public
+
+deploy:review:
+  stage: deploy
+  dependencies:
+    - build
+  except:
+    - master
+    - /^release\/.+/
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    url: "https://initiative-hpc-maths.gitlab.labos.polytechnique.fr/site/-/jobs/$CI_JOB_ID/artifacts/public/index.html"
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - pip install -r requirements.txt
+    - pelican -s publishconf.py -t themes/hpc_math_theme/
+  artifacts:
+    paths:
+      - public/
+  only:
+    - master
+
+stages:
+  - build
+  - deploy
