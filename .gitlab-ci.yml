@@ -11,7 +11,7 @@ build:
     paths:
       - public
 
-deploy:review:
+deploy:
   stage: deploy
   dependencies:
     - build
