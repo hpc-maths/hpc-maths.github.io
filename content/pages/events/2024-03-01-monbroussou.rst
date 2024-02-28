@@ -2,7 +2,7 @@
 :category: event
 :date: 2024-03-01 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
-:speaker: Jonas Landman
+:speaker: Léo Monbroussou
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
 .. title:: Résumé de l'exposé
