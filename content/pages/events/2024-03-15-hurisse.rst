@@ -1,0 +1,13 @@
+:title: A random-choice scheme for scalar advection
+:category: event
+:date: 2024-03-15 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Olivier Hurisse (EDF)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+The talk is dedicated to a numerical method based on a random choice as proposed in Glimm’s scheme.
+
+It is applied to the problem of advection of a scalar quantity. The numerical scheme proposed here relies on a fractional step approach for which: the first step is performed using any classical finite-volume scheme, and the second step is a cell-wise update. This second step is a projection based on a random choice. The resulting scheme possesses a very low level of numerical diffusion. In order to assess the capabilities of this approach, several test cases have been investigated including convergence studies with respect to the mesh-size. The algorithm performs very well on one-dimensional and multi-dimensional problems. This algorithm is very easy to implement even for multi-processor computations.
+
