@@ -1,6 +1,6 @@
 :title: A random-choice scheme for scalar advection
 :category: event
-:date: 2024-03-15 14:00
+:date: 2024-04-12 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
 :speaker: Olivier Hurisse (EDF)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.

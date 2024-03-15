@@ -1,0 +1,11 @@
+:title: Exposé de Teddy Pichard
+:category: event
+:date: 2024-04-26 14:00
+:place: Jean Lascoux (CPHT aile0)
+:speaker: Teddy Pichard (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+TBA
+
