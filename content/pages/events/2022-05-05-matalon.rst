@@ -1,0 +1,10 @@
+:title: Multigrid methods for Hybrid High-Order discretizations
+:category: event
+:date: 2024-04-26 14:00
+:place: Jean Lascoux (CPHT aile0)
+:speaker: Pierre Matalon
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+We consider a second-order, elliptic partial differential equation discretized by the Hybrid High-Order (HHO) method. HHO is a polyhedral method that handles arbitrary polynomial orders, and for which globally coupled unknowns are located at faces. To efficiently solve the linear system arising after static condensation, this work proposes novel, skeleton-based multigrid methods. One is geometric, the other is algebraic. The geometric algorithm is an h-multigrid method that conserves the polynomial degree at every level. It handles non-nested, unstructured, polyhedral meshes. Numerical tests on homogeneous and heterogeneous diffusion problems show fast convergence, scalability in the mesh size and polynomial order, and robustness with respect to heterogeneity of the diffusion coefficient. The algebraic multigrid method (AMG) applies to the lowest order hybrid methods. It leverages the uncondensed matrix to extract the connectivity graph between elements and faces, and subsequently implements an element-defined aggregation-based coarsening strategy. Used as a preconditioner, this AMG conserves the performance and scalability of standard plain aggregation AMGs that directly work on the condensed system, while exhibiting notable improvement on anisotropic problems with Cartesian meshes.
