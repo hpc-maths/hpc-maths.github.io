@@ -1,0 +1,34 @@
+:title: PhD defence Arthur Loison
+:category: event
+:date: 2024-03-27 14:00
+:place: Amphi Cauchy - Ecole polytechnique
+:shortdescription: Modélisation Eulérienne multi-fluide unifiée à deux échelles des écoulements diphasiques à phases séparées et dispersées
+
+
+.. class:: center
+
+
+:Title: **Modélisation Eulérienne multi-fluide unifiée à deux échelles des écoulements diphasiques à phases séparées et dispersées**
+:Abstract: Les écoulements diphasiques liquide-gaz sont présents dans de nombreuses applications industrielles telles que la propulsion aérospatiale, l'hydraulique nucléaire ou les colonnes à bulles dans l'industrie chimique. La simulation de ces écoulements est d'un intérêt primordial pour leur compréhension et leur optimisation. Cependant, la dynamique de l'interface séparant le gaz du liquide peut avoir une dynamique multi-échelle et rend alors sa simulation trop coûteuse en calcul dans un contexte industriel. Une classe de modèles - dits multi-fluides - sont moins coûteux pour des régimes particuliers de dynamique d'interface, par exemple lorsque les fluides s'écoulent de part et d'autre d'une unique interface lisse dans un régime séparé ou lorsque l'un des deux fluides est sous formes d'inclusions (gouttes ou bulles) portées par l'autre fluide dans un régime dispersé. Le couplage de ces modèles a été proposé pour des écoulements multi-échelles comme l'atomisation liquide, mais un tel couplage est souvent difficile à mettre en place du point de vue de la modélisation physique ou de ses propriétés mathématiques. Cette thèse répond à cette problématique en proposant un cadre de modélisation unifiée à deux échelles ainsi que des schémas numériques robustes. Les principales contributions liées à cette modélisation sont : 1- La combinaison de modèles multi-fluides compressibles de la littérature, adaptés soit au régime séparé soit au régime dispersé, en un modèle multi-fluide unifié à deux échelles grâce au principe d'action stationnaire de Hamilton ; 2- Le couplage local des modèles avec un transfert de masse inter-échelle régularisant l'interface à grande échelle en conservant l'énergie capillaire et modélisant les phénomènes de régime mixte présents dans l'atomisation primaire ; 3- L'amélioration des modèles à petite échelle pour les régimes dispersés en ajoutant la dynamique de quantités géométriques pour des gouttes oscillantes ou des bulles pulsantes, construites comme des moments d'une description cinétique. D'un point de vue numérique, des schémas volumes-finis adaptés aux systèmes de lois de conservation avec relaxations ont été implémentés dans le solveur open-source Josiepy. Enfin, des simulations démonstratives des propriétés de régularisation du modèle sont proposées sur des configurations numériques conduisant à des dynamiques d'interface multi-échelles.
+
+
+*Sous la direction de Marc MASSOT, Teddy PICHARD et Samuel KOKH.*
+
+La soutenance aura lieu dans l'amphithéâtre Cauchy à l'École polytechnique le mercredi 27 mars à 14h.
+
+La soutenance sera également retransmise au lien suivant : https://enseignement.medias.polytechnique.fr/lives/live-amphitheatre-cauchy/
+
+
+Le jury sera composé de :
+
+- Hélène Mathis, Professeure, Université de Montpellier - Rapporteure
+- Sergey Gavrilyuk, Professeur, Aix-Marseille Université - Rapporteur
+- Pauline Lafitte, Professeure, CentraleSupélec - Examinatrice
+- Maren Hantke, Wissenschaftliche Mitarbeiterin, Uni Halle - Examinatrice
+- Jean-Marc Hérard, Ingénieur de recherche, EDF R&D - Examinateur
+- Vincent Perrier, Chargé de recherche, INRIA - Université de Pau - Examinateur
+- Marc Massot, Professeur, École polytechnique - Directeur de thèse
+- Marica Pelanti, Maître de conférence, ENSTA Paris - Invitée
+- François-Xavier Demoulin, CORIA - Université de Normandie - Invité
+
+La soutenance sera suivi d'un pot qui se tiendra dans la salle de conférences du CMAP.
