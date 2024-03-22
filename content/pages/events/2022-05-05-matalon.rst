@@ -1,6 +1,6 @@
 :title: Multigrid methods for Hybrid High-Order discretizations
 :category: event
-:date: 2024-04-26 14:00
+:date: 2022-05-05 14:00
 :place: Jean Lascoux (CPHT aile0)
 :speaker: Pierre Matalon
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
