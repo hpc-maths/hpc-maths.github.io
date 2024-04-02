@@ -1,4 +1,4 @@
-:title: Exposé de Teddy Pichard
+:title: Around the method of moments in kinetic theory: Numerical analysis and novelties
 :category: event
 :date: 2024-04-26 14:00
 :place: Jean Lascoux (CPHT aile0)
@@ -7,5 +7,5 @@
 
 .. title:: Résumé de l'exposé
 
-TBA
+The method of moments is commonly used to reduce a kinetic equation into a fluid model. In this talk, I will present this technique as a semi-discretization with respect to the kinetic variable. I will focus on the main properties expected for this approximation, namely the positivity of an underlying kinetic approximation, a.k.a. the realizability, the strong or weak hyperbolicity and the entropy dissipation of the resulting system. I will present some novelties around these approximations, classified in three categories: the quadrature-based methods, the entropy-based methods and the realizability-based methods. Eventually, I will give some ideas on how to analyze such approximations and illustrate it on some kinetic toy problems.
 
