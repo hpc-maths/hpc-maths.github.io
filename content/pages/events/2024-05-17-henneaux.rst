@@ -1,4 +1,4 @@
-:title: Exposé de David Henneaux		
+:title: Modeling and high-order numerical approaches for multiphase simulations – Application to ablation by melting  		
 :category: event
 :date: 2024-05-17 14:00
 :place: Salle de conférence du CMAP (aile 5, 2e étage)
@@ -7,5 +7,11 @@
 
 .. title:: Résumé de l'exposé
 
-TBA
+The exponential growth of the number of non-functional man-made objects in Earth orbit, identified as space debris, could hinder the space access as well as represent a risk for ground population and Earth environment. In this context, it is crucial for space agencies to rely on predictive tools tailored to space debris re-entry demise. One of the peculiarities compared to thermal protection systems is that the ablation of the critical parts of such objects might involve melting and the presence of three phases (gas, liquid, solid).
+To complement the available low-fidelity tools, we’ve have been developing two main strategies inside our in-house high-order multiphysics platform, named Argo, based on the discontinuous Galerkin spatial discretization of the governing equations. The first one relies on a loosely-coupled approach in which the gas and the material solvers exchange information across a boundary in a staggered manner. The second approach considers a strongly coupled formulation of the problem by means of a monolithic sharp interface solver.
+In the first part of my talk, I’ll identify the various physical mechanisms at play in the melting ablation process. I’ll then discuss the selected models and the underlying assumptions, including the boundary/jumps conditions to be imposed.
+In the second part, I’ll present the high-order discretization and explain the coupling strategies implemented in both approaches. In particular, I’ll focus on the unfitted discretization of the moving interface problem, in a single phase context for the staggered approach and a two phase scenario for the monolithic one. 
+I’ll then present some simulations performed with both approaches to elaborate on the benefits and limitations of each one of them.
+Finally, I’ll conclude by presenting some of the perspectives we’re considering, whether on the modelling side by relaxing some important assumptions, or on the numerical side by improving the robustness.
+
 
