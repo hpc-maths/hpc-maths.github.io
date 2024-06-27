@@ -1,6 +1,6 @@
 :title: To be announced  		
 :category: event
-:date: 2024-05-17 14:00
+:date: 2024-07-05 14:00
 :place: Salle de conférence du CMAP (aile 5, 2e étage)
 :speaker: Rodney O. Fox (Iowa State University)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
