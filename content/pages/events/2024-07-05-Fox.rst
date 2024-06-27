@@ -1,4 +1,4 @@
-:title: To be announced  		
+:title: Recent progress in kinetic modeling of polydisperse multiphase flows using quadrature-based moment methods		
 :category: event
 :date: 2024-07-05 14:00
 :place: Salle de conférence du CMAP (aile 5, 2e étage)
@@ -7,4 +7,6 @@
 
 .. title:: Résumé de l'exposé
 
-Abstract to be announced
+
+Polydisperse multiphase flows are composed of a discrete phase (i.e., particles with different sizes) and a continuous fluid phase. At the mesoscale, the discrete phase can be modeled using a kinetic description.  In this manner, the correlation between the particle velocity and size is captured, but the high-dimensional phase space makes the direct solution intractable for most applications. An attractive alternative is to solve for selected moments using transport equations found from the kinetic equation. However, the spatial fluxes and source terms of the moment equations contain unclosed terms.  Many methods exist to attain closure, but quadrature-based moment methods are particularly interesting due to their accuracy and flexibility. In this seminar, I will focus on recent developments for closing velocity moments for the monodisperse case, and size-velocity moments for the polydisperse case.
+
