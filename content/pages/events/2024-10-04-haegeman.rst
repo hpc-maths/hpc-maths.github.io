@@ -1,0 +1,12 @@
+:title: A generic framework for the derivation of conservation terms with source terms through stationary action principle and irreversible thermodynamics.  		
+:category: event
+:date: 2024-10-04 14:00
+:place: Jean Lascoux (CPHT aile0)
+:speaker: Ward Haegeman (CMAP-ONERA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+In this presentation, we will discuss the modelling of conservation laws. A generic framework is presented. It consists in two steps: first, a reversible model is obtained through Stationary Action Principle and second, dissipation is added following irreversible thermodynamics. The methodology is applied to two cases: the derivation of a multi-fluid model including relative velocity and turbulent agitation and the derivation of a hyperbolic approximation of the Euler-Fourier model that has recently been proposed [1]. For the second case, we also propose a comparison of the model with kinetic theory.
+
+[1] Dhaouadi F., Garvilyuk S., An Eulerian hyperbolic model for heat transfer derived via Hamilton’s principle: analytical and numerical study. Proc. R. Soc. A. 2024
