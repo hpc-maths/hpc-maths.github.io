@@ -7,6 +7,10 @@
 
 .. title:: Résumé de l'exposé
 
-In this presentation, we will discuss the modelling of conservation laws. A generic framework is presented. It consists in two steps: first, a reversible model is obtained through Stationary Action Principle and second, dissipation is added following irreversible thermodynamics. The methodology is applied to two cases: the derivation of a multi-fluid model including relative velocity and turbulent agitation and the derivation of a hyperbolic approximation of the Euler-Fourier model that has recently been proposed [1]. For the second case, we also propose a comparison of the model with kinetic theory.
+In this presentation, we will discuss the modelling of conservation laws with dissipative effects. Several strategies for the derivation of such models have recently been developed [1,2,3]. Here a generic framework is presented. It consists in two steps: first, the reversible part of the model is obtained through Stationary Action Principle and second, dissipation is added following irreversible thermodynamics. The methodology is applied to two cases: the derivation of a multi-fluid model including relative velocity and turbulent agitation and the derivation of a hyperbolic approximation of the Euler-Fourier model that has recently been proposed [3]. For the second case, we also propose a comparison of the model with kinetic theory.
 
-[1] Dhaouadi F., Garvilyuk S., An Eulerian hyperbolic model for heat transfer derived via Hamilton’s principle: analytical and numerical study. Proc. R. Soc. A. 2024
+[1] Lhuillier D., Internal variables and the non-equilibrium thermodynamics of colloidal suspensions. Journal of Non-Newtonian Fluid Mechanics, 2001
+[2] Peshkov I., Pavelka M., Romenski E., Grmela M., Continuum Mechanics and Thermodynamics in the Hamilton and the Godunov-type Formulations. Continuum Mechanics and Thermodynamics. 2018
+[3] Dhaouadi F., Garvilyuk S., An Eulerian hyperbolic model for heat transfer derived via Hamilton’s principle: analytical and numerical study. Proc. R. Soc. A. 2024
+
+
