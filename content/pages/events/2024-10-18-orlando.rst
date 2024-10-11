@@ -1,0 +1,17 @@
+:title: Numerical analysis of a unified two-scale two-phase model
+:category: event
+:date: 2024-10-18 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Giuseppe Orlando (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+In this presentation, we discuss a numerical strategy for the analysis of a two-scale two-phase model recently proposed [1,2]. The model proposes a unified description of the large-scale representation in the separated flow regime and of the disperse small-scale regime. Above a preset length threshold, a mass transfer process form the large scale to the small scale occurs. This allows for the regularization of the interface at large scale, and, simultaneously, models atomization via the presence of a spray of droplets at small scale. The model is derived by means of the Stationary Action Principle (SAP) and capillarity effects are taken into account.
+Here, we discuss numerical strategies based on diffuse interface approaches to assess the properties of the model. More specifically, a pseudo dual-time stepping method based on linearly-implicit (or first order Rosenbrock) scheme is employed and suitable strategies are considered so as to obtain an admissible state. The implementation is carried out in the framework of Samurai [4]. First, we present results to discuss the capillarity model and its link with the widely used Continuum Surface Force (CSF) model. Next, we present a test case which illustrates the inter-scale transfer mechanism ans its regularization properties. Finally, following [3], preliminary results regarding the interaction between waves and diffused interfaces and the dependence on the interface thickness will be also discussed.
+
+* [1] Loison, A., Kokh, S., Pichard, T., & Massot, M. (2024). A unified two-scale gas–liquid multi-fluid model with capillarity and interface regularization through a mass transfer between scales. International Journal of Multiphase Flow, 177, 104857.
+* [2] Loison, A., Pichard, T., Kokh, S., & Massot, M. (2023). Two-scale modelling of two-phase flows based on the Stationary Action Principle and a Geometric Method Of Moments. arXiv preprint arXiv:2308.15641.
+* [3] Schmidmayer, K., Cazé, J., Petitpas, F., Daniel, É., & Favrie, N. (2023). Modelling interactions between waves and diffused interfaces. International Journal for Numerical Methods in Fluids, 95(2), 215-241.
+* [4] https://hpc-math-samurai.readthedocs.io/en/latest/
+
