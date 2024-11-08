@@ -1,0 +1,12 @@
+:title: Numerical simulations of lithium-ion batteries using adaptive methods.
+:category: event
+:date: 2024-11-15 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Ali Asad (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+In this work, we study the numerical solution of lithium-ion batteries (LIBs) using a microscale continuum model that addresses the intricate dynamics of ionic transport and charge conservation across multiple spatial and temporal scales. This problem leads to a stiff system of differential algebraic equations (DAEs) with strong nonlinearities at the interface between the liquid electrolyte and solid electrode domains. To tackle the computational challenges associated with this multiphysics problem, we implement a space-time adaptive strategy in C++ code using the SAMURAI and PETSc libraries to solve the governing equations. Previous work was limited to a simple 1D half-cell problem [1], which demonstrated the benefits of a multi-domain method with adaptive coupling in time. In this study, we adopt a monolithic approach with several spatial dimensions, investigating the effectiveness of adaptive mesh refinement in conjunction with adaptive time integration. We present results from 2D LIB simulations conducted on various solid-electrolyte interface configurations. Finally, we discuss the performance of the numerical strategy and potential avenues for improvement.
+
+* [1] A. Asad, R. de Loubens, L. François, M. Massot. High-order adaptive multi-domain time integration scheme for microscale lithium-ion batteries simulations, 2023.
