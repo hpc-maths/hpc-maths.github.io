@@ -8,12 +8,12 @@
 .. title:: Résumé de l'exposé
 
 
-Mots clés
+Mots clés : 
 Allumage et combustion des propergols, réponse instationnaire, combustion de l’aluminium,
 solidification et cristallisation de l’alumine, goutte multicomposant, écoulement diphasique à phase
 dispersée, méthodes de moments, approche sectionnelle.
 
-Résumé
+Résumé : 
 Une restitution ou une prévision correcte des différentes phases de fonctionnement d’un moteur à
 propergol solide ou des caractéristiques du jet et des conditions au culot nécessite une description de
 phénomènes multiphysiques complexes qui se laissent difficilement caractériser. Parmi eux citons les
@@ -35,8 +35,9 @@ polydisperse de la phase dispersée.
 
 
 Devant le jury composé de :
-Laurent Catoire Professeur, Institut Polytechnique de Paris Rapporteur
-Eric Daniel Professeur, Université Aix-Marseille Rapporteur
+Laurent Catoire (Professeur Institut Polytechnique de Paris, Rapporteur)
+
+Eric Daniel (Professeur Université Aix-Marseille, Rapporteur
 Vincent Giovangigli Directeur de Recherche émérite CNRS, CMAP/X Rapporteur
 Grégoire Casalis Professeur, ISAE-SUPAERO Examinateur
 Frédéric Plourde Directeur de Recherche CNRS, P’/ISAE-ENSMA Examinateur
