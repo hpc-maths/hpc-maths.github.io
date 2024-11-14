@@ -35,11 +35,10 @@ polydisperse de la phase dispersée.
 
 
 Devant le jury composé de :
-Laurent Catoire (Professeur Institut Polytechnique de Paris, Rapporteur)
-
-Eric Daniel (Professeur Université Aix-Marseille, Rapporteur
-Vincent Giovangigli Directeur de Recherche émérite CNRS, CMAP/X Rapporteur
-Grégoire Casalis Professeur, ISAE-SUPAERO Examinateur
-Frédéric Plourde Directeur de Recherche CNRS, P’/ISAE-ENSMA Examinateur
-Aymeric Vié Professeur, Université Paris-Saclay Examinateur
-Catherine Weisman Maître de Conférence, Sorbonne Université Examinatrice
+Laurent Catoire (Professeur Institut Polytechnique de Paris, Rapporteur),
+Eric Daniel (Professeur Université Aix-Marseille, Rapporteur),
+Vincent Giovangigli (Directeur de Recherche émérite CNRS, CMAP/X, Rapporteur),
+Grégoire Casalis (Professeur, ISAE-SUPAERO, Examinateur),
+Frédéric Plourde (Directeur de Recherche CNRS, P’/ISAE-ENSMA, Examinateur),
+Aymeric Vié (Professeur, Université Paris-Saclay, Examinateur),
+Catherine Weisman (Maître de Conférence, Sorbonne Université, Examinatrice)
