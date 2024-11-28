@@ -1,0 +1,14 @@
+:title: High-order adaptive multistep coupling, stability analysis and coupling stiffness
+:category: event
+:date: 2024-12-06 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Antoine Simon (CMAP, ONERA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+In the context of multiphysics simulations, many problems can be described through the coupling of several physical models. Since a lot of solvers have already been developed in all domains of physics, an efficient simulation strategy would be to reuse them instead of recreating a whole new solver including all necessary physical models. This approach requires orchestrating the resolution of multiphysics problems by numerically coupling such uniphysics solvers. In this presentation we will discuss the multistep coupling strategy for the time integration of coupled models, which has been introduced recently [1, 2]. The interest of this scheme is that it allows adaptive timestepping, high order of convergence in time and both an explicit and implicit formulations. We will especially focus on the study of the stability and precision of this coupling strategy. To do so we introduce a simple model equation to build a framework similar to the Dahlquist equation for the analysis of ODEs. We will also provide an outlook on how the stability limit of the multistep coupling scheme can be predicted for more complex systems, in particular for a conjugate heat transfer example.
+
+[1] L. Francois, Multiphysical modelling and simulation of the ignition transient of complete solid rocket motors, phdthesis, Institut Polytechnique de Paris, Feb. 2022.
+
+[2] L. François and M. Massot, Multistep interface coupling for high-order adaptive black-box multiphysics simulations, in 10th edition of the International Conference on Computational Methods for Coupled Problems in Science and Engineering, CIMNE, 2023.
