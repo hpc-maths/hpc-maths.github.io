@@ -1,0 +1,34 @@
+:title: PhD defence Louis Reboul
+:category: event
+:date: 2024-12-16 15:15
+:place: Amphi Cauchy - Ecole polytechnique
+:shortdescription: Développement et analyse de méthodes multi-échelles efficaces, avec application aux simulations de décharges plasma utilisant des modèles multi-fluides
+
+
+.. class:: center
+
+
+:Title: **Développement et analyse de méthodes multi-échelles efficaces, avec application aux simulations de décharges plasma utilisant des modèles multi-fluides**
+:Abstract: Notre objectif principal est le développement et l’analyse de schémas numériques multi-échelles pour la simulation de modèles multi-fluides appliqués au plasma froids basse-pression. La configuration d’intérêt inclut typiquement l’apparition d’instabilités et de gaines, des zones chargées micrométriques qui se forment lors du contact d’un plasma avec des parois. Le modèle prototype est le système d’Euler-Poisson isotherme, mais nous considérons également les modèles simplifiés des équations hyperboliques de la chaleur et d’Euler-friction isotherme pour analyser et développer les méthodes numeriques. Dans un premier axe, nous développons et analysons un schéma préservant l’asymptotique d’ordre deux couplé temps-espace implicite-explicite pour les équations hyperboliques de la chaleur (cas linéaire). Nous étendons ensuite la méthode au cas non-linéaire des équations d’Euler-friction isotherme avec coefficient de relaxation non-uniforme. Nous montrons également des résultats théoriques supplémentaires sur des limiteurs de flux adaptés schémas préservant l’asymptotique, et sur une nouvelle méthode équilibre. Dans un second axe, nous proposons plusieurs méthodes numérique pour les équation d’Euler-Poisson ayant une meilleure résolution des configurations avec gaines. Dans un dernier axe, ces méthodes sont utilisées pour effectuer une étude paramétrique de gaines isothermes 2D rectangulaires, à divers régimes collisionnels et ratios d’aspect. Nous comparons nos résultats à des simulations PIC et à des solutions de référence. Nous montrons qu’une simulation d’un modèle fluide avec une méthode numérique adaptée permet une accélération substantielle du calcul et une meilleure précision de la solution obtenue. Nous discutons de l’extension des méthodes multi-échelles aux équations d’Euler complètes et au cas magnétisé dans les perspectives de notre travail.
+
+
+*Sous la direction de Marc Massot, Anne Bourdon, Alejandro Alavarez Laguna, Teddy Pichard et Thierry Magin.*
+
+La soutenance aura lieu dans l'amphithéâtre Cauchy à l'École polytechnique le lundi 16 décembre à 15h15.
+
+La soutenance sera également retransmise au lien suivant : https://enseignement.medias.polytechnique.fr/lives/live-amphitheatre-cauchy/
+
+
+Le jury sera composé de :
+
+- Christophe Chalons, Professeur, Université de Versailles Saint-Quentin-en-Yvelines - Examinateur
+- Giacomo Dimarco, Professeur, University of Ferrara - Rapporteur
+- Nicolas Crouseilles, Directeur de Recherche, Centre Inria de Rennes - Rapporteur
+- Khaled Hassouni, Professeur, Université Sorbonne Paris Nord - Rapporteur
+- Marie-Hélène Vignal, Maître de Conférences, Université Paul Sabatier Toulouse 3 - Examinatrice
+- Gerjan Hagelaar, Directeur de Recherche, CNRS, Université Paul Sabatier Toulouse 3 - Examinateur
+- Marc Massot, Professeur, École polytechnique - Directeur de thèse
+- Anne Bourdon, Directrice de Recherche, CNRS, École polytechnique - Invitée, Co-directrice de thèse
+- Irene Gamba, Professeure, Oden Institute, University of Texas at Austin - Invitée
+
+La soutenance sera suivi d'un pot qui se tiendra dans la salle de conférences du CMAP.
