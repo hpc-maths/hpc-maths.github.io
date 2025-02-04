@@ -1,0 +1,17 @@
+:title: Plasma flow activities: annual overview
+:category: event
+:date: 2025-02-13 08:30
+:place: Salle de conférence du CMAP - Ecole polytechnique
+:shortdescription: Série d'exposés scientifiques sur les activités plasmas de l'équipe et ses collaborateurs dans le cadre du projet CIEDS OPEN-NUM-DEF ouverts plus largement dans le cadre du séminaire HPC@Maths
+
+
+.. class:: center
+
+
+:Abstract: Série d'exposés scientifiques sur les activités plasmas de l'équipe et ses collaborateurs dans le cadre du projet CIEDS OPEN-NUM-DEF ouverts plus largement dans le cadre du séminaire HPC@Maths
+
+
+
+- 08h30-09h15 *Title to be announced*, Louis Reboul (ONERA)
+- 09h15-10h00 *Title to be announced*, Giuseppe Gangemi (VKI)
+- 10h00-10h45 *Title to be announced*, Zoubaïr Tazakkati (CMAP)
