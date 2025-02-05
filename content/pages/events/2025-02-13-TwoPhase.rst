@@ -15,13 +15,13 @@
 
 *13h30-15h15 Partie modélisation*
 
-- 13h30-14h30 *Modelling techniques for two-fluid flows by Stationary Action Principle*, Giuseppe Orlando (CMAP) and Ward Haegeman (CMAP/ONERA)
-- 14h30-15h15 *Combining divergence-free wavelet decomposition and random cascades to reproduce particle preferential concentration and intermittency in dilute particle-laden flows*, Clément Morhain (EM2C)
+- 13h30-14h30: *Modelling techniques for two-fluid flows by Stationary Action Principle*, Giuseppe Orlando (CMAP) and Ward Haegeman (CMAP/ONERA)
+- 14h30-15h15: *Combining divergence-free wavelet decomposition and random cascades to reproduce particle preferential concentration and intermittency in dilute particle-laden flows*, Clément Morhain (EM2C)
 
 *15h15-15h45 Pause*
 
 *15h45-17h45 Partie numérique*
 
-- 15h45-16h25 *Robust numerical methods for High-velocity two-phase flows*, Ward Haegeman (CMAP/ONERA), Clément Le Touze (ONERA)
-- 16h25-17h05 *Evaporation with sharp interface compressible approach*, Nicolas Grenier (LISN), Gen Wu (LISN)
-- 17h05-17h45 *Numerical methods and finite rate relaxation techniques for Baer-Nunziato type models*, Giuseppe Orlando (CMAP)
+- 15h45-16h25: *Robust numerical methods for High-velocity two-phase flows*, Ward Haegeman (CMAP/ONERA), Clément Le Touze (ONERA)
+- 16h25-17h05: *Evaporation with sharp interface compressible approach*, Nicolas Grenier (LISN), Gen Wu (LISN)
+- 17h05-17h45: *Numerical methods and finite rate relaxation techniques for Baer-Nunziato type models*, Giuseppe Orlando (CMAP)
