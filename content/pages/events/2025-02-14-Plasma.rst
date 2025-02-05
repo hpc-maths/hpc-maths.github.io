@@ -12,6 +12,6 @@
 
 
 
-- 08h30-09h15 *Title to be announced*, Louis Reboul (ONERA)
+- 08h30-09h15 *A novel strategy for the simulation of 2D discharges in low temperature plasma physics*, Louis Reboul (ONERA)
 - 09h15-10h00 *Title to be announced*, Giuseppe Gangemi (VKI)
 - 10h00-10h45 *Derivation of a 4-Moment Model for Electron Transport in Hall Thrusters from a Gyrokinetic Framework: Hyperbolic vs. Parabolic Approaches*, Zoubaïr Tazakkati (CMAP)
