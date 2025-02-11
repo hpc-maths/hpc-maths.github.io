@@ -1,0 +1,13 @@
+:title: L'importance d'être stable et schémas cinétiques d'ordre élevé
+:category: event
+:date: 2025-03-07 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Thomas Bellotti (Centrale SupElec)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+La stabilité d'un schéma numérique pour les EDP est souvent considérée comme une propriété cruciale pour éviter que celui-ci ne « pète » et pour contrôler les erreurs d'arrondi liées à la représentation machine, autrement difficilement maîtrisables. Dans cet exposé, je vais démontrer, à travers un exemple simple (1D linéaire) de schéma d'ordre élevé, que la stabilité influence d’autres aspects du comportement des schémas. En effet, elle a des conséquences sur l'ordre des méthodes et sur leur véritable ordre de convergence, notamment à travers l'erreur de troncature globale, ce qui peut mener à des résultats inattendus. Deux schémas (algorithmes) équivalents « sur le papier » peuvent ainsi avoir des comportements très différents une fois mis en œuvre en arithmétique flottante. Je vais également éclaircir — autant que possible — les similitudes et les différences avec les méthodes multi-pas pour les EDO. Bien que le contexte linéaire 1D puisse sembler initialement dépourvu d'intérêt pratique, je montrerai ensuite comment il peut être utilisé pour développer des schémas cinétiques d'ordre élevé adaptés aux systèmes de lois de conservation non linéaires. Ainsi, une compréhension approfondie du cas linéaire se révèle essentielle pour appréhender pleinement ces applications.
+
+Bibliographie : Thomas Bellotti, The influence of parasitic modes on stable lattice Boltzmann schemes and weakly unstable multi-step Finite Difference schemes, Computers & Mathematics with Applications, Vol. 174, 2024, Pages 397-416
+
