@@ -1,0 +1,11 @@
+:title: How can quantum computers be used for electromagnetic simulations?
+:category: event
+:date: 2025-04-04 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Elise Fressart (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+Classical electromagnetic simulations can be computationally expensive even when efficient schemes are integrated. The question that we address is whether quantum computers could be used to solve efficiently time-harmonic Maxwell equation. A strong motivation is the fact that quantum linear system solvers have shown to be promising compared to classical linear solvers. In this talk, I will give an introduction to quantum computing, and present how it can be applied to high-level numerical simulations.
+
