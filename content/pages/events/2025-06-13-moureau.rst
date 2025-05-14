@@ -1,0 +1,11 @@
+:title: Numerical challenges in dynamic hp-adaptation of massive unstructured grids for incompressible and compressible turbulent flows
+:category: event
+:date: 2025-06-13 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Vincent Moureau (CORIA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+TBA
+
