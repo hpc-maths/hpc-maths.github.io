@@ -1,0 +1,33 @@
+:title: PhD defence Ali Asad
+:category: event
+:date: 2025-05-27 14:00
+:place: Amphi Becquerel - Ecole polytechnique
+:shortdescription: Stratégies numériques pour la simulation à l’échelle microscopique des batteries lithium-ion
+
+.. class:: center
+
+
+:Title: **Stratégies numériques pour la simulation à l’échelle microscopique des batteries lithium-ion**
+:Abstract: Dans cette thèse, nous développons et analysons des stratégies numériques pour la simulation des batteries lithium-ion (LIBs) basées sur leur description continue à l’échelle microscopique. Notre objectif est de relever les défis computationnels posés par ce problème intrinsèquement multiphysique et multi-échelle, en particulier la non-linéarité à l’interface de réaction et la raideur des équations aux dérivées partielles associées. Dans la première phase de ce travail doctoral, nous abordons la nature multi-échelle temporelle des LIBs en découplant les domaines en sous-problèmes pouvant être résolus indépendamment. En nous appuyant sur une stratégie de couplage adaptatif d’ordre élevé, nous implémentons cette approche dans un code Python. L’efficacité et les performances de cette méthode sont démontrées à travers des simulations de demi-cellules LIB en 1D. La nature multiphysique du modèle LIB nous pousse également à explorer des méthodes adaptatives en espace et en temps afin de réduire les coûts computationnels. Pour étendre notre étude aux dimensions supérieures, nous utilisons un code C++ avec une stratégie de solution monolithique. Plus précisément, nous implémentons une technique de raffinement de maillage adaptatif (AMR) basée sur la multi-résolution avec SAMURAI, ainsi qu’un intégrateur temporel implicite adaptatif d’ordre élevé avec PETSc, et nous examinons leurs performances lorsqu’ils sont utilisés ensemble. La thèse se conclut en synthétisant les deux stratégies numériques développées pour relever les défis computationnels des simulations à l’échelle microscopique des LIB. Dans le prolongement naturel de ce travail, nous proposons un cadre unifié intégrant ces approches, offrant ainsi une base solide pour aborder les complexités supplémentaires susceptibles de survenir dans les développements futurs des modèles de LIB à l’échelle microscopique.
+
+
+*Sous la direction de Marc Massot (CMAP), Romain de Loubens (TotalEnergies).*
+
+La soutenance aura lieu dans l'amphithéâtre Becquerel à l'École polytechnique le mardi 27 mai à 14h00.
+
+La soutenance sera également retransmise au lien suivant : https://enseignement.medias.polytechnique.fr/lives/live-amphitheatre-becquerel/  
+
+
+Le jury sera composé de :
+
+-Stéphane DESCOMBES, Professeur, Université Côte d’Azur (Rapporteur)
+-Ferran B. PLANELLA, Professor, University of Warwick (Rapporteur)
+-Aline LEFEBVRE-LEPOT, Directrice de Recherche, ENS Paris-Saclay (Examinatrice)
+-Marion CHANDESRIS, Directrice de Recherche, CEA-Liten (Examinatrice)
+-Oleg ILIEV, Professeur, Fraunhofer Institute for Industrial Mathematics (Examinateur)
+-Marc MASSOT, Professeur, École polytechnique (Directeur de thèse)
+-Romain de LOUBENS, Chef de projet, OneTech TotalEnergies (Invité)
+-Sébastien BENJAMIN, Group manager, SAFT (Invité)
+
+
+La soutenance sera suivi d'un pot qui se tiendra dans la salle de conférence du CMAP.
