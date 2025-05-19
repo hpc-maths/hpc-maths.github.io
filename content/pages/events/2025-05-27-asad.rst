@@ -20,14 +20,14 @@ La soutenance sera également retransmise au lien suivant : https://enseignement
 
 Le jury sera composé de :
 
--Stéphane DESCOMBES, Professeur, Université Côte d’Azur (Rapporteur)
--Ferran B. PLANELLA, Professor, University of Warwick (Rapporteur)
--Aline LEFEBVRE-LEPOT, Directrice de Recherche, ENS Paris-Saclay (Examinatrice)
--Marion CHANDESRIS, Directrice de Recherche, CEA-Liten (Examinatrice)
--Oleg ILIEV, Professeur, Fraunhofer Institute for Industrial Mathematics (Examinateur)
--Marc MASSOT, Professeur, École polytechnique (Directeur de thèse)
--Romain de LOUBENS, Chef de projet, OneTech TotalEnergies (Invité)
--Sébastien BENJAMIN, Group manager, SAFT (Invité)
+- Stéphane DESCOMBES, Professeur, Université Côte d’Azur (Rapporteur)
+- Ferran B. PLANELLA, Professor, University of Warwick (Rapporteur)
+- Aline LEFEBVRE-LEPOT, Directrice de Recherche, ENS Paris-Saclay (Examinatrice)
+- Marion CHANDESRIS, Directrice de Recherche, CEA-Liten (Examinatrice)
+- Oleg ILIEV, Professeur, Fraunhofer Institute for Industrial Mathematics (Examinateur)
+- Marc MASSOT, Professeur, École polytechnique (Directeur de thèse)
+- Romain de LOUBENS, Chef de projet, OneTech TotalEnergies (Invité)
+- Sébastien BENJAMIN, Group manager, SAFT (Invité)
 
 
 La soutenance sera suivi d'un pot qui se tiendra dans la salle de conférence du CMAP.
