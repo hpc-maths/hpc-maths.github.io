@@ -49,6 +49,7 @@
         </section>
         {% elif page.category == "member" %}
         {% import 'member.html' as page_template with context %}
+        {{ page_template.content(page) }}
         {% elif page.category == "event" %}
         {% import 'event.html' as page_template with context %}
         {{ page_template.content(page) }}

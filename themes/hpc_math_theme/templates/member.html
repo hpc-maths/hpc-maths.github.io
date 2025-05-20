@@ -1,20 +1,32 @@
 {% macro content(page) %}
 
-<section id="event-details" class="event-details">
+<!-- ======= Breadcrumbs Section ======= -->
+<section class="breadcrumbs">
     <div class="container">
-        <h1 class="page_title">{{page.firstname}} {{page.lastname}}</h1>
-        <ul>
-            <li><strong>Fonction :</strong> {{ page.fonction }}</li>
-        </ul>
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="section_title">{{ page.firstname }} {{ page.lastname }}</h2>
+            <ol>
+                <li><a href="{{ SITEURL }}/index.html">Accueil</a></li>
+                <li><a href="{{ SITEURL }}/pages/members.html">Membres</a></li>
+                <li>{{ page.firstname }} {{ page.lastname }}</li>
+            </ol>
+        </div>
+
     </div>
+</section><!-- Breadcrumbs Section -->
+
+<!-- ======= Portfolio Details Section ======= -->
+<section id="member-details" class="member-details">
     <div class="container">
 
         <div class="row gy-4">
 
-            {{ page.content }}
-
+            <div class="col-lg-8">
+                <img class="member_img" src="{{ page.image }}" width="200" height="200" alt="" />
+                {{ page.content }}
+            </div>
         </div>
     </div>
 </section>
-
 {% endmacro %}
