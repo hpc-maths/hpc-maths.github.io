@@ -2,6 +2,7 @@ from pelican import readers
 from pelican.settings import DEFAULT_CONFIG
 import glob
 import os
+from zoneinfo import ZoneInfo
 
 import ics
 
@@ -18,7 +19,7 @@ for event_file in glob.glob(f"{EVENTS_PATH}/*.rst"):
     content, metadata = reader.read(event_file)
 
     event = ics.Event()
-    event.replace_timezone("Europe/Paris")
+    event.replace_timezone(tzinfo=ZoneInfo("Europe/Paris"))
     if 'speaker' in metadata:
         event.summary = f"{metadata['title']} - {metadata['speaker']}"
     else:
