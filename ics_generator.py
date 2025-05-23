@@ -20,7 +20,7 @@ for event_file in glob.glob(f"{EVENTS_PATH}/*.rst"):
     content, metadata = reader.read(event_file)
 
     event = ics.Event()
-    event.replace_timezone(tzinfo=tz.gettz("Europe/Paris"))
+    # event.replace_timezone(tzinfo=tz.gettz("Europe/Paris"))
     if 'speaker' in metadata:
         event.summary = f"{metadata['title']} - {metadata['speaker']}"
     else:
@@ -41,4 +41,5 @@ for event_file in glob.glob(f"{EVENTS_PATH}/*.rst"):
     calendar.events.append(event)
 
 with open(OUTPUT_ICS, "w", newline='') as f:
-    f.write(calendar.serialize())
+    f.write("\n".join([line.replace('/ics.py/2020.1/', '')
+            for line in calendar.serialize().split(r"\n")]))
