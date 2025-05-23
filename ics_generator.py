@@ -26,7 +26,7 @@ for event_file in glob.glob(f"{EVENTS_PATH}/*.rst"):
     else:
         event.summary = f"{metadata['title']}"
     event.description = f"More information: https://initiative-hpc-maths.gitlab.labos.polytechnique.fr/site/pages/{os.path.splitext(os.path.basename(event_file))[0]}.html"
-    event.begin = datetime.datetime(
+    d = datetime.datetime(
         year=metadata['date'].year,
         month=metadata['date'].month,
         day=metadata['date'].day,
@@ -35,8 +35,9 @@ for event_file in glob.glob(f"{EVENTS_PATH}/*.rst"):
         second=metadata['date'].second,
         tzinfo=tz.gettz("Europe/Paris")
     )
+    event.begin = d
+    event.end = d + datetime.timedelta(hours=1)
     event.location = metadata['place']
-    event.duration = dict({"hours": 1})
 
     calendar.events.append(event)
 
