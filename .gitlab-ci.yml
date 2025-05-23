@@ -17,6 +17,7 @@ pages:
   script:
     - pip install -r requirements.txt
     - pelican -s publishconf.py -t themes/hpc_math_theme/
+    - python calendar.py
   artifacts:
     paths:
       - public/
