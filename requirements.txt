@@ -2,3 +2,4 @@ pelican==4.2.0
 markdown
 Jinja2==3.0.3
 ics==0.8.0.dev0
+pytz
