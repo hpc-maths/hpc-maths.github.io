@@ -1,0 +1,10 @@
+:title: Weighted GMRES and prescribed convergence curves
+:category: event
+:date: 2025-06-17 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Pierre Matalon (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+The convergence of the GMRES linear solver is notoriously hard to predict. A particularly enlightening result by [Greenbaum, Pták, Strakoš, 1996] is that, given any convergence curve, one can build a linear system for which GMRES realizes that convergence curve. What is even more extraordinary is that the eigenvalues of the problem matrix can be chosen arbitrarily. We build upon this idea to derive novel results about weighted GMRES. We prove that for any linear system and any prescribed convergence curve, there exists a weight matrix M for which weighted GMRES (i.e. GMRES in the inner product induced by M) realizes that convergence curve, and we characterize the form of M. Additionally, we exhibit a necessary and sufficient condition on M for the simultaneous prescription of two convergence curves, one realized by GMRES in the Euclidean inner product, and the other in the inner product induced by M. Finally, these results are applied to infer some properties of preconditioned GMRES.
