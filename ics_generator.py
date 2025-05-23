@@ -2,7 +2,6 @@ from pelican import readers
 from pelican.settings import DEFAULT_CONFIG
 import glob
 import os
-from zoneinfo import ZoneInfo
 
 import ics
 import pytz
