@@ -9,9 +9,9 @@
 
 When it comes to solving the Helmholtz equation in a complex heterogeneous medium, it can be of interest to decompose the domain according to the variation of the wavenumber, especially when the latter is constant in some subdomains. Such problems can be reformulated using FEM-BEM coupling techniques, rewriting the problems set in the homogeneous subdomains thanks to Boundary Integral Equations.
 
-Recently, a Generalized Optimized Schwarz Method (GOSM) has been introduced on bounded domains, with weakly imposed boundary conditions. It differs from other OSMs by the use of a \emph{non-local exchange operator} instead of the usual swap operator. This makes the formulation robust to cross-points, that is, points where the interfaces of at least three subdomains intersect, which arise naturally in domain decomposition techniques.
+Recently, a Generalized Optimized Schwarz Method (GOSM) has been introduced on bounded domains, with weakly imposed boundary conditions. It differs from other OSMs by the use of a non-local exchange operator instead of the usual swap operator. This makes the formulation robust to cross-points, that is, points where the interfaces of at least three subdomains intersect, which arise naturally in domain decomposition techniques.
 
-We aim to extend this work by replacing the classical boundary conditions with interface conditions arising from several FEM-BEM coupling techniques. Depending on the specific FEM-BEM coupling, the resulting discrete formulation has the form ``identity + contraction'', and thus can be solved using a fast converging iterative procedures such as GMRes or even Richardson.
+We aim to extend this work by replacing the classical boundary conditions with interface conditions arising from several FEM-BEM coupling techniques. Depending on the specific FEM-BEM coupling, the resulting discrete formulation has the form ''identity + contraction'', and thus can be solved using a fast converging iterative procedures such as GMRes or even Richardson.
 
 We will give a brief overview of the theoretical guarantees and present extensive numerical experiments to illustrate the method fast convergence when non-local transmission operators are considered.
 
