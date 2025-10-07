@@ -1,0 +1,10 @@
+:title: TBA
+:category: event
+:date: 2025-12-19 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Pierre Kestener (CEA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+TBA
