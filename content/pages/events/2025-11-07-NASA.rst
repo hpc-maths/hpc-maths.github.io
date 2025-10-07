@@ -1,0 +1,23 @@
+:title: NASA Summer Program: feedback
+:category: event
+:date: 2025-11-07 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Local speakers
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+This summer, the HPC@Maths team participated to the 2025 NASA Modelling Summer Visit at NASA Ames through 5 projects on :
+
+- two-phase flows
+
+- plasma models
+
+- rarefied flows
+
+- code coupling
+
+- IMEX and MR schemes
+
+
+During this seminar, for each project, a team member will give an overview of the project's objectives, the achievements of the summer program and some perspectives.
