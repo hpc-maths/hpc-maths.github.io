@@ -22,7 +22,7 @@ The presentation will be followed by a discussion with the members of the jury:
 
 * Grégoire Allaire, Professor at École polytechnique
 * Stéphanie Chaillat, CNRS Senior Researcher at ENSTA
-* Marc Embree, Professor at Virginia Tech
+* Mark Embree, Professor at Virginia Tech
 * Virginie Erlacher, Professor at École des Ponts
 * Martin Gander, Professor at Université de Genève
 * Luc Giraud, Senior Researcher at Inria Bordeaux
