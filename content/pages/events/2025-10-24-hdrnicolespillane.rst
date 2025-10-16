@@ -1,6 +1,6 @@
 :title: Soutenance d'Habilitation à Diriger des Recherches: High Performance Krylov Subspace Solvers with Preconditioning and Deflation
 :category: event
-:date: 2026-10-24 14:00
+:date: 2025-10-24 14:00
 :place: École polytechnique - amphithéatre Becquerel
 :speaker: Nicole Spillane (CMAP)
 :shortdescription: Soutenance d'Habilitation à Diriger des Recherches
