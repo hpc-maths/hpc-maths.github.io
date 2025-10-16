@@ -19,6 +19,7 @@ Finally, the last set of results is for non-Hermitian problems solved by GMRES. 
 
 
 The presentation will be followed by a discussion with the members of the jury:
+
 * Grégoire Allaire, Professor at École polytechnique
 * Stéphanie Chaillat, CNRS Senior Researcher at ENSTA
 * Marc Embree, Professor at Virginia Tech
