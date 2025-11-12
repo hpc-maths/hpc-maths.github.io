@@ -1,14 +1,15 @@
-:title: TBA
+:title: Double seminar: Bastien Grosse and Zoubaïr Tazakkati
 :category: event
 :date: 2025-11-21 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
 :speaker: Bastien Grosse (LMJL - Nantes Université) et Zoubaïr Tazakkati (CMAP)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
-.. title:: Well-posedness of the Vlasov-Poisson system with floating potential at a
-wall.
 
 .. rubric:: *Par Bastien Grosse*
+
+*Well-posedness of the Vlasov-Poisson system with floating potential at a
+wall.*
 
 We are interested in a bi-species, uni-dimensional plasma occupying the
 domain [0,1]. Particles are injected at x=0 and at x=1 there is a fully
@@ -22,9 +23,12 @@ the system in the space BV.
 Then, we will show simulations.
 If the time permits, we will finish by discussing steady-states.
 
-.. title:: Electron-Ion Plasmas in Strong Electromagnetic Fields: A Gyrokinetic/Gyromoment Approach
+
 
 .. rubric:: *Par Zoubaïr Tazakkati*
+
+*Electron-Ion Plasmas in Strong Electromagnetic Fields: A Gyrokinetic/Gyromoment Approach*
+
 
 We study a coupled electron-ion plasma governed by the Boltzmann-Poisson equations in a regime where intense electric and magnetic fields dominate. Although the configuration under study remains generic, it is strongly inspired by the physical conditions encountered in Hall effect thrusters. A scaling analysis reveals that electrons undergo complex dynamics: they combine an ExB drift with a rapid cyclotron gyration around the magnetic field lines, which leads to their trapping along these lines. In contrast, the ions remain weakly magnetized but are strongly accelerated by the electric field. This multiscale behavior introduces significant numerical stiffness in the governing partial differential equations, mainly (though not exclusively) due to the very fast electron gyromotion.
 
