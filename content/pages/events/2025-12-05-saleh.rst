@@ -1,4 +1,4 @@
-:title: TBA
+:title: Un schéma multi-D sur grilles décalées pour la limite de diffusion dans l’équation du transfert radiatif
 :category: event
 :date: 2025-12-05 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
