@@ -5,7 +5,8 @@
 :speaker: Khaled Saleh (I2M - AMU)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
-.. title:: Un schéma multi-D sur grilles décalées pour la limite de diffusion dans l’équation du transfert radiatif.
+.. title:: Résumé de l'exposé
+
 
 
 L’équation du transfert radiatif est une équation cinétique qui modélise l’intensité spécifique du rayonnement transporté par une population de photons décrite de manière statistique, c’est-à-dire une équation de transport portant sur la fraction de photons se déplaçant dans une direction donnée.
