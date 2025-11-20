@@ -5,6 +5,17 @@
 :speaker: Khaled Saleh (I2M - AMU)
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
-.. title:: Résumé de l'exposé
+.. title:: Un schéma multi-D sur grilles décalées pour la limite de diffusion dans l’équation du transfert radiatif.
 
-TBA
+
+L’équation du transfert radiatif est une équation cinétique qui modélise l’intensité spécifique du rayonnement transporté par une population de photons décrite de manière statistique, c’est-à-dire une équation de transport portant sur la fraction de photons se déplaçant dans une direction donnée.
+
+Lorsque le nombre de Knudsen (qui représente le rapport entre le libre parcours moyen et une longueur physique caractéristique) tend vers zéro, l’intensité du rayonnement converge vers la solution d’un problème de diffusion.
+
+Dans cet exposé, nous présentons un schéma numérique pour l’équation du transfert radiatif possédant la propriété dite « asymptotic preserving » : lorsque le nombre de Knudsen est fixé, nous démontrons que la solution numérique converge vers une solution de l’équation du transfert radiatif lorsque les paramètres de discrétisation tendent vers zéro. Et, pour une discrétisation fixée, la solution numérique converge vers la solution d’un schéma numérique stable et consistant pour l’équation de diffusion limite.
+
+Le schéma numérique considéré est une extension au cas multidimensionnel du schéma développé par Lemou et Mieussens dans leur article de 2008 publié dans SIAM. Il repose sur une décomposition micro-macro de l’inconnue principale et sur une discrétisation décalée : la variable macroscopique est centrée sur les mailles tandis que la variable microscopique est centrée sur les faces.
+
+Nous montrons que des problèmes particuliers de consistance apparaissent dans le cadre multidimensionnel, en raison du fait que la composition d’une divergence discrète consistante avec un gradient discret (faiblement) consistant ne conduit pas en général à un opérateur laplacien consistant, même sur des maillages admissibles.
+
+Il s’agit d’un travail conjoint avec Mohamed Ghattassi et Nader Masmoudi.
