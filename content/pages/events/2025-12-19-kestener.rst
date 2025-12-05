@@ -1,4 +1,4 @@
-:title: TBA
+:title: Kalypsso: une plateforme de simulation pour la mécanique des fluides compressibles basée sur le raffinement de maillage adaptatif (AMR) et  conçue pour la portabilité de performance (CPU/GPU).
 :category: event
 :date: 2025-12-19 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
@@ -6,5 +6,17 @@
 :shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
 
 .. title:: Résumé de l'exposé
+Dans cet exposé nous décrirons la plateforme kalypsso (Kokkos Applicative LaYer for Parallel and Scalable Solvers on Octrees) qui implante le raffinement de maillage adaptatif (AMR) de type structuré par bloc
 
-TBA
+et basé sur le concept de forêt d'octrees avec une attention particulière pour le parallélisme et les performances  sur les calculateurs GPU. Kalypsso s'appuie d'un côté sur la bibliothèque p4est pour la gestion 
+
+en mémoire distribuée des maillages AMR, et sur le modèle de programmation C++/Kokkos pour l'implantation des noyaux de calcul en mémoire partagée basée sur la notion de portabilité de performance. 
+
+Nous montrerons des exemples d'applications à l'hydrodynamique des fluides compressibles utilisant des schémas basés sur la méthode des volumes finis pour le système Euler, bifluide et la 
+
+magnétohydrodynamique. Kalypsso est capable de simuler le système Euler avec un schéma de type MUSCL-Hancock en atteignant 1.4 milliards de cell-updates/s sur un GPU Nvidia GH200 et d'atteindre
+
+80 % d'efficacité de parallélisation faible en utilisant jusqu'à 512 GPUs. Une accélération de l'ordre de x5 est obtenue en comparant les performances CPU et GPU de kalypsso.
+
+Nous terminerons l'exposé en évoquant des résultats préliminaires d'application à l'hydrodynamique multimatériaux utilisant des schémas de type Lagrange-projection.
+
