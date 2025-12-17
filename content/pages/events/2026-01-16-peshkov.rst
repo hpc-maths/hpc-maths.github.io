@@ -1,4 +1,4 @@
-:title: TBA
+:title: Multiphase flow modeling in the framework of hyperbolic thermodynamically compatible systems
 :category: event
 :date: 2026-01-16 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
@@ -7,4 +7,4 @@
 
 .. title:: Résumé de l'exposé
 
-TBA
+In this talk, we discuss some key theoretical aspects of hyperbolic thermodynamically compatible systems in the context of multiphase flow modeling. We discuss the particular structure of the governing equations, their variational nature, and possibility to symmetrize the system. From the physical view point, we will focus on two-phase flows with surface tension. In particular, we will present a model for surface tension with micro-inertia and phase pressure disequilibria. 
