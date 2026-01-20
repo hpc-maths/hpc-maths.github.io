@@ -22,6 +22,7 @@ Program [45mins  presentation + 5 mins questions]
 Speaker: Aldo Frezzotti (Politecnico di Milano)
 
 Title: TBA
+
 Abstract: TBA
 
 
@@ -30,6 +31,7 @@ Abstract: TBA
 Speaker: Vincent Giovangigli (CMAP - École polytechnique)
 
 Title: Kinetic derivation of Cahn-Hilliard fluid models
+
 Abstract: The use of modeling and simulation tools for Li-ion batteries has grown considerably in recent years, to support the deployment of these technologies. The complexity of the phenomena at play at the heart of batteries requires the development of multi-physics models combining electrochemistry, transport of charged species, associated electric field, thermal effects, etc. Moreover, depending on the issues addressed, the scale at which these models are developed can vary greatly, from the particle of active material to the battery pack. In order to master the hypotheses associated with these different modeling scales, and also to promote the exchange of information between models, we have carried out several theoretical up-scaling work, applied to the modeling of graphite electrodes. At electrode scales, the resolution of the Newman model in the frequency domain using the Fourier transform provides an analytical expression of the impedance spectrum. From this analytical expression, it is then possible to improve the extraction of the physical properties of the materials, going beyond classical electrical equivalent model of the EIS. At the electrode scale, we apply the volume-averaging method to the microstructure-scale model of battery electrodes in order to revisit the Newman model and thus review its range of validity and limitations, particularly at high regime. Finally, at particle scale, a multi-layer Cahn-Hilliard model is used to analyze the dynamics of stagging which occurs during the graphite lithiation, and analyze its impact on both the heterogeneous lithiation of particle and the apparent kinetics of insertion.
 
 
@@ -38,6 +40,7 @@ Abstract: The use of modeling and simulation tools for Li-ion batteries has grow
 Speaker: Ward Haegeman (ONERA/CMAP - École poltechnique) and/or Giuseppe Orlando (CMAP - École poltechnique)
 
 Title: TBA
+
 Abstract: TBA
 
 
@@ -46,4 +49,5 @@ Abstract: TBA
 Speaker: Daniele Biasone (ONERA/CMAP - École poltechnique)
 
 Title: TBA
+
 Abstract: TBA
