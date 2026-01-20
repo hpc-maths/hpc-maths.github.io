@@ -13,8 +13,8 @@ Program [45mins  presentation + 5 mins questions]
 
 - 14:00-14:50 Aldo Frezzotti (Politecnico di Milano): *TBA*
 - 14:50-15:40 Vincent Giovangigli (CMAP - École polytechnique): *Kinetic derivation of Cahn-Hilliard fluid models*
-- 16:00-16:50 Ward Haegeman (ONERA/CMAP - École poltechnique) and/or Giuseppe Orlando (CMAP - École poltechnique): *TBA*
-- 16:50-17:40 Daniele Biasone (ONERA/CMAP - École poltechnique): *TBA* 
+- 16:00-16:50 Ward Haegeman (ONERA/CMAP - École polytechnique) and/or Giuseppe Orlando (CMAP - École polytechnique): *TBA*
+- 16:50-17:40 Daniele Biasone (ONERA/CMAP - École polytechnique): *TBA* 
 
 :Abstracts:
 
@@ -35,7 +35,7 @@ Abstract: The use of modeling and simulation tools for Li-ion batteries has grow
 
 
 
-Speaker: Ward Haegeman (ONERA/CMAP - École poltechnique) and/or Giuseppe Orlando (CMAP - École poltechnique)
+Speaker: Ward Haegeman (ONERA/CMAP - École polytechnique) and/or Giuseppe Orlando (CMAP - École polytechnique)
 
 | Title: TBA
 Abstract: TBA
@@ -43,7 +43,7 @@ Abstract: TBA
 
 
 
-Speaker: Daniele Biasone (ONERA/CMAP - École poltechnique)
+Speaker: Daniele Biasone (ONERA/CMAP - École polytechnique)
 
 | Title: TBA
 Abstract: TBA
