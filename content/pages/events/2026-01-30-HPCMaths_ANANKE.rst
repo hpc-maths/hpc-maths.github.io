@@ -1,4 +1,4 @@
-title: Double seminar with INRIA équipe ANANKE
+:title: Double seminar with INRIA équipe ANANKE
 :category: event
 :date: 2026-01-30 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
