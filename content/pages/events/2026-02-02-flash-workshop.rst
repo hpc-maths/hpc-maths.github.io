@@ -13,7 +13,7 @@ Program [45mins  presentation + 5 mins questions]
 
 - 14:00-14:50 Aldo Frezzotti (Politecnico di Milano): *TBA*
 - 14:50-15:40 Vincent Giovangigli (CMAP - École polytechnique): *Kinetic derivation of Cahn-Hilliard fluid models*
-- 16:00-16:50 Ward Haegeman (ONERA/CMAP - École polytechnique) and/or Giuseppe Orlando (CMAP - École polytechnique): *A unified compressible two-phase, two-scale model with capillarity for separated-to-disperse transitions in atomizing flows*
+- 16:00-16:50 Ward Haegeman (ONERA/CMAP - École polytechnique)/Giuseppe Orlando (CMAP - École polytechnique): *A unified compressible two-phase, two-scale model with capillarity for separated-to-disperse transitions in atomizing flows*
 - 16:50-17:40 Daniele Biasone (ONERA/CMAP - École polytechnique): *Assessment of moment closures for shock structure prediction in transition-regime rarefied flows* 
 
 :Abstracts:
