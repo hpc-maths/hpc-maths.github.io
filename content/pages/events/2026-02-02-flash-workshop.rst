@@ -11,7 +11,7 @@
 
 Program [45mins  presentation + 5 mins questions]
 
-- 14:00-14:50 Aldo Frezzotti (Politecnico di Milano): *TBA*
+- 14:00-14:50 Aldo Frezzotti (Politecnico di Milano): *Kinetic theory applications to liquid-vapor flows*
 - 14:50-15:40 Vincent Giovangigli (CMAP - École polytechnique): *Kinetic derivation of Cahn-Hilliard fluid models*
 - 16:00-16:50 Ward Haegeman (ONERA/CMAP - École polytechnique)/Giuseppe Orlando (CMAP - École polytechnique): *A unified compressible two-phase, two-scale model with capillarity for separated-to-disperse transitions in atomizing flows*
 - 16:50-17:40 Daniele Biasone (ONERA/CMAP - École polytechnique): *Assessment of moment closures for shock structure prediction in transition-regime rarefied flows* 
@@ -21,9 +21,10 @@ Program [45mins  presentation + 5 mins questions]
 
 Speaker: Aldo Frezzotti (Politecnico di Milano)
 
-| Title: TBA
+| Title: Kinetic theory applications to liquid-vapor flows
 
-Abstract: TBA
+Abstract: The aim of the presentation is to review the applications of kinetic theory to two-phase fluids where sharp liquid-vapor interfaces and ubiquitous Knudsen layers create macroscopic variables jumps, on the scale of the mean free path. Relevant experimental results will be described and discussed from the kinetic theory point of view, with particular attention to the role of boundary conditions at the interface. The attempt to overcome the need of formulating boundary conditions by a kinetic model, based on the Enskog-Vlasov equation, will be described by summarizing its properties and
+discussing  associated moment method approximations.
 
 
 
