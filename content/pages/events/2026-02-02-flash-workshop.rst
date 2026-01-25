@@ -67,7 +67,7 @@ In addition, to improve the predictive quality of moment-based simulations, a re
 
 [4] C. Chalons et al. “Multivariate Gaussian Extended Quadrature Method of Moments for Turbulent Disperse Multiphase Flow”. In: Multiscale Modeling & Simulation 15.4 (Jan. 2017), pp. 1553–1583. issn: 1540-3467. doi: 10.1137/16m109209x.
 
-[5] R.O. Fox, F. Laurent, and A. Vié. “Conditional hyperbolic quadraturemethod ofmoments for kinetic equations”. In: Journal of Computational Physics 365 (July 2018), pp. 269–293. issn: 0021-9991. doi: 10.1016/j.jcp.2018.03.025.
+[5] R.O. Fox, F. Laurent, and A. Vié. “Conditional hyperbolic quadrature method of moments for kinetic equations”. In: Journal of Computational Physics 365 (July 2018), pp. 269–293. issn: 0021-9991. doi: 10.1016/j.jcp.2018.03.025.
 
 [6] H. Grad. “On the kinetic theory of rarefied gases”. In: Communications on Pure andApplied Mathematics 2.4 (Dec. 1949), pp. 331–407. issn: 1097-0312. doi: 10.1002/cpa.3160020403.
 
