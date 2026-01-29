@@ -37,7 +37,7 @@ Abstract: We present the derivation of Cahn-Hilliard fluid equations from the ki
 
 
 
-Speaker: Ward Haegeman (ONERA/CMAP - École polytechnique) and/or Giuseppe Orlando (CMAP - École polytechnique)
+Speaker: Ward Haegeman (ONERA/CMAP - École polytechnique)/Giuseppe Orlando (CMAP - École polytechnique)
 
 | Title: A unified compressible two-phase, two-scale model with capillarity for separated-to-disperse transitions in atomizing flows
 
