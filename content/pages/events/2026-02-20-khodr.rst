@@ -1,0 +1,26 @@
+:title: A hybrid kinetic-fluid relaxation scheme for particle-fluid flows
+:category: event
+:date: 2026-02-20 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Codor Khodr (CEA, DAM/DIF)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+We present a novel numerical method for the treatment of particle-fluid flows, in which a dispersed
+phase, composed of mesoscopic particles, interacts with a continuous fluid phase. It is well known
+that the kinetic description of such flows is very accurate in the dilute regime but suffers from
+robustness issues when the volumic fraction of particles increases. It is therefore common, in
+practical simulations, to perform a relaxation towards an eulerian two-phase mixture (typically a 4
+or 5 equation model) when dense, highly collisional regimes are reached. In this presentation, we
+derive such a model by doing a modal decomposition of the density function (PDF) of the particles
+into a “kinetic” and an “eulerian” mode, according to some physically sound criterion, and taking
+the hydrodynamic limit of the latter. This gives rise to a coupled Vlasov-Euler system which
+contains a non-conservative mixing operator, representing the flux of particles going from the
+kinetic to the fluid sub-space of the phase space. This approach is related to so-called “hybrid” or
+“micro-macro” methods, which were initially developed in the context of rarefied gas dynamics and
+plasma transport. Numerically, this involves coupling a Lagrangian PIC solver with a finite-volume
+Euler solver through a relaxation scheme which aims at integrating the mixing source terms and
+enforcing thermodynamic equilibrium. The method is analyzed and illustrated on a test case: the
+interaction of a shock with a dense cloud of water particles, with addition of a simple break-up
+kernel as a driver of mixing.
