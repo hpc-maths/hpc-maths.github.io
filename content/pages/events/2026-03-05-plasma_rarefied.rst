@@ -30,4 +30,4 @@
 - 14h00-14h40: *TBA*, Daniele Biasone (CMAP/ONERA)
 - 14h40-15h20: *TBA*, Pierre Bernigaud (ONERA)
 
-- 15h20-15h40: Aperçu des derniers développements de samurai, Loïc Gouarin (CMAP)
+*15h20-15h40: Aperçu des derniers développements de samurai, Loïc Gouarin (CMAP)*
