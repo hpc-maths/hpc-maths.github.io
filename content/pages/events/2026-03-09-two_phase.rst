@@ -1,0 +1,31 @@
+:title: Two-phase flow activities: annual overview
+:category: event
+:date: 2026-03-09 09:00
+:place: Salle de conférence du CMAP - Ecole polytechnique
+:shortdescription: Série d'exposés scientifiques sur les activités diphasiques de l'équipe et ses collaborateurs dans le cadre du projet CIEDS OPEN NUM DEF ouverts plus largement dans le cadre du séminaire HPC@Maths
+
+
+.. class:: center
+
+
+:Abstract: Série d'exposés scientifiques sur les activités diphasiques de l'équipe et ses collaborateurs dans le cadre du projet CIEDS OPEN NUM DEF ouverts plus largement dans le cadre du séminaire HPC@Maths
+
+
+- 09h00-09h15 Introduction
+
+*09h15-12h30 Partie modélisation*
+
+- 09h15-10h00: *A unified compressible two-phase, two-scale model with capillarity for separated-to-disperse transitions in atomizing flows*, Giuseppe Orlando (CMAP)
+- 10h00-10h45: *An all-topology two-fluid model for two-phase flows derived through Hamilton’s Stationary Action Principle*, Ward Haegeman (CMAP/ONERA)
+
+- 10h45-11h00: Pause
+
+- 11h00-11h45: *TBA*, Clément Morhain (CMAP/EM2C)
+- 11h45-12h30, *TBA*, TBA
+
+*14h00-15h45 Partie numérique*
+
+- 14h00-14h30: *TBA*, Clément Le Touze (ONERA) (Ward Haegeman (CMAP/ONERA))
+- 14h30-15h15: *TBA*, Nicolas Grenier (LISN)/Gen Wu (LISN)
+
+- 15h15-15h45: Ouverture sur les autres activités et aperçu des derniers développements de samurai, Giuseppe Orlando (CMAP), Loïc Gouarin (CMAP)
