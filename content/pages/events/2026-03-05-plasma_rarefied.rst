@@ -13,7 +13,7 @@
 
 - 09h45-10h00: Introduction
 
-*10h00-12h30 Plasma
+*10h00-12h30 Plasma*
 
 - 10h00-10h35: *TBA*, Zoubaïr Tazakkati (CMAP)
 - 10h35-11h00: *TBA*, Zoubaïr Tazakkati/Josselin Massot/Teddy Pichard (CMAP)
