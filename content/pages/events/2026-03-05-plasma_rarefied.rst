@@ -13,17 +13,15 @@
 
 - 09h45-10h00: Introduction
 
-*10h00-12h30 Plasma: partie modélisation*
+*10h00-12h30 Plasma
 
 - 10h00-10h35: *TBA*, Zoubaïr Tazakkati (CMAP)
-- 10h35-11h05: *TBA*, Bruno Fontaine (VKI)
+- 10h35-11h00: *TBA*, Zoubaïr Tazakkati/Josselin Massot/Teddy Pichard (CMAP)
 
-- 11h05-11h25: Pause
+- 11h00-11h20: Pause
 
-*11h25-12h30 Plasma: partie numérique*
-
-- 11h25-12h00: *TBA*, Zoubaïr Tazakkati/Josselin Massot/Teddy Pichard (CMAP)
-- 12h00-12h30: *Progress in High Order Shock Capturing Schemes for Hypersonic Flows: Axisymmetric Blunt Bodies and Blackout Phenomenon*, Gianmario Perrucci (VKI)
+- 11h20-11h50: *TBA*, Bruno Fontaine (VKI)
+- 11h50-12h20: *Progress in High Order Shock Capturing Schemes for Hypersonic Flows: Axisymmetric Blunt Bodies and Blackout Phenomenon*, Gianmario Perrucci (VKI)
 
 *14h00-15h20 Raréfié*
 
