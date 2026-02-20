@@ -21,11 +21,12 @@
 - 10h45-11h00: Pause
 
 - 11h00-11h45: *TBA*, Clément Morhain (CMAP/EM2C)
-- 11h45-12h30, *TBA*, TBA
+- 11h45-12h30, *TBA*, Alexandre Richard (EM2C)/Ludovic Goudenège (CNRS/CMAP)
 
 *14h00-15h45 Partie numérique*
 
 - 14h00-14h30: *TBA*, Clément Le Touze (ONERA) (Ward Haegeman (CMAP/ONERA))
-- 14h30-15h15: *TBA*, Nicolas Grenier (LISN)/Gen Wu (LISN)
+- 14h30-15h00: *A low-Mach solver for two-phase flows with phase change using multiresolution-based*, Nicolas Grenier (LISN)
 
-- 15h15-15h45: Ouverture sur les autres activités et aperçu des derniers développements de samurai, Giuseppe Orlando (CMAP), Loïc Gouarin (CMAP)
+- 15h00-15h10: *Numerical Investigation of Boiling with Mesh Adaptation*, Abir Saha (LISN) 
+- 15h10-15h30: Ouverture sur les autres activités et aperçu des derniers développements de samurai, Giuseppe Orlando (CMAP), Loïc Gouarin (CMAP)
