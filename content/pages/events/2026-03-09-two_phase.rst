@@ -21,7 +21,7 @@
 - 10h45-11h00: Pause
 
 - 11h00-11h45: *Synthesizing turbulence and reproducing the segregation phenomenon in dilute particle-laden flows*, Clément Morhain (CMAP/EM2C)
-- 11h45-12h30, *TBA*, Alexandre Richard (EM2C)/Ludovic Goudenège (CNRS/CMAP)
+- 11h45-12h30, *Vitesse de convergence d'un système stochastique fluide–particules à couplage bidirectionnel (two-ways coupling) vers le système couplé Navier–Stokes incompressible / Vlasov–Fokker–Planck en dimensions 2 et 3.*, Ludovic Goudenège (CNRS/LaMME - Université d'Évry-Paris Saclay)
 
 *14h00-15h45 Partie numérique*
 
