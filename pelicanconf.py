@@ -72,11 +72,6 @@ PARTNERS = {
                 "url": "https://www.cenaero.be/",
                 "img": "../images/partenaires/entreprises/Cenaero.png",
             },
-            "Lockheed": {
-                "description": "Première entreprise américaine et mondiale de défense et de sécurité",
-                "url": "https://www.lockheedmartin.com/",
-                "img": "../images/partenaires/entreprises/Lockheed.png",
-            },
             "Safran": {
                 "description": "Groupe international opérant dans les domaines de l'aéronautique, de l'espace et de la défense",
                 "url": "https://www.safran-group.com/",
