@@ -72,11 +72,6 @@ PARTNERS = {
                 "url": "https://www.cenaero.be/",
                 "img": "../images/partenaires/entreprises/Cenaero.png",
             },
-            "Goolgle": {
-                "description": "L'une des plus imposantes entreprises du marché d'Internet et l'un des géants du Web",
-                "url": "https://about.google",
-                "img": "../images/partenaires/entreprises/Google.png",
-            },
             "Lockheed": {
                 "description": "Première entreprise américaine et mondiale de défense et de sécurité",
                 "url": "https://www.lockheedmartin.com/",
