@@ -43,7 +43,7 @@ DATE_FORMATS = {"fr": ""}
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-SLUGIFY_SOURCE = 'basename'
+SLUGIFY_SOURCE = "basename"
 
 MENUITEMS = [
     ("Présentation", "/index.html"),
@@ -86,11 +86,6 @@ PARTNERS = {
                 "description": "Groupe international opérant dans les domaines de l'aéronautique, de l'espace et de la défense",
                 "url": "https://www.safran-group.com/",
                 "img": "../images/partenaires/entreprises/Safran.png",
-            },
-            "SpaceX": {
-                "description": "Space Exploration Technologies Corporation spécialiste de l'astronautique et du vol spatial",
-                "url": "https://www.spacex.com/",
-                "img": "../images/partenaires/entreprises/SpaceX.jpg.png",
             },
         },
     },
