@@ -1,0 +1,10 @@
+:title: Parallel Domain Decomposition Method for Elliptic PDE with random coefficient
+:category: event
+:date: 2026-04-10 14:00
+:place: Jean Lascoux (CPHT aile0)
+:speaker: Lucien Gontier (CMAP)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+Solving Stochastic Partial Differential Equations (SPDEs) involves high computational costs due to the use of Monte Carlo methods. This work focuses on accelerating individual realizations. To achieve this, we employ the Balanced Domain Decomposition (BDD) method and develop surrogates for its key operators, specifically the first-level preconditioner and the coarse space. By applying a Polynomial Chaos Expansion (PCE) to this preconditioner, we maintain a local, parallel approach with excellent scalability.
