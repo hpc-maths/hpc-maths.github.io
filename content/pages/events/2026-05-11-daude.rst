@@ -1,0 +1,18 @@
+:title: Single- and two-phase fast transients modeling in elastic pipes
+:category: event
+:date: 2026-05-11 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Frédéric Daude (EDF)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Résumé de l'exposé
+
+Fast-transient events are phenomena characterized by significant pressure variations that induce substantial mechanical loads. 
+Most of these events can occur in both single- and two-phasecompressible flows within piping systems. 
+The water-hammer phenomenon is one such example. Traditionally, one-dimensional approaches involving cross-sectional averaging 
+are used to model these events. A general framework is presented here for deriving and analyzing the associated governing equations. 
+Particular attention is paid to the area-averaged Euler and Baer-Nunziato equations in elastic pipes. 
+The main results of the mathematical analysis of the two corresponding systems are summarized. 
+Furthermore, a Finite-Volume framework for the approximation of these equations, 
+based on the integral form of their three-dimensional counterpart, is discussed, along with some numerical results.
+Work in collaboration with Ray A. Berry and Pascal Galon.
