@@ -1,4 +1,4 @@
-:title: PhD defence Rémy Annuziata
+:title: PhD defence Rémy Annunziata
 :category: event
 :date: 2026-05-22 15:00
 :place: Amphi Becquerel - Ecole polytechnique
