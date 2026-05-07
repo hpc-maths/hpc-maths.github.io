@@ -1,4 +1,4 @@
-:title: Two-phase flow activities: annual overview
+:title: Multiphase flows workshop
 :category: event
 :date: 2026-06-08 14:00
 :place: Ecole polytechnique
