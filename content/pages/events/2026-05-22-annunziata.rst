@@ -47,12 +47,13 @@ cristaux de glace sur les particules de suie.
 
 
 Devant le jury composé de :
-Thomas Leweke (IRPHE, Centrale Méditerranée, Rapporteur)
-Roberto Paoli (Polytechnique Montréal, Rapporteur)
-Tânia Ferreira (Stanford University, Examinatrice)
-Nicolas Gourdain (ISAE-SUPAERO, Examinateur)
-Christian Tenaud (EM2C, CentraleSupélec, Examinateur)
-Marc Massot (CMAP, École polytechnique, Directeur de thèse)
-Nicolas Bonne (ONERA, Palaiseau, Co-directeur de thèse)
-François Garnier (ETS-Montréal, Encadrant de thèse)
-Karim Shariff (NASA Ames Research Center, Invité)
+
+- Thomas Leweke (IRPHE, Centrale Méditerranée, Rapporteur),
+- Roberto Paoli (Polytechnique Montréal, Rapporteur),
+- Tânia Ferreira (Stanford University, Examinatrice),
+- Nicolas Gourdain (ISAE-SUPAERO, Examinateur),
+- Christian Tenaud (EM2C, CentraleSupélec, Examinateur),
+- Marc Massot (CMAP, École polytechnique, Directeur de thèse),
+- Nicolas Bonne (ONERA, Palaiseau, Co-directeur de thèse),
+- François Garnier (ETS-Montréal, Encadrant de thèse),
+- Karim Shariff (NASA Ames Research Center, Invité)
