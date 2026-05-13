@@ -15,6 +15,7 @@
 
 | **Jean-Marc Hérard (EDF R&D)** *Schémas pour la prise en compte des termes sources dans une classe de modèles multiphasiques*
 | This talk presents a numerical methodology for tackling a class of compressible multiphase flow models. The targeted applications involve flows with fast transients and shock waves. We thus consider the hyperbolic system of PDE including stiff source terms:
+
 .. math::
 
     \partial_t W + \nabla \cdot (F(W)) + C(W)\nabla W = S(W) \quad (1)
