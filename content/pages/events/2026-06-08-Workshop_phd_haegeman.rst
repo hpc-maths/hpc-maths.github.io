@@ -14,10 +14,13 @@
 .. title:: Invited speakers
 
 - Jean-Marc Hérard (EDF R&D) : *Schémas pour la prise en compte des termes sources dans une classe de modèles multiphasiques*
+
 This talk presents a numerical methodology for tackling a class of compressible multiphase flow models. The targeted applications involve flows with fast transients and shock waves.
 We thus consider the hyperbolic system of PDE including stiff source terms:
 
-.. math:: \partial_t tW + \nabla \cdot (F(W)) + C(W)\nabla W = S(W) (1)
+.. math::
+
+    \partial_t W + \nabla \cdot (F(W)) + C(W)\nabla W = S(W) (1)
 
 The two-step algorithm includes an explicit scheme to account for convective effects (left hand side of (1), step 1) and an implicit scheme to handle stiff relaxation effects (right hand side of (1), step 2). The core idea in the second step consists in rewriting ODEs involving the RHS of (1) as an evolution equation of the velocity / pressure / temperature / Gibbs potential gaps, together with a steady constraint. This approach has been used to compute approximate solutions of immiscible two-phase and three-phase flow models [1,2]. It has also been used for a three-field two-phase flow model that includes a non-condensable gas [3].  
 
