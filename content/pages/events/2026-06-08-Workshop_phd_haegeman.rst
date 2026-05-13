@@ -1,4 +1,4 @@
-:title: Multiphase flows workshop
+:title: Mini-workshop on continuum mechanics and multiphase flows
 :category: event
 :date: 2026-06-08 14:00
 :place: Ecole polytechnique
@@ -8,7 +8,7 @@
 .. class:: center
 
 
-:Abstract: A mini-workshop co-organised by ONERA and CMAP on two-phase flows and related topics on the occasion of the PhD defence of W. Haegeman.  
+:Abstract: A mini-workshop co-organised by ONERA and CMAP on topics related to continuum mechanics and two-phase flows on the occasion of the PhD defence of W. Haegeman.  
 
 
 .. title:: Invited speakers
@@ -27,7 +27,7 @@
 | [2] Jean-Marc Hérard, Guillaume Jomée. “A coupled approach to compute approximate solutions of a compressible immiscible three-phase flow model with fast transient and stiff source terms.“, SMAI Journal of Computational Mathematics, 405-434, 2025.
 | [3] Jean Bussac, Jean-Marc Hérard, Guillaume Jomée, “Numerical simulation of a hybrid two-phase flow model”, In preparation, 2026.
 | 
-| **Didier Bresch**
+| **Didier Bresch (LAMA, USMB)**
 | 
 | **Ilya Peshkov (University of Trento)** *Modeling non-propagating modes with hyperbolic equations*
 | We consider a few examples of first-order hyperbolic systems with special skew-symmetric structure of relaxation source terms. The dispersion relation for such systems is analyzed and it is shown that they exhibit a frequency band gap. This means that waves with frequencies falling into this band gap cannot propagate. Such models emerge in multiscale physical systems, e.g. in modeling acoustic metamaterials, plasma flows, multiphase flows with surface tension.
@@ -55,10 +55,3 @@
 - 16:30 - 17:10: *Talk 4* 
 - 17:10 - 17:50: *Talk 5*
 
-
-
-
-
-| A first long line that you break in two
-  -> here <- is rendered as a single line.
-| A second line that follows a line break.
