@@ -1,0 +1,9 @@
+:title: TBA
+:category: event
+:date: 2026-06-02 11:30
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Youssef Saad (University of Minnesota)
+
+.. title:: Résumé de l'exposé
+
+TBA
