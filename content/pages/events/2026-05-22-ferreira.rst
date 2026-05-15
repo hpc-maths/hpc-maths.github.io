@@ -1,0 +1,19 @@
+:title: Seminar ONERA / HPC@Maths
+:category: event
+:date: 2026-05-22 09:30
+:place: NB.00-64 - Palaiseau
+:speaker: Tania Ferreira (TomKat Center for Sustainable Energy, Standford university)
+:shortdescription: High-fidelity simulations and camera observations of contrail formation
+
+.. title:: Résumé de l'exposé
+
+This seminar presents recent progress in high-fidelity modeling and observations of aircraft contrail formation. 
+The work combines large-eddy simulations with Lagrangian particle microphysics to study contrails across the jet and vortex regimes, 
+including the transition from early exhaust plume mixing to wake-vortex evolution. 
+We investigate how atmospheric and aircraft-engine parameters influence ice crystal formation and radiative forcing, 
+with comparisons between conventional Jet A and hydrogen-fueled aircraft. 
+The seminar also discusses efforts to connect simulations with ground-based camera observations and flight/meteorological data, 
+highlighting current challenges in predicting contrail formation.
+
+
+Link to follow remotely : https://rdv.onera.fr/TaniaFerreira
