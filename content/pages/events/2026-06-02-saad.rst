@@ -3,7 +3,7 @@
 :date: 2026-06-02 11:30
 :place: Salle de conférence CMAP (aile5, 2e étage)
 :speaker: Youssef Saad (University of Minnesota)
-:shortdescription: Exposé conjoint du Séminaire HPC@Maths et du Séminaire du Pôle Analyse du CMAP (https://cmap.ip-paris.fr/seminaires/seminaire-du-pole-analyse)
+:shortdescription: Exposé conjoint du Séminaire HPC@Maths et du [Séminaire du Pôle Analyse](https://cmap.ip-paris.fr/seminaires/seminaire-du-pole-analyse) du CMAP
 
 .. title:: Extrapolation and Acceleration Methods in Scientific Computing
 
