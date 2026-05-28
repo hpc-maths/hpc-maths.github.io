@@ -1,9 +1,33 @@
-:title: TBA
+:title: Extrapolation and Acceleration Methods in Scientific Computing
 :category: event
 :date: 2026-06-02 11:30
 :place: Salle de conférence CMAP (aile5, 2e étage)
 :speaker: Youssef Saad (University of Minnesota)
+:shortdescription: Exposé conjoint du Séminaire HPC@Maths et du Séminaire du Pôle Analyse du CMAP (https://cmap.ip-paris.fr/seminaires/seminaire-du-pole-analyse)
 
-.. title:: Résumé de l'exposé
+.. title:: Extrapolation and Acceleration Methods in Scientific Computing
 
-TBA
+Acceleration and extrapolation methods have long played an important role in
+numerical computing. A wide range of computational problems may be cast as the
+determination of the limit of a sequence and extrapolation techniques sought to
+improve convergence by extrapolating toward this  limit, usually by  forming
+linear combinations of recent iterates. Classical methods of this kind - of
+which Aitken’s delta-2 process is a well-known example - require only the
+sequence of iterates as input. However this framework is  often overly
+restrictive, motivating the development of alternatives that exploit both the
+iterates and the underlying fixed-point mapping that generates them. Among the
+most prominent of these fixed-point accelerators is the method introduced by D.
+Anderson in 1965, now commonly referred to as Anderson acceleration. In
+parallel, Krylov methods evolved along a different trajectory. Originally
+developed for linear systems, simple acceleration ideas naturally led to Krylov
+subspace techniques. In the nonlinear setting, Quasi-Newton and Inexact Newton
+methods may also be interpreted as acceleration strategies, as they seek fixed
+points of iterative schemes using  essentially the same building blocks as
+fixed-point accelerators. Thus, acceleration methods have emerged from multiple
+perspectives and were often developed independently despite being founded on
+identical core principles.
+
+This presentation will be a survey of a broad class of acceleration methods,
+examining their origins, their historical successes, and the many - often subtle
+- connections among them. It will also aim to place these methods in a modern
+context, highlighting their relevance and applications in machine learning.
