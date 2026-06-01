@@ -1,0 +1,15 @@
+:title: Developing computational and experimental models for thrombosis in cerebral aneurysms
+:category: event
+:date: 2026-06-15 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Professeure Malebogo Ngoepe (UCT and CERECAM)
+:shortdescription: Exposé du Séminaire HPC@Maths 
+
+.. title:: Developing computational and experimental models for thrombosis in cerebral aneurysms
+
+Cerebral aneurysms are balloon-like sacs that develop on blood vessels of the brain because of weakening of the vessel wall layers. The weakened wall of an aneurysm is at risk of rupture, with subsequent morbidity or mortality when blood escapes into the extravascular space. Thrombosis is a condition that is closely associated with cerebral aneurysms and can have variable impact on disease outcomes. Complete occlusion of the aneurysm sac by a clot tends to stabilise the aneurysm, by isolating the sac from complex haemodynamic patterns that could further weaken the vessel wall. Partial occlusion of the aneurysm, by the clot, tends to accelerate the time to rupture through further vessel wall degradation exacerbated by ongoing inflammation and cellular degradation. Treatment approaches aim to encourage the development of stabilising clots, however this is dependent on an individual patient’s vessel geometry, state of the vessel wall and biochemical clotting profile.
+ 
+Various computational models have been developed towards an improved understanding of cerebral aneurysm thrombosis. Many couple haemodynamics with platelet biology and/or coagulation reactions. A computational framework developed for simulation of thrombus growth in cerebral aneurysms is presented. Blood flow is described by the Navier-Stokes equations and the transport equation accounts for the coagulation proteins. The clot region is represented by different porosity values. The model is verified in numerous stages, using experimental data, and is used to explore how the placement of different devices leads to variable clotting outcomes.
+ 
+Speaker bio: Malebogo Ngoepe is based in the Department of Mechanical Engineering at the University of Cape Town and is the director for the Centre for Research in Computational and Applied Mechanics. Her research spans a number of themes in biomechanics, including thrombosis, congential heart disease, new heart attack therapies and curly human scalp hair. She was awarded the Martha Schwarzkopf Award for Women in Science in 2024. 
+
