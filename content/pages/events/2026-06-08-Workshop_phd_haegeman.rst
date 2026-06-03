@@ -16,7 +16,7 @@
 
 
 .. image:: ../images/workshop_these_Ward/logo_ONERA.png
-   :width: 200px
+   :width: 300px
    :align: center
 
 
