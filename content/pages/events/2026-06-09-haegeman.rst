@@ -33,6 +33,5 @@ Devant le jury composé de :
 .. title:: Accès au campus
 
 .. image:: ../images/workshop_these_Ward/map_campus.png
-   :width: 100px
    :align: center
 
