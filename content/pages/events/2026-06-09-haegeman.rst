@@ -8,9 +8,9 @@
 .. class:: center
 
 
-:Title: **Modèles multi-fluides pour la simulation d'écoulements diphasiques : modèles hors équilibre, approches à deux échelles et schémas numériques**
+.. title:: Modèles multi-fluides pour la simulation d'écoulements diphasiques : modèles hors équilibre, approches à deux échelles et schémas numériques
 
-Résumé :
+**Résumé** :
 
 Les écoulements diphasiques interviennent dans un grand nombre d'applications industrielles, en particulier dans les industries de la défense et de l'aérospatiale. Les simulations numériques sont devenues des outils de conception indispensables, cependant leur coût de calcul peut devenir prohibitif pour des écoulements impliquant de nombreux phénomènes physiques sur une large gamme d'échelles. Le développement de modèles d'ordre réduit apparaît alors comme une stratégie prometteuse. Parmi les différentes approches possibles, les approches multi-fluides permettent de développer des modèles adaptés aux différents régimes d'écoulement, selon plusieurs niveaux de description.
 L'objectif de cette thèse est le développement de modèles multi-fluides pour la description d'écoulements diphasiques compressibles à haute vitesse. L'enjeu étant de permettre la conception d'outils numériques prédictifs, une attention particulière est portée à la structure mathématique des EDPs et aux schémas numériques associés. 
@@ -18,7 +18,7 @@ Dans une première partie, nous nous intéressons à une classe particulière de
 Ces modèles ne permettent cependant pas de décrire toutes les échelles de l’écoulement. Par conséquent, dans une deuxième partie, nous développons un modèle à deux échelles. Le modèle proposé est dérivé par une approche variationnelle et la thermodynamique des processus irréversibles. Ses termes sources permettent un transfert inter-échelles et une régularisation de l'interface à grande échelle. 
 Enfin, dans une troisième partie, nous développons un modèle multi-fluide autorisant le déséquilibre total entre phases. Dérivé par principes variationnels, il satisfait à la fois aux besoins de modélisation physique et aux exigences mathématiques qui permettent de traiter correctement des solutions de type choc.
 
- Devant le jury composé de :
+Devant le jury composé de :
 
 - Didier Bresch, Directeur de recherche CNRS, Université Savoie Mont Blanc (Rapporteur)
 - Philippe Helluy, Professeur, Université de Strasbourg (Rapporteur)
@@ -29,4 +29,10 @@ Enfin, dans une troisième partie, nous développons un modèle multi-fluide aut
 - Marc Massot, Professeur, École polytechnique (Directeur de thèse)
 - Jean-Marc Hérard, Ingénieur de recherche, EDF R&D (invité)
 - Philippe Villedieu, Directeur de recherche, ONERA (invité)
+
+.. title:: Accès au campus
+
+.. image:: ../images/workshop_these_Ward/map_campus.png
+   :width: 100px
+   :align: center
 
