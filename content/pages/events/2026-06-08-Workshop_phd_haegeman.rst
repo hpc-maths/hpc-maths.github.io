@@ -62,6 +62,8 @@
 | The primary nabla operator takes as input the data from the FEM space and returns data in the DG space, while the dual nabla operator takes as input the data from the DG space and produces output in the FEM space. The two discrete nabla operators satisfy a discrete Schwarz theorem on the symmetry of discrete second derivatives. From there, both discrete vector calculus identities follow automatically.
 | We apply our new family of schemes to three hyperbolic systems with involutions: the system of linear acoustics, in which the velocity field must remain curl-free and the vacuum Maxwell equations, in which the divergence of the magnetic field and of the electric field must remain zero. In our approach, only the magnetic field will remain exactly divergence free. As a third model we study the Maxwell-GLM system of Munz et al. [1], which contains a unique mixture of curl-curl and div-grad operators and in which the magnetic field may be either curl-free or divergence-free, depending on the choice of the initial data. In all cases we prove that the proposed schemes are exactly total energy conservative and thus nonlinearly stable in the L2 norm. 
 | 
-| **Maren Hantke (Martin-Luther-Universität Halle-Wittenberg), TBA**
-| 
+| **Maren Hantke (Martin-Luther-Universität Halle-Wittenberg), Isothermal two-phase flows with and without phase transition**
+| Two phase flows, where both phases are well separated, are often described by models of Baer-Nunziato type. This is in some ways easier than to deal with sharp interface models, where the phase boundary has to be resolved sufficiently good, in particular in the case that phase transitions are taken into account.
+| When dealing with Baer-Nunziato type models for pure phases for numerical reasons it is necessary to allow the presence of a small volume of the absent phase, i.e., small values for the volume fractions are used, typically 10 :sup:`-8`. It is assumed that this is a good approximation.
+| In this talk we compare the isothermal two-phase Baer-Nunziato model to the isothermal Euler model with and without phase transition.
 
