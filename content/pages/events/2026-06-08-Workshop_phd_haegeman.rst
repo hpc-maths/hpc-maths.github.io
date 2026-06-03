@@ -11,13 +11,11 @@
 :Abstract: A mini-workshop co-organised by ONERA and CMAP on topics related to continuum mechanics and two-phase flows on the occasion of the PhD defence of W. Haegeman.  
 
 .. image:: ../images/workshop_these_Ward/logo_X.png
-   :scale: 25%
-
-
+   :width: 50px
 
 
 .. image:: ../images/workshop_these_Ward/logo_ONERA.png
-   :scale: 10%
+   :width: 100px
 
 
 
