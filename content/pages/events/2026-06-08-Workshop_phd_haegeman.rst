@@ -12,10 +12,10 @@
 
 
 .. image:: ../images/workshop_these_Ward/logo_ONERA.png
-   :height: 250px
+   :height: 100px
  
-.. image:: ../images/workshop_these_Ward/logo_X.pdf
-   :height: 250px
+.. image:: ../images/workshop_these_Ward/logo_X.png
+   :height: 100px
 
 
 | The workshop will start at 2pm in the conference room of CMAP at École polytechnique.
