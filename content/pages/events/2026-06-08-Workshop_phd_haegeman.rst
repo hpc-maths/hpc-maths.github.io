@@ -11,7 +11,32 @@
 :Abstract: A mini-workshop co-organised by ONERA and CMAP on topics related to continuum mechanics and two-phase flows on the occasion of the PhD defence of W. Haegeman.  
 
 
-.. title:: Invited speakers
+| The workshop will start at 2pm in the conference room of CMAP at École polytechnique.
+| We will try to set up a link for those who wish to follow remotely at  https://visio.numerique.gouv.fr/ixh-imkc-nzg
+| 
+
+
+
+.. title:: Schedule (tentative)
+
+**14:00 - 16:00 First session** 
+
+- 14:00 - 14:40: **Jean-Marc Hérard**
+- 14:40 - 15:20: **Ilya Peshkov**
+- 15:20 - 16:00: **Michael Dumbser**
+
+**16:00 - 16:30 Break** 
+
+**16:30 - 17:50 Second session**
+
+- 16:30 - 17:10: **Didier Bresch** (online) 
+- 17:10 - 17:50: **Maren Hantke**
+
+*Schedule may be subject to some changes / adjustments depending on participants’ travel conditions.*
+
+*Titles and abstracts below*
+
+.. title:: Talks 
 
 | **Jean-Marc Hérard (EDF R&D), Schémas pour la prise en compte des termes sources dans une classe de modèles multiphasiques**
 | This talk presents a numerical methodology for tackling a class of compressible multiphase flow models. The targeted applications involve flows with fast transients and shock waves. We thus consider the hyperbolic system of PDE including stiff source terms:
@@ -39,21 +64,4 @@
 | 
 | **Maren Hantke (Martin-Luther-Universität Halle-Wittenberg), TBA**
 | 
-
-**Schedule** (tentative)
-
-**14:00 - 16:00 First session** 
-
-- 14:00 - 14:40: **Jean-Marc Hérard**
-- 14:40 - 15:20: **Ilya Peshkov**
-- 15:20 - 16:00: **Michael Dumbser**
-
-**16:00 - 16:30 Break** 
-
-**16:30 - 17:50 Second session**
-
-- 16:30 - 17:10: **Didier Bresch** (online) 
-- 17:10 - 17:50: **Maren Hantke**
-
-*Schedule may be subject to some changes / adjustments depending on participants’ travel conditions.*
 
