@@ -7,16 +7,29 @@
 
 .. class:: center
 
+.. title:: Multi-fluid modelling of two-phase flows: non-equilibrium models, two-scale approaches and numerical simulations
+
+**Abstract** :
+
+| Two-phase flows occur in a wide range of industrial applications, particularly in the defence and aerospace industries. Numerical simulations have become essential design tools; however, the computational cost can become prohibitive for flows involving numerous physical phenomena across a wide range of scales. The development of reduced-order models therefore appears to be a promising strategy. Among the various possible approaches, multi-fluid approaches allow the development of models suited to different flow regimes, and at different modelling levels.
+| The aim of this thesis is to develop multi-fluid models to describe high-velocity compressible two-phase flows. As the objective is to enable the design of predictive numerical tools, particular attention is paid to the mathematical structure of the PDEs and the associated numerical schemes.
+| In the first part, we focus on a specific class of multi-fluid models and identify the appropriate level of modelling required for the targeted applications. A two-temperature multi-fluid model is identified and its numerical strategy is based on instantaneous pressure relaxation techniques. The study of the scheme and the development of new relaxation techniques then enable robust numerical simulations of high-velocity compressible two-phase flows.
+| However, these models do not allow us to describe all the relevant scales of the flow. Consequently, in the second part, we develop a two-scale model. The proposed model is derived using variational principles and irreversible thermodynamics. Its source terms allow for a transfer between scales and for a regularisation of the large-scale interface. 
+| Finally, in the third part, we develop a multi-fluid model that allows the phases to be fully out of equilibrium. Derived through variational principles, it meets both the requirements of physical modelling and the mathematical criteria necessary to correctly handle shock-type solutions.
+| 
+
 
 .. title:: Modèles multi-fluides pour la simulation d'écoulements diphasiques : modèles hors équilibre, approches à deux échelles et schémas numériques
 
 **Résumé** :
 
-Les écoulements diphasiques interviennent dans un grand nombre d'applications industrielles, en particulier dans les industries de la défense et de l'aérospatiale. Les simulations numériques sont devenues des outils de conception indispensables, cependant leur coût de calcul peut devenir prohibitif pour des écoulements impliquant de nombreux phénomènes physiques sur une large gamme d'échelles. Le développement de modèles d'ordre réduit apparaît alors comme une stratégie prometteuse. Parmi les différentes approches possibles, les approches multi-fluides permettent de développer des modèles adaptés aux différents régimes d'écoulement, selon plusieurs niveaux de description.
-L'objectif de cette thèse est le développement de modèles multi-fluides pour la description d'écoulements diphasiques compressibles à haute vitesse. L'enjeu étant de permettre la conception d'outils numériques prédictifs, une attention particulière est portée à la structure mathématique des EDPs et aux schémas numériques associés. 
-Dans une première partie, nous nous intéressons à une classe particulière de modèles multi-fluides et identifions le niveau de modélisation nécessaire aux applications visées. Un modèle multi-fluide à deux températures est identifié et la stratégie numérique retenue repose sur des techniques de relaxation instantanée en pression. L’étude du schéma et le développement de nouvelles techniques de relaxation permet alors d’obtenir des simulations numériques robustes.
-Ces modèles ne permettent cependant pas de décrire toutes les échelles de l’écoulement. Par conséquent, dans une deuxième partie, nous développons un modèle à deux échelles. Le modèle proposé est dérivé par une approche variationnelle et la thermodynamique des processus irréversibles. Ses termes sources permettent un transfert inter-échelles et une régularisation de l'interface à grande échelle. 
-Enfin, dans une troisième partie, nous développons un modèle multi-fluide autorisant le déséquilibre total entre phases. Dérivé par principes variationnels, il satisfait à la fois aux besoins de modélisation physique et aux exigences mathématiques qui permettent de traiter correctement des solutions de type choc.
+| Les écoulements diphasiques interviennent dans un grand nombre d'applications industrielles, en particulier dans les industries de la défense et de l'aérospatiale. Les simulations numériques sont devenues des outils de conception indispensables, cependant leur coût de calcul peut devenir prohibitif pour des écoulements impliquant de nombreux phénomènes physiques sur une large gamme d'échelles. Le développement de modèles d'ordre réduit apparaît alors comme une stratégie prometteuse. Parmi les différentes approches possibles, les approches multi-fluides permettent de développer des modèles adaptés aux différents régimes d'écoulement, selon plusieurs niveaux de description.
+| L'objectif de cette thèse est le développement de modèles multi-fluides pour la description d'écoulements diphasiques compressibles à haute vitesse. L'enjeu étant de permettre la conception d'outils numériques prédictifs, une attention particulière est portée à la structure mathématique des EDPs et aux schémas numériques associés. 
+| Dans une première partie, nous nous intéressons à une classe particulière de modèles multi-fluides et identifions le niveau de modélisation nécessaire aux applications visées. Un modèle multi-fluide à deux températures est identifié et la stratégie numérique retenue repose sur des techniques de relaxation instantanée en pression. L’étude du schéma et le développement de nouvelles techniques de relaxation permet alors d’obtenir des simulations numériques robustes.
+| Ces modèles ne permettent cependant pas de décrire toutes les échelles de l’écoulement. Par conséquent, dans une deuxième partie, nous développons un modèle à deux échelles. Le modèle proposé est dérivé par une approche variationnelle et la thermodynamique des processus irréversibles. Ses termes sources permettent un transfert inter-échelles et une régularisation de l'interface à grande échelle. 
+| Enfin, dans une troisième partie, nous développons un modèle multi-fluide autorisant le déséquilibre total entre phases. Dérivé par principes variationnels, il satisfait à la fois aux besoins de modélisation physique et aux exigences mathématiques qui permettent de traiter correctement des solutions de type choc.
+| 
+
 
 Devant le jury composé de :
 
@@ -30,7 +43,13 @@ Devant le jury composé de :
 - Jean-Marc Hérard, Ingénieur de recherche, EDF R&D (invité)
 - Philippe Villedieu, Directeur de recherche, ONERA (invité)
 
-.. title:: Accès au campus
+
+
+.. title:: Informations pratiques / Practical Informations
+
+**Pour suivre à distance / To follow remotely:** https://enseignement.medias.polytechnique.fr/lives/live-amphitheatre-cauchy/
+
+**Pour accéder au campus / To access the campus:**
 
 .. image:: ../images/workshop_these_Ward/map_campus.png
    :align: center
