@@ -1,0 +1,10 @@
+title: Modeling polyatomic molecules in kinetic theory: from physics to PDEs to simulations
+:category: event
+:date: 2026-07-03 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Thomas Borsoni (CERMICS)
+:shortdescription: Exposé du Séminaire HPC@Maths 
+
+.. title:: Modeling polyatomic molecules in kinetic theory: from physics to PDEs to simulations
+
+This presentation is on the mathematical description of polyatomic molecules in kinetic theory (Boltzmann, BGK, Fokker–Planck, etc.). Relying on a general framework we developed, we link the physical molecular models to the kinetic polyatomic models of the mathematical community, as well as to kinetic models suited for particle-based simulations. We show that there are three equivalent descriptions, each relevant for a specific part of the global picture: from physics (states), to mathematical analysis (energy levels), to numerical simulations (energy quantiles).
