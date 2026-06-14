@@ -1,4 +1,4 @@
-title: Modeling polyatomic molecules in kinetic theory: from physics to PDEs to simulations
+:title: Modeling polyatomic molecules in kinetic theory: from physics to PDEs to simulations
 :category: event
 :date: 2026-07-03 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
