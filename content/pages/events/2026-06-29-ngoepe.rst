@@ -5,6 +5,6 @@
 :speaker: Professeure Malebogo Ngoepe (UCT and CERECAM)
 :shortdescription: Special seminar for the series "Computational Mechanics at IPP"
 
-.. title:: Special seminar for the series "Computational Mechanics at IPP"
+.. title:: Personalisation in computational and experimental biomechanics models
 
 Personalised approaches, in the field of biomechanics, hold great promise for improving diagnostic tools, disease management and interventional planning. The development of appropriate computational and experimental models, tools and approaches can contribute to a more thorough understanding of how differences between specific individuals or patients affect specific mechanical outcomes. This seminar explores the potential role of biomechanics in three biomedical contexts where some degree of personalization is considered: cerebral aneurysm thrombosis, congenital heart disease and curly human scalp hair.  For cerebral aneurysms, patient-specific computational models are used to explore how haemodynamics and clot evolution interact in complex vascular environments. For congenital heart disease, the use of echocardiography and computed tomography as imaging modalities for enabling patient-specific fluid flow simulations is explored. For curly human scalp hair, the relationship between mechanical behaviour, geometry and biochemistry is used to explore hair variation for medical and cosmetic applications.
