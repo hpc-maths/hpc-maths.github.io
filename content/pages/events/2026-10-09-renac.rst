@@ -3,7 +3,7 @@
 :date: 2026-10-09 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
 :speaker: Florent Renac (MONHADE, équipe Inria-ONERA, DAAA, ONERA, Institut Polytechnique de Paris)
-:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+:shortdescription: High-order discontinuous Galerkin spectral element method (DGSEM) for compressible multicomponent flows governed by hyperbolic systems with non-conservative products.
 
 .. title:: DGSEM approximation of compressible multicomponent flows
 
