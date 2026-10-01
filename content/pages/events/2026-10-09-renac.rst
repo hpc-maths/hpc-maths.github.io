@@ -1,11 +1,11 @@
-:title: DGSEM approximation of compressible multicomponent flows
+:title: Discontinuous Galerkin spectral element approximation of compressible multicomponent flows
 :category: event
 :date: 2026-10-09 14:00
 :place: Salle de conférence CMAP (aile5, 2e étage)
 :speaker: Florent Renac (MONHADE, équipe Inria-ONERA, DAAA, ONERA, Institut Polytechnique de Paris)
-:shortdescription: High-order discontinuous Galerkin spectral element method (DGSEM) for compressible multicomponent flows governed by hyperbolic systems with non-conservative products.
+:shortdescription: High-order discontinuous Galerkin spectral element method for compressible multicomponent flows governed by hyperbolic systems with non-conservative products.
 
-.. title:: DGSEM approximation of compressible multicomponent flows
+.. title:: Discontinuous Galerkin spectral element approximation of compressible multicomponent flows
 
 In this talk, we will introduce the high-order numerical approximation of compressible multicomponent flows with the discontinuous Galerkin spectral element method (DGSEM), which looks for piecewise polynomial approximate solutions.
 
