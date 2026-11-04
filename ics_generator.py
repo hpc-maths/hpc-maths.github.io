@@ -7,7 +7,7 @@ import datetime
 import ics
 from dateutil import tz
 
-from pelicanconf import OUTPUT_PATH, PATH
+from pelicanconf import OUTPUT_PATH, PATH, SITE_DOMAIN, SITEURL
 
 EVENTS_PATH = f"{PATH}/pages/events"
 OUTPUT_ICS = f"{OUTPUT_PATH}/hpcmaths_seminars.ics"
@@ -25,7 +25,7 @@ for event_file in glob.glob(f"{EVENTS_PATH}/*.rst"):
         event.summary = f"{metadata['title']} - {metadata['speaker']}"
     else:
         event.summary = f"{metadata['title']}"
-    event.description = f"More information: https://initiative-hpc-maths.gitlab.labos.polytechnique.fr/site/pages/{os.path.splitext(os.path.basename(event_file))[0]}.html"
+    event.description = f"More information: {SITE_DOMAIN}{SITEURL}/pages/{os.path.splitext(os.path.basename(event_file))[0]}.html"
     d = datetime.datetime(
         year=metadata['date'].year,
         month=metadata['date'].month,

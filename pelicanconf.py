@@ -6,7 +6,8 @@ import math
 
 AUTHOR = "Marc Massot"
 SITENAME = "HPC@Maths"
-SITEURL = "/site"
+SITEURL = ""
+SITE_DOMAIN = "https://hpc-maths.github.io"
 # SITEURL = 'http://localhost:8000'
 
 PATH = "content"

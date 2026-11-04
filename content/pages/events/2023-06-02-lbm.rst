@@ -19,7 +19,7 @@ Simulation of an air-conditioning system using pyLBM_, see_.
 
 .. title:: Purpose of the workshop
 
-.. _T. Bellotti's PhD defence: https://initiative-hpc-maths.gitlab.labos.polytechnique.fr/site/pages/phd-defence-thomas-bellotti.html
+.. _T. Bellotti's PhD defence: https://hpc-maths.github.io/pages/phd-defence-thomas-bellotti.html
 
 
 The aim of this workshop is to gather internationally recognized scientists from France and abroad—on the occasion of `T. Bellotti's PhD defence`_—to discuss recent breakthroughs on **lattice Boltzmann methods and related numerical analysis and schemes**. These methods are widely praised for their efficiency and the large number of problems they are capable of tackling. Still, a large number of issues, especially of theoretical nature, remain open. For this reason, while also focusing on the applications of lattice Boltzmann schemes, the workshop pays particular attention to the theory behind these numerical methods.
