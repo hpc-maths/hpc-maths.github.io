@@ -1,0 +1,16 @@
+:title: Couplage aéro-thermo-mécanique de codes industriels : piloter des solveurs HPC depuis Python pour expérimenter des schémas de couplage
+:category: event
+:date: 2026-12-04 14:00
+:place: Salle de conférence CMAP (aile5, 2e étage)
+:speaker: Jean-Didier Garaud (ONERA)
+:shortdescription: Exposé dans le cadre du séminaire HPC@Maths.
+
+.. title:: Couplage aéro-thermo-mécanique de codes industriels : piloter des solveurs HPC depuis Python pour expérimenter des schémas de couplage
+
+La simulation numérique de l'interaction fluide-structure repose sur la résolution d'un système d'équations couplées par des conditions d'interface, dont la stabilité, la précision et le coût de résolution dépendent fortement de la stratégie de couplage choisie, notamment en présence de non-linéarités ou de grandes déformations.
+
+Cet exposé présente une approche partitionnée, dans laquelle les solveurs fluide et solide restent des codes indépendants échangeant leurs données aux interfaces. Nous discuterons des schémas de couplage (explicites et implicites) ainsi que des méthodes d'accélération de convergence des itérations de point fixe.
+
+L'implémentation s'appuie sur les codes éléments finis Z-set/Zebulon et son successeur Aset pour le solide, et le code de volumes finis CEDRE pour l'écoulement réactif. Ils sont couplés via la bibliothèque CWIPI qui prend en charge le transfert de champs entre maillages non conformes dans un contexte HPC. Nous montrerons comment des bindings Python permettent d'assurer l'interopérabilité entre ces codes, de piloter le couplage de façon flexible et de prototyper rapidement de nouveaux algorithmes sans modifier les solveurs.
+
+Plusieurs applications de couplage en aéro-mécanique et aéro-thermo-mécanique illustreront la démarche sur des cas issus de l'aéronautique.
